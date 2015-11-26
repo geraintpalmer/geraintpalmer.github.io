@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Assets
-permalink: /Assets/
+permalink: /assets/
 ---
 
 
-[Deadlock Bound Data](deadlock_bound_data.csv)
+[Deadlock Bound Data]({{ site.baseurl }}deadlock_bound_data.csv)
