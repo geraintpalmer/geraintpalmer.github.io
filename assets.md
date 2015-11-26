@@ -5,4 +5,4 @@ permalink: /assets/
 ---
 
 
-[Deadlock Bound Data]({{ site.baseurl }}deadlock_bound_data.csv)
+[Deadlock Bound Data]({{ site.baseurl }}Assets/deadlock_bound_data.csv)
