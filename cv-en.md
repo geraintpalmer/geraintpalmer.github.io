@@ -13,7 +13,7 @@ Supervisors: Prof. Paul Harper & Dr. Vincent Knight
 
 This is a project in Operational Research, where I am researching queueing networks and their applications to healthcare systems. So far the work has focused on open restricted queueing networks and their deadlocking properties. A method of detecting when deadlock occurs in computer simulations of queueing networks using state digraphs was found, and Markov models of deadlocking queueing networks built.
 
-In addition, the [ASQ (ASQ Simulates Queues)](https://github.com/geraintpalmer/ASQ) project was started and continues to grow. This is a Python library for simulating open queueing networks. The project will progress to look at how reinforcement learning algorithms within simulation models can be used to help make decisions in a healthcare setting.
+In addition, the [Ciw](https://github.com/geraintpalmer/Ciw) project was started and continues to grow. This is a Python library for simulating open queueing networks. The project will progress to look at how reinforcement learning algorithms within simulation models can be used to help make decisions in a healthcare setting.
 
 # October 2013 - October 2014
 
