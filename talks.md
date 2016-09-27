@@ -14,6 +14,8 @@ permalink: /talks/
 
 + [Simulating Queues with Ciw]({{ site.url }}/talks/simulating-queues-with-ciw-pyconna2016.pdf) - PyCon Namibia, 2016, Windhoek
 
-+ [Refining a Plot with Matplotlib]({{ site.url }}/talks/pyconna-lightning-talk-2016.pdf) - PyCon Namibia, 2016 ,Lightning Talk, 2016, Windhoek
++ [Refining a Plot with Matplotlib]({{ site.url }}/talks/pyconna-lightning-talk-2016.pdf) - PyCon Namibia, 2016, Lightning Talk, 2016, Windhoek
+
++ [Deadlock in Queueing Networks]({{ site.url }}/talks/cors-2016.pdf) - CORS, 2016, Banff 
 
 + [Queueing & Python: pip install ciw]({{ site.url }}/talks/pyconuk-2016.pdf) - PyCon UK, 2016, Cardiff ([Video](https://www.youtube.com/watch?v=0_sIus0mPSM), [Code](https://github.com/geraintpalmer/Presentations/blob/master/PyConUK2016/PyConUK%202016.ipynb))

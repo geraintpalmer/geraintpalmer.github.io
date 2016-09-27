@@ -11,9 +11,9 @@ permalink: /cv-en/
 PhD in Mathematics, Cardiff University.  
 Supervisors: Prof. Paul Harper & Dr. Vincent Knight
 
-This is a project in Operational Research, where I am researching queueing networks and their applications to healthcare systems. So far the work has focused on open restricted queueing networks and their deadlocking properties. A method of detecting when deadlock occurs in computer simulations of queueing networks using state digraphs was found, and Markov models of deadlocking queueing networks built.
+This is a project in Operational Research, where I am researching queueing networks and their applications to healthcare systems. The work has focused on open restricted queueing networks and their deadlocking properties. A graph theoretical method of detecting when deadlock occurs in computer simulations was found and implemented. Markov models of deadlocking simple one and two node queueing networks built, and investigations carried out into the time until deadlock is reached. These Markov chains have been extended to accomodate customers' baulking behaviour, and servers' scheduled vacations. Dynamic programming and reinforcement learning algorithms are being used to solve Markov Decision Processes, in order to find the optimal deadlock resolution policy for these queueing networks.
 
-In addition, the [Ciw](https://github.com/geraintpalmer/Ciw) project was started and continues to grow. This is a Python library for simulating open queueing networks. The project will progress to look at how reinforcement learning algorithms within simulation models can be used to help make decisions in a healthcare setting.
+A central part of this project is the development and maintenence of an open source Python library for simulating queueing networks, [Ciw](https://github.com/CiwPython/Ciw) (with bilingual documentation available [here](http://ciw.readthedocs.io/).) Currently under development is a data visualisation tool for the results of these simulations, [CiwVis](https://ciwpython.github.io/CiwVis/).
 
 # October 2013 - October 2014
 
@@ -44,16 +44,19 @@ AS-level: Music (B)
 * [NATCOR](http://www.natcor.ac.uk) Simulation - Loughborough University 2015
 * [NATCOR](http://www.natcor.ac.uk) Combinatorial Optimisation - Southampton University 2015
 * [Coleg Cymraeg Cenedlaethol](http://www.colegcymraeg.ac.uk/en/)'s Research Skills Programme - Lampeter University 2015 (Welsh Medium)
+* [NATCOR](http://www.natcor.ac.uk) Convex Optimisation - Edinburgh University 2016
+* [NATCOR](http://www.natcor.ac.uk) Forecasting & Predictive Analysis - Lancaster University 2016
+
 
 ## Skills
 
-Python, LaTeX, VBA, Excel, SPSS. I am currently learning to build web applications using Django. I hold a full, clean driving license. Fluent in both English and Welsh.
+Python, LaTeX, VBA, Excel, SPSS, HTML, CSS. I am currently learning JavaScript. I hold a full, clean driving license. Fluent in both English and Welsh.
 
 ## Other
 
 I assist with lab sessions and marking for various modules of the MSc, undergraduate operational research modules, and the Computing for Mathematics module. I am also a maths and stats support tutor. I have also translated some materials from English to Welsh, such as class tests and coursework.
 
-I was a co-steam-organiser of the Stochastic Modelling Stream at the Young OR 19 in Aston. I was member of the organising committee for [DjangoCon Europe 2015, Cardiff](http://2015.djangocon.eu/).
+I was a co-steam-organiser of the Stochastic Modelling Stream at the Young OR 19 in Aston. I was member of the organising committee for [DjangoCon Europe 2015, Cardiff](http://2015.djangocon.eu/). I was also involved in teaching on a mathematics summer school for first year undergraduates at the University of Namibia, Windhoek, in January 2016.
 
 I am a member of [The UK OR Society](https://www.theorsociety.com).
 
@@ -61,10 +64,11 @@ I am a member of [The UK OR Society](https://www.theorsociety.com).
 ## Conference Talks
 
 * Feb 2015 - Python Namibia 2015, Windhoek - *Playing with Reinforcement Learning in Python*
-* May 2015 - Wales Mathematics Colloquium, Gregynog - *Queueing Networks for a Healthcare System, Deadlocking Properties*
-* May 2015 - DjangoCon Europe, Cardiff - *I Wrote my First Line of Code 1 1/4 Years Ago* (Lightning Talk)
 * July 2015 - EURO 2015, Glasgow - *Queueing Networks for a Healthcare System Deadlocking, Reinforcement Learning & Workforce Planning*
 * Sept 2015 - Young OR 19, Aston - *Queueing Networks for a Healthcare System, Deadlocking & Reinforcement Learning*
+* Jan 2016 - PyCon Namibia, Windhoek - *Simulating Queues with Ciw*
+* May 2016 - CORS 2016, Banff - *Deadlock in Queueing Networks*
+* Sept 2016 - PyCon UK, Cardiff - *Queueing and Python: pip install ciw*
 
 ## Contact
 
