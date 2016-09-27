@@ -93,7 +93,7 @@
  */
 .site-footer {
     border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
+    padding: $spacing-unit/1.5 0;
 }
 
 .footer-heading {
@@ -169,6 +169,7 @@
     font-size: 20px;
 }
 
+
 .post-list {
     margin-left: 0;
     list-style: none;
@@ -234,3 +235,4 @@
         }
     }
 }
+
