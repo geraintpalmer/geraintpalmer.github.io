@@ -3,6 +3,6 @@ layout: page
 title: Teaching
 ---
 
-{% for sheet in site.teaching %}
-- [{{sheet.title}}]({{ sheet.url }})
-{% endfor %}
+
++ [Latex Refresher Session](/teaching/latex-refresher.html) ([Cymraeg](/teaching/latex-refresher-cy.html))
+
