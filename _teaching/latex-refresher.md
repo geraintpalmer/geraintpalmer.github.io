@@ -258,7 +258,7 @@ and placing text at a coordinate (4, 5):
 
 All tikz commands must end with a semicolon. The following flow diagram was drawn using the tikz code below:
 
-![Tikz Flow Chart]({{ site.url }}/_static/tikzflowchart.png)
+![Tikz Flow Chart]({{ site.url }}/images/tikzflowchart.png)
 
 
     \begin{tikzpicture}
@@ -274,7 +274,7 @@ All tikz commands must end with a semicolon. The following flow diagram was draw
 
 ***Challenge*** Attempt to recreate this diagram of a queue using tikz:
 
-![Tikz Queue Diagram]({{ site.url }}/_static/tikzqueuediagram.png)
+![Tikz Queue Diagram]({{ site.url }}/images/tikzqueuediagram.png)
 
 
 
