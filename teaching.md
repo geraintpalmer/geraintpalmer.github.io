@@ -4,5 +4,5 @@ title: Teaching
 ---
 
 
-+ [Latex Refresher Session](/teaching/latex-refresher.html) ([Cymraeg](/teaching/latex-refresher-cy.html))
++ [Latex Refresher Session](/teaching/latex-refresher/) ([Cymraeg](/teaching/latex-refresher-cy/))
 

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: LaTeX Refresher Session
-permalink: teaching/latex-refresher.html
 ---
 
 # Instructions
