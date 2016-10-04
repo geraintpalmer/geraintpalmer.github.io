@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sesiwn Gloywi LaTeX
+permalink: teaching/latex-refresher-cy/
 ---
 
 # Cyfarwyddiadau
@@ -361,4 +362,4 @@ Yn olaf, rhaid dweud wrth LaTeX ble i ffeindio'r ffeil `.bib` ac i allbynnu llyf
 ***Her*** Chwiliwch am erthygl, llyfr a gwefan (dibynadwy), a ychwanegwch hwy i ffeil `.bib`. Ysgrifennwch frawddegau sy'n cyfeirio at y ffynhonnellau yma, ac ychwanegwch lyfryddiaeth i'ch erthygl.
 
 
-Yn olaf, efallai bydd nifer ohonoch yn ffeindio'r [templed yma](https://github.com/drvinceknight/CU_BSc_LaTeX_Template) o werth wrth ysgrifennu eith prosiectau blwyddyn olaf.
+Yn olaf, efallai bydd nifer ohonoch yn ffeindio'r [templed yma](https://github.com/drvinceknight/CU_BSc_LaTeX_Template) o werth wrth ysgrifennu eith prosiectau blwyddyn olaf. [Dyma](https://www.overleaf.com/read/frqfmpwhzndm) linc i prosiect Overleaf gyda datrysiadau i'r heriau.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: LaTeX Refresher Session
+permalink: teaching/latex-refresher/
 ---
 
 # Instructions
@@ -361,4 +362,4 @@ Finally we must tell LaTeX where to look for the `.bib` file, and to output a bi
 ***Challenge*** Find an article, book, and (reputable) website, add then to a `.bib` file. Write some sentences that cite these sources, and add a bibliography to your article.
 
 
-Finally, many of you will find this [template](https://github.com/drvinceknight/CU_BSc_LaTeX_Template) useful for writing your final year projects.
+Finally, many of you will find this [template](https://github.com/drvinceknight/CU_BSc_LaTeX_Template) useful for writing your final year projects. [Here's](https://www.overleaf.com/read/zxrwjdsfnnvn) a link to an Overleaf project with solutions to the challenges.
