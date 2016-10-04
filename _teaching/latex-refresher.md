@@ -355,7 +355,8 @@ In order to refer to these in the main body, use the `\cite` command:
 
 Finally we must tell LaTeX where to look for the `.bib` file, and to output a bibliography. Let's name our bib file `refs.bib`. At the end of your document (before `\end{document}`) insert:
 
-    \bibliography{refs.bib}
+    \bibliographystyle{plain}
+    \bibliography{refs}
 
 ***Challenge*** Find an article, book, and (reputable) website, add then to a `.bib` file. Write some sentences that cite these sources, and add a bibliography to your article.
 

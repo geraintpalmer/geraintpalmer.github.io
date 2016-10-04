@@ -355,7 +355,8 @@ I gyfeirio at ffynhonnellau yn y prif gorff, defnyddiwch y gorchymyn `\cite`:
 
 Yn olaf, rhaid dweud wrth LaTeX ble i ffeindio'r ffeil `.bib` ac i allbynnu llyfryddiaeth. Gadewch i ni alw ein ffeil bib yn `refs.bib`. Ar ddiwedd y ddogfen (cyn `\end{document}`) ychwanegwch:
 
-    \bibliography{refs.bib}
+    \bibliographystyle{plain}
+    \bibliography{refs}
 
 ***Her*** Chwiliwch am erthygl, llyfr a gwefan (dibynadwy), a ychwanegwch hwy i ffeil `.bib`. Ysgrifennwch frawddegau sy'n cyfeirio at y ffynhonnellau yma, ac ychwanegwch lyfryddiaeth i'ch erthygl.
 
