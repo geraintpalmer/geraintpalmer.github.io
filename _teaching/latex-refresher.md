@@ -9,7 +9,7 @@ permalink: teaching/latex-refresher/
 + Please look over this worksheet *before* coming to to refresher session:
 	+ Either work through this worksheet before the session, and bring any difficulties / problems to the session so that we can look them over together.
 	+ Or work through the worksheet in the session, addressing any difficulties when you get to them.
-+ Anything you wish to go over that isn't covered in this worksheet, please *bring examples* an we can work through them together.
++ Anything you wish to go over that isn't covered in this worksheet, please *bring examples* and we can work through them together.
 + I recommend using [Overleaf](https://www.overleaf.com/), a web based tool for writing and compiling $$\TeX$$ files. It's great for learning $$\LaTeX$$. Feel free to use whatever you are comfortable with. Note that the free accounts on Overleaf have a limit, and so I recommend obtaining a local version of LaTeX for serious work.
 
 # Contents
