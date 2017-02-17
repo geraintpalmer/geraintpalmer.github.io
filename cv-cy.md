@@ -40,13 +40,13 @@ Safon Uwch Atebol: Cerddoriaeth (B)
 
 ## Cyrsiau a Fynychwyd
 
-* [NATCOR](http://www.natcor.ac.uk) Modelu Stocastig - Prifysgol Lancaster 2015
-* Cwrs Cloddio Data - Prifysgol Caerdydd 2015
-* [NATCOR](http://www.natcor.ac.uk) Efelychiad Cyfrifiadurol - Prifysgol Loughborough 2015
-* [NATCOR](http://www.natcor.ac.uk) Optimeiddiaeth Cyfuniadol - Prifysgol Southampton 2015
-* Rhaglen Sgiliau Ymchwil y [Coleg Cymraeg Cenedlaethol](http://www.colegcymraeg.ac.uk/cy/) - Prifysgol Llambed 2015 (Cyfrwng Cymraeg)
-* [NATCOR](http://www.natcor.ac.uk) Optimeiddiaeth Amgrwm - Prifysgol Caeredin 2016
 * [NATCOR](http://www.natcor.ac.uk) Rhagolygu & Dadansoddiad Rhagfynegol - Prifysgol Lancaster 2016
+* [NATCOR](http://www.natcor.ac.uk) Optimeiddiaeth Amgrwm - Prifysgol Caeredin 2016
+* Rhaglen Sgiliau Ymchwil y [Coleg Cymraeg Cenedlaethol](http://www.colegcymraeg.ac.uk/cy/) - Prifysgol Llambed 2015 (Cyfrwng Cymraeg)
+* [NATCOR](http://www.natcor.ac.uk) Optimeiddiaeth Cyfuniadol - Prifysgol Southampton 2015
+* [NATCOR](http://www.natcor.ac.uk) Efelychiad Cyfrifiadurol - Prifysgol Loughborough 2015
+* Cwrs Cloddio Data - Prifysgol Caerdydd 2015
+* [NATCOR](http://www.natcor.ac.uk) Modelu Stocastig - Prifysgol Lancaster 2015
 
 
 ## Sgiliau
@@ -61,14 +61,15 @@ Roeddwn i'n gyd-drefnydd ffrwd Modelu Stocastig yng nghynhadledd Young OR 19 yn 
 
 Rydw i'n aelod o [Gymdeithas Ymchwil Weithrediadol y DU](https://www.theorsociety.com).
 
+
 ## Cyflwyniadau Cynhadledd
 
-* Chwef 2015 - Python Namibia 2015, Windhoek - *Playing with Reinforcement Learning in Python*
-* Gorff 2015 - EURO 2015, Glasgow - *Queueing Networks for a Healthcare System Deadlocking, Reinforcement Learning & Workforce Planning*
-* Medi 2015 - Young OR 19, Aston - *Queueing Networks for a Healthcare System, Deadlocking & Reinforcement Learning*
-* Ion 2016 - PyCon Namibia, Windhoek - *Simulating Queues with Ciw*
-* Mai 2016 - CORS 2016, Banff - *Deadlock in Queueing Networks*
 * Medi 2016 - PyCon UK, Caerdydd - *Queueing and Python: pip install ciw*
+* Ion 2016 - PyCon Namibia, Windhoek - *Simulating Queues with Ciw*
+* Medi 2015 - Young OR 19, Aston - *Queueing Networks for a Healthcare System, Deadlocking & Reinforcement Learning*
+* Gorff 2015 - EURO 2015, Glasgow - *Queueing Networks for a Healthcare System Deadlocking, Reinforcement Learning & Workforce Planning*
+* Chwef 2015 - Python Namibia 2015, Windhoek - *Playing with Reinforcement Learning in Python*
+
 
 
 ## Cyswllt

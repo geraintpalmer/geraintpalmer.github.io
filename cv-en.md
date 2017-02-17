@@ -39,13 +39,13 @@ AS-level: Music (B)
 
 ## Courses Attended
 
-* [NATCOR](http://www.natcor.ac.uk) Stochastic Modelling - Lancaster University 2015
-* Data Mining Course - Cardiff University 2015
-* [NATCOR](http://www.natcor.ac.uk) Simulation - Loughborough University 2015
-* [NATCOR](http://www.natcor.ac.uk) Combinatorial Optimisation - Southampton University 2015
-* [Coleg Cymraeg Cenedlaethol](http://www.colegcymraeg.ac.uk/en/)'s Research Skills Programme - Lampeter University 2015 (Welsh Medium)
-* [NATCOR](http://www.natcor.ac.uk) Convex Optimisation - Edinburgh University 2016
 * [NATCOR](http://www.natcor.ac.uk) Forecasting & Predictive Analysis - Lancaster University 2016
+* [NATCOR](http://www.natcor.ac.uk) Convex Optimisation - Edinburgh University 2016
+* [Coleg Cymraeg Cenedlaethol](http://www.colegcymraeg.ac.uk/en/)'s Research Skills Programme - Lampeter University 2015 (Welsh Medium)
+* [NATCOR](http://www.natcor.ac.uk) Combinatorial Optimisation - Southampton University 2015
+* [NATCOR](http://www.natcor.ac.uk) Simulation - Loughborough University 2015
+* Data Mining Course - Cardiff University 2015
+* [NATCOR](http://www.natcor.ac.uk) Stochastic Modelling - Lancaster University 2015
 
 
 ## Skills
@@ -63,12 +63,13 @@ I am a member of [The UK OR Society](https://www.theorsociety.com).
 
 ## Conference Talks
 
-* Feb 2015 - Python Namibia 2015, Windhoek - *Playing with Reinforcement Learning in Python*
-* July 2015 - EURO 2015, Glasgow - *Queueing Networks for a Healthcare System Deadlocking, Reinforcement Learning & Workforce Planning*
-* Sept 2015 - Young OR 19, Aston - *Queueing Networks for a Healthcare System, Deadlocking & Reinforcement Learning*
-* Jan 2016 - PyCon Namibia, Windhoek - *Simulating Queues with Ciw*
-* May 2016 - CORS 2016, Banff - *Deadlock in Queueing Networks*
 * Sept 2016 - PyCon UK, Cardiff - *Queueing and Python: pip install ciw*
+* May 2016 - CORS 2016, Banff - *Deadlock in Queueing Networks*
+* Jan 2016 - PyCon Namibia, Windhoek - *Simulating Queues with Ciw*
+* Sept 2015 - Young OR 19, Aston - *Queueing Networks for a Healthcare System, Deadlocking & Reinforcement Learning*
+* July 2015 - EURO 2015, Glasgow - *Queueing Networks for a Healthcare System Deadlocking, Reinforcement Learning & Workforce Planning*
+* Feb 2015 - Python Namibia 2015, Windhoek - *Playing with Reinforcement Learning in Python*
+
 
 ## Contact
 
