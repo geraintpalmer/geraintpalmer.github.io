@@ -68,7 +68,7 @@ Mae adrannau yn ddefnyddiol ar gyfer trefnu eich erthygl i ddarnau hylaw ar gyfe
 
 Nodwch fod rhifo adrannau yn awtomatig, felly nid oes angen cynnwys rhifau yn deitlau'r adrannau. Fe allwch greu isadrannau (wedi'i rhifo 2.1, 2.2 a.y.b.) gyda `\subsection{}`.
 
-***Her** Ychwanegwch tair adran i'ch erthygl, wedi enwi 'Bwyd & Diod', 'Dodrefn', a 'Mathemateg'. O Dan yr adran Bwyd a Diod, ychwanegwch isadrannau 'Ffrwythau' a 'Llysiau'. O dan yr isadran 'Ffrwythau', ychwanegwch dau is-isadran pellach o'r enw 'Ffrwythau Sitrws', ac 'Aeron'. Arbrofwch gyda adrannau pellach.
+***Her*** Ychwanegwch tair adran i'ch erthygl, wedi enwi 'Bwyd & Diod', 'Dodrefn', a 'Mathemateg'. O Dan yr adran Bwyd a Diod, ychwanegwch isadrannau 'Ffrwythau' a 'Llysiau'. O dan yr isadran 'Ffrwythau', ychwanegwch dau is-isadran pellach o'r enw 'Ffrwythau Sitrws', ac 'Aeron'. Arbrofwch gyda adrannau pellach.
 
 
 
