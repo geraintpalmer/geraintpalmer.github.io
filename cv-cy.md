@@ -57,7 +57,8 @@ Python, LaTeX, VBA, Excel, SPSS, Simul8, HTML, CSS. Rydw i ar hyn o bryd yn dysg
 
 Rydw i'n cynorthwyo gyda sesiynau labordy a marcio ar gyfer amryw o fodiwlau'r MSc, modiwlau israddedig ymchwil Weithrediadol, a'r modiwl Computing for Mathematics. Rydw i'n diwtor cefnogaeth mathemateg ac ystadegaeth. Rydw i hefyd wedi cyfieithu rhai adnoddau o Saesneg i Gymraeg, fel arholiadau dosbarth a gwaith cwrs.
 
-Roeddwn i'n gyd-drefnydd ffrwd Modelu Stocastig yng nghynhadledd Young OR 19 yn Aston. Roeddwn i'n aelod o bwyllgor trefnu [DjangoCon Ewrop 2015, Caerdydd](http://2015.djangocon.eu/). Roeddwn i hefyn ynglwm gyda dysgu ar ysgol haf mathemateg ar gyfer fyfyrwyr israddedig blwyddyn cyntaf ym Mhrifysgol Namibia, Windhoek, yn Ionawr 2016.
+Roeddwn i'n gyd-drefnydd ffrwd Modelu Stocastig yng nghynhadledd Young OR 19 yn Aston. Roeddwn i'n aelod o bwyllgor trefnu [DjangoCon Ewrop 2015, Caerdydd](http://2015.djangocon.eu/). Roeddwn i hefyn ynglwm gyda dysgu ar ysgolion haf mathemateg ar gyfer fyfyrwyr israddedig blwyddyn cyntaf ym Mhrifysgol Namibia, Windhoek, yn Ionawr 2016 a 2017. Roedd hwn yn rhan o [Prosiect Phoenix Prifysgol Caerdydd](http://www.cardiff.ac.uk/about/our-profile/our-values/engagement/transforming-communities/the-phoenix-project).
+
 
 Rydw i'n aelod o [Gymdeithas Ymchwil Weithrediadol y DU](https://www.theorsociety.com).
 

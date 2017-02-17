@@ -56,7 +56,7 @@ Python, LaTeX, VBA, Excel, SPSS, Simul8, HTML, CSS. I am currently learning Java
 
 I assist with lab sessions and marking for various modules of the MSc, undergraduate operational research modules, and the Computing for Mathematics module. I am also a maths and stats support tutor. I have also translated some materials from English to Welsh, such as class tests and coursework.
 
-I was a co-steam-organiser of the Stochastic Modelling Stream at the Young OR 19 in Aston. I was member of the organising committee for [DjangoCon Europe 2015, Cardiff](http://2015.djangocon.eu/). I was also involved in teaching on a mathematics summer school for first year undergraduates at the University of Namibia, Windhoek, in January 2016.
+I was a co-steam-organiser of the Stochastic Modelling Stream at the Young OR 19 in Aston. I was member of the organising committee for [DjangoCon Europe 2015, Cardiff](http://2015.djangocon.eu/). I have also been involved in teaching on mathematics summer schools for first year undergraduates at the University of Namibia, Windhoek, in January of 2016 and 2017. This was part of [Cardiff University's Phoenix Project](http://www.cardiff.ac.uk/about/our-profile/our-values/engagement/transforming-communities/the-phoenix-project).
 
 I am a member of [The UK OR Society](https://www.theorsociety.com).
 
