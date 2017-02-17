@@ -50,7 +50,7 @@ AS-level: Music (B)
 
 ## Skills
 
-Python, LaTeX, VBA, Excel, SPSS, HTML, CSS. I am currently learning JavaScript. I hold a full, clean driving license. Fluent in both English and Welsh.
+Python, LaTeX, VBA, Excel, SPSS, Simul8, HTML, CSS. I am currently learning JavaScript. I hold a full, clean driving license. Fluent in both English and Welsh.
 
 ## Other
 

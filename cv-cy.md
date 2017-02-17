@@ -51,7 +51,7 @@ Safon Uwch Atebol: Cerddoriaeth (B)
 
 ## Sgiliau
 
-Python, LaTeX, VBA, Excel, SPSS, HTML, CSS. Rydw i ar hyn o bryd yn dysgu JavaScript. Mae gen i drwydded yrru llawn. Rydw i'n rhugl yng Nghymraeg a Saesneg.
+Python, LaTeX, VBA, Excel, SPSS, Simul8, HTML, CSS. Rydw i ar hyn o bryd yn dysgu JavaScript. Mae gen i drwydded yrru llawn. Rydw i'n rhugl yng Nghymraeg a Saesneg.
 
 ## Arall
 
