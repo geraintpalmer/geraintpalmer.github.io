@@ -4,7 +4,7 @@ title: Talks
 permalink: /talks/
 ---
 
-+ [Producing Pretty Plots in Python]({{ site.url }}/talks/pyconna-2017.pdf) - PyCon Namibia, 2017, Windhoek
++ [Producing Pretty Plots in Python]({{ site.url }}/talks/pyconna-2017.pdf) - PyCon Namibia, 2017, Windhoek ([Code](https://github.com/geraintpalmer/Presentations/blob/master/PyConNamibia2017/PyCon%20Namibia%202017.ipynb))
 
 + [SWORDS PhD Talk]({{ site.url }}/talks/SWORDS-2016.pdf) - SWORDS, 2016, Cardiff
 
