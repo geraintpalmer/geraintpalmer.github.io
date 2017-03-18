@@ -13,3 +13,5 @@ permalink: pretty
 collections:
     teaching:
         output: true
+    cv:
+        output: true
