@@ -18,7 +18,7 @@ Hyd 2014 - : **PhD mewn Modelu Stocastig Cymhwysol, Prifysgol Caerdydd.**
 * Teitl: *Deadlock in open restricted queueing networks.*
 
 
-Hyd 2013 - Hyd 2014: **MSc Ymchwil Weithrediadol ac Ystadegaeth Gymhwysol, Prifysgol Caerdydd.**
+Hyd 2013 - Hyd 2014: **MSc Ymchwil Weithrediadol ac Ystadegaeth Gymhwysol, Prifysgol Caerdydd.** Rhagoriaeth.
 
 * Pynciau a ddysgir yn cynnwys: Theori ciwio, Theori Gemau, Technegau ystadegol, Cyfres amser, Rhaglennu mathemategol, Dulliau hewristig.
 * Cwblhau'r traethawd hir ym Mhrifysgol Twente ar leoliad Erasmus.

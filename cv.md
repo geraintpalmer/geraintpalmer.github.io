@@ -17,7 +17,7 @@ Oct 2014 - : **PhD in Applied Stochastic Modelling, Cardiff University.**
 * Title: *Deadlock in open restricted queueing networks.*
 
 
-Oct 2013 - Oct 2014: **MSc Operational Research and Applied Statistics, Cardiff University.**
+Oct 2013 - Oct 2014: **MSc Operational Research and Applied Statistics, Cardiff University.** Distinction.
 
 * Taught topics include: Queueing theory, Game theory, Statistical techniques, Time series, Mathematical Programming, Heuristics.
 * Completed dissertation at the University of Twente on an Erasmus placement.
