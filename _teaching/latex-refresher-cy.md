@@ -10,7 +10,7 @@ permalink: teaching/latex-refresher-cy/
   + Naill ai gweithiwch trwy'r daflen gwaith yma cyn dod i'r sesiwn, a dewch ag unrhyw broblemau / anawsterau i'r sesiwn felly gallwn ni edrych drostyn nhw gyda'n gilydd.
   + Neu gweithiwch trwy'r daflen gwaith yma yn y sesiwn, yn cyfeirio unrhyw anawsterau sy'n codi wrth i chi eu cyrraedd.
 + Unrhyw beth a ddymunwch fynd dros sydd ddim yn y daflen gwaith yma, *dewch ag enghreifftiau* a gallwn ni gweithio trwyddynt gyda'n gilydd.
-+ Rydw i'n awgrymu defnyddio [Overleaf](https://www.overleaf.com/), offeryn we ar gyfer ysgrifenu a crynhoi ffeiliau $$\TeX$$. Mae'n dda iawn ar gyfer dysgu $$\LaTeX$$. Croeso i chi defnyddio unrhyw beth rydych yn gyfforddus gyda. Nodwch fod cyfyngiadau ar gyfrifau am ddim ar Overleaf, ac felly rydw i'n awgrymu cael fersiwn lleol o LaTeX ar gyfer gwaith difrifol.
++ Rydw i'n awgrymu defnyddio [Overleaf](https://www.overleaf.com/), offeryn we ar gyfer ysgrifennu a crynhoi ffeiliau $$\TeX$$. Mae'n dda iawn ar gyfer dysgu $$\LaTeX$$. Croeso i chi defnyddio unrhyw beth rydych yn gyfforddus gyda. Nodwch fod cyfyngiadau ar gyfrifau am ddim ar Overleaf, ac felly rydw i'n awgrymu cael fersiwn lleol o LaTeX ar gyfer gwaith difrifol.
 
 # Cynnwys
 
@@ -26,7 +26,7 @@ permalink: teaching/latex-refresher-cy/
 
 <h1 id="1">1. Sylfeini</h1>
 
-Mae nifer o orchmynion LaTeX yn dechrau gyda ôl-slaes `\`. Mae unrhyw beth sy'n dechrau gyda `%` yn sylwadau ac yn cael eu hanwybyddu. Mae angen i ni ddweud wrth LaTeX pa fath o ddogfen byddwn yn creu (erthygl yn yr achos yma), ac yn lle mae'r dogfen ei hun yn dechrau a lle mae'n gorffen::
+Mae nifer o orchmynion LaTeX yn dechrau gyda ôl-slaes `\`. Mae unrhyw beth sy'n dechrau gyda `%` yn sylwadau ac yn cael eu hanwybyddu. Mae angen i ni ddweud wrth LaTeX pa fath o ddogfen byddwn yn creu (erthygl yn yr achos yma), ac yn lle mae'r dogfen ei hun yn dechrau a lle mae'n gorffen:
 
     \documentclass{article}
 
