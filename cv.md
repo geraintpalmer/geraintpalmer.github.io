@@ -74,10 +74,12 @@ Under review.
 Bilingual speaker. International experience. Technical topics.
 Diverse audiences including general public, healthcare practitioners, and member of the Welsh government.
 
+* April 2017 - IMA and OR Society Conference on Mathematics of Operational Research, Aston - *Queueing networks, Deadlock and Healthcare*
 * Feb 2017 - PyCon Namibia, Windhoek - *Producing Pretty Plots in Python*
 * Sept 2016 - PyCon UK, Cardiff - *Queueing and Python: pip install ciw*
 * May 2016 - CORS 2016, Banff - *Deadlock in Queueing Networks*
 * May 2016 - Cynhadledd Wyddonol y CCC, Aberystwyth - Poster: *Llwyrglo yn Rhwydweithiau Ciwio* (Winner best poster)
+* Mar 2016 - 8th IMA International Conference on Quantitative Modelling in the Management of Health and Social Care, London - *Using Queueing Networks Modelling to Assess the Impact of the OPICP*
 * Jan 2016 - PyCon Namibia, Windhoek - *Simulating Queues with Ciw*
 * Sept 2015 - Young OR 19, Aston - *Queueing Networks for a Healthcare System, Deadlocking & Reinforcement Learning*
 * July 2015 - EURO 2015, Glasgow - *Queueing Networks for a Healthcare System Deadlocking, Reinforcement Learning & Workforce Planning*
@@ -94,6 +96,7 @@ Diverse audiences including general public, healthcare practitioners, and member
 
 ## Courses Attended
 
+* [CHOIR](https://www.utwente.nl/en/choir/) Healthcare Operations Research PhD Summer School - University of Twente 2017
 * [NATCOR](http://www.natcor.ac.uk) Forecasting & Predictive Analysis - Lancaster University 2016
 * [NATCOR](http://www.natcor.ac.uk) Convex Optimisation - Edinburgh University 2016
 * [Coleg Cymraeg Cenedlaethol](http://www.colegcymraeg.ac.uk/en/)'s Research Skills Programme - Lampeter University 2015 (Welsh Medium)

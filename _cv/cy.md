@@ -75,10 +75,12 @@ Dan adolygiad.
 Siaradwr dwyieithog. Profiad rhyngwladol. Pynciau technegol.
 Cynulleidfaoedd amryw yn cynnwys y cyhoedd, ymarferwyr gofal iechyd, ac aelod o'r llywodraeth Cymraeg.
 
-* Feb 2017 - PyCon Namibia, Windhoek - *Producing Pretty Plots in Python*
+* Ebrill 2017 - IMA and OR Society Conference on Mathematics of Operational Research, Aston - *Queueing networks, Deadlock and Healthcare*
+* Chwef 2017 - PyCon Namibia, Windhoek - *Producing Pretty Plots in Python*
 * Medi 2016 - PyCon UK, Caerdydd - *Queueing and Python: pip install ciw*
 * Mai 2016 - CORS 2016, Banff - *Deadlock in Queueing Networks*
 * Mai 2016 - Cynhadledd Wyddonol y CCC, Aberystwyth - Poster: *Llwyrglo yn Rhwydweithiau Ciwio* (Ennillydd poster gorau)
+* Maw 2016 - 8th IMA International Conference on Quantitative Modelling in the Management of Health and Social Care, London - *Using Queueing Networks Modelling to Assess the Impact of the OPICP*
 * Ion 2016 - PyCon Namibia, Windhoek - *Simulating Queues with Ciw*
 * Medi 2015 - Young OR 19, Aston - *Queueing Networks for a Healthcare System, Deadlocking & Reinforcement Learning*
 * Gorff 2015 - EURO 2015, Glasgow - *Queueing Networks for a Healthcare System Deadlocking, Reinforcement Learning & Workforce Planning*
@@ -95,6 +97,7 @@ Cynulleidfaoedd amryw yn cynnwys y cyhoedd, ymarferwyr gofal iechyd, ac aelod o'
 
 ## Cyrsiau a Fynychwyd
 
+* Ysgol Haf PhD [CHOIR](https://www.utwente.nl/en/choir/) ar Ymchwil Gweithredol Gofal Iechyd - Prifysgol Twente 2017
 * [NATCOR](http://www.natcor.ac.uk) Rhagolygu & Dadansoddiad Rhagfynegol - Prifysgol Lancaster 2016
 * [NATCOR](http://www.natcor.ac.uk) Optimeiddiaeth Amgrwm - Prifysgol Caeredin 2016
 * Rhaglen Sgiliau Ymchwil y [Coleg Cymraeg Cenedlaethol](http://www.colegcymraeg.ac.uk/cy/) - Prifysgol Llambed 2015 (Cyfrwng Cymraeg)
