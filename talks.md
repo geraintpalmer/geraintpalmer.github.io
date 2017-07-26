@@ -12,6 +12,8 @@ permalink: /talks/
 
 + [Deadlock in Queueing Networks]({{ site.url }}/talks/cors-2016.pdf) - CORS, 2016, Banff 
 
++ [Llwyrglo yn Rhwydweithiau Ciwio (poster)]({{ site.url }}/talks/poster-ccc2016) - Cynhadledd Wyddonol y Coleg Cymraeg Cenedlaethol, 2016, Aberystwyth 
+
 + [Simulating Queues with Ciw]({{ site.url }}/talks/simulating-queues-with-ciw-pyconna2016.pdf) - PyCon Namibia, 2016, Windhoek
 
 + [A Brief Introduction to Markov Chains]({{ site.url }}/talks/intro-markov-chains-pgr2015.pdf) - Postgraduate Seminar, 2015, Cardiff
