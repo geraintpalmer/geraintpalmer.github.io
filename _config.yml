@@ -9,6 +9,7 @@ twitter_username: "@GeraintPalmer"
 # Build settings
 markdown: kramdown
 permalink: pretty
+syntax_highlighter: rouge
 
 collections:
     teaching:
