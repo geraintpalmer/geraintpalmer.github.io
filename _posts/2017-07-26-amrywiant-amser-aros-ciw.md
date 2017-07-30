@@ -1,6 +1,6 @@
 ---
 layout     : post
-title      : "Effaith amrwyiant ar amseroedd aros"
+title      : "Effaith amrywiant ar amseroedd aros"
 language   : cymraeg
 ---
 
