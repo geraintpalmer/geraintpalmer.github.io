@@ -1,6 +1,7 @@
 ---
 layout     : post
 title      : "The effect of variability on waiting times"
+language   : english
 ---
 
 This week I attended the [CHOIR](https://www.utwente.nl/en/choir/) Healthcare
@@ -31,7 +32,7 @@ demonstrate that.
 The following is an example I like to give when explaining to friends what I
 study:
 Consider a single server queue.
-Customer arrive at the queue every 10 minutes, and service takes 10 minutes.
+Customers arrive at the queue every 10 minutes, and service takes 10 minutes.
 We would not expect any queue to form, as customers follow a "one in - one out"
 pattern.
 

@@ -1,16 +1,15 @@
 ---
 layout: page
-title: Blog
 ---
 
-<a href="/Blog/cy/">Confondion Cymraeg.</a>
+<a href="/Blog/">English posts.</a>
 
 <br>
 <br>
 <br>
 
 {% for post in site.posts %}
-	{% if post.language == 'english' %}
+	{% if post.language == 'cymraeg' %}
 		<time>{{ post.date | date: "%b %-d, %Y" }}</time>
 		<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
 	{% endif %}
