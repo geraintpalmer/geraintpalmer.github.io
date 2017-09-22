@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sesiwn Gloywi LaTeX
-permalink: teaching/latex-refresher-cy/
+permalink: teaching/latex-refresher/cy/
 ---
 
 # Cyfarwyddiadau
