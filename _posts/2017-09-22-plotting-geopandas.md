@@ -4,7 +4,7 @@ title      : "Creating maps with Geopandas"
 language   : english
 ---
 
-The last few week i began playing with creating maps in Python using the
+The last few week I began playing with creating maps in Python using the
 [Geopandas](http://geopandas.org/index.html) library.
 It's an amazing tool and I've become a big fan.
 The syntax is very similar to [Pandas](http://pandas.pydata.org/), and it works
