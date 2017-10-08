@@ -5,6 +5,15 @@ title: CV
 
 [Yn Gymraeg](/cv/cy/)
 
+## Appointments
+
+Sept 2017 - : **Teaching Associate** at Cardiff University's School of Mathematics
+
++ Welsh medium example classes and tutorials
++ Translation of educational resources
++ Welsh provision at Maths Support
+
+
 ## Education
 
 Oct 2014 - : **PhD in Applied Stochastic Modelling, Cardiff University.**
@@ -28,14 +37,17 @@ Sept 2010 - May 2013: **BSc Mathematics, Aberystwyth University.** First Class H
 
 
 ## Publications
-* **Modelling Deadlock in Open Restricted Queueing Networks**
-*Palmer GI, Harper PR, Knight VA*
-Under review.
-
-* **An Open Framework for the Reproducible Study of the Iterated Prisoners Dilemma**
-*Knight VA et al.*
-[Journal of open research software](http://openresearchsoftware.metajnl.com/article/10.5334/jors.125/).
-
+<ul>
+{% for pub in site.data.publications %}
+  <li><b>{{ pub.title }}</b> <i>{{ pub.authors }}</i> 
+  	{% if pub.published == 'yes' %}
+  	  <a class="page-link" href="{{ pub.link }}">{{ pub.journal }}</a>
+  	{% else %}
+  	  Under Review.
+  	{% endif %}
+  </li>
+{% endfor %}
+</ul>
 
 
 
@@ -96,6 +108,7 @@ Diverse audiences including general public, healthcare practitioners, and member
 
 ## Courses Attended
 
+* [Coleg Cymraeg Cenedlaethol](http://www.colegcymraeg.ac.uk/en/)'s Teaching Skills Course - Aberystwyth University 2017 (Welsh Medium)
 * [CHOIR](https://www.utwente.nl/en/choir/) Healthcare Operations Research PhD Summer School - University of Twente 2017
 * [NATCOR](http://www.natcor.ac.uk) Forecasting & Predictive Analysis - Lancaster University 2016
 * [NATCOR](http://www.natcor.ac.uk) Convex Optimisation - Edinburgh University 2016

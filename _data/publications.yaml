@@ -1,0 +1,13 @@
+- title: "Ciw: An open source discrete event simulation library"
+  authors: "Palmer GI, Knight VA, Harper PR, Hawa, AL."
+  published: "no"
+
+- title: "Modelling Deadlock in Open Restricted Queueing Networks"
+  authors: "Palmer GI, Harper PR, Knight VA."
+  published: "no"
+
+- title: "An Open Framework for the Reproducible Study of the Iterated Prisoners Dilemma"
+  authors: "Knight VA et al."
+  published: "yes"
+  journal: "Journal of open research software."
+  link: "http://openresearchsoftware.metajnl.com/article/10.5334/jors.125/"

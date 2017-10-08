@@ -6,6 +6,15 @@ permalink: cv/cy/
 
 [In English](/cv/)
 
+## Apwyntiadau
+
+Medi 2017 - : **Cyswllt Addysgu** yn yr Ysgol Mathemateg Prifysgol Caerdydd
+
++ Dosbarthiadau esiample a tiwtorialau cyfrwng Cymraeg
++ Cyfieithu adnoddau addysgu
++ Datpariaeth cyfrwng Cymraeg yn Maths Support
+
+
 ## Addysg
 
 Hyd 2014 - : **PhD mewn Modelu Stocastig Cymhwysol, Prifysgol Caerdydd.**
@@ -29,15 +38,17 @@ Medi 2010 - Mai 2013: **BSc Mathemateg, Prifysgol Aberystwyth.** Anrhydedd Dosba
 
 
 ## Cyhoeddiadau
-* **Modelling Deadlock in Open Restricted Queueing Networks**
-*Palmer GI, Harper PR, Knight VA*
-Dan adolygiad.
-
-* **An Open Framework for the Reproducible Study of the Iterated Prisoners Dilemma**
-*Knight VA et al.*
-[Journal of open research software](http://openresearchsoftware.metajnl.com/article/10.5334/jors.125/).
-
-
+<ul>
+{% for pub in site.data.publications %}
+  <li><b>{{ pub.title }}</b> <i>{{ pub.authors }}</i> 
+  	{% if pub.published == 'yes' %}
+  	  <a class="page-link" href="{{ pub.link }}">{{ pub.journal }}</a>
+  	{% else %}
+  	  Dan adolygiad.
+  	{% endif %}
+  </li>
+{% endfor %}
+</ul>
 
 
 ## Dysgu
@@ -97,6 +108,7 @@ Cynulleidfaoedd amryw yn cynnwys y cyhoedd, ymarferwyr gofal iechyd, ac aelod o'
 
 ## Cyrsiau a Fynychwyd
 
+* Cwrs Sgiliau Addysgu y [Coleg Cymraeg Cenedlaethol](http://www.colegcymraeg.ac.uk/cy/) - Prifysgol Aberystwyth 2017 (Cyfrwng Cymraeg)
 * Ysgol Haf PhD [CHOIR](https://www.utwente.nl/en/choir/) ar Ymchwil Gweithrediadol Gofal Iechyd - Prifysgol Twente 2017
 * [NATCOR](http://www.natcor.ac.uk) Rhagolygu & Dadansoddiad Rhagfynegol - Prifysgol Lancaster 2016
 * [NATCOR](http://www.natcor.ac.uk) Optimeiddiaeth Amgrwm - Prifysgol Caeredin 2016
