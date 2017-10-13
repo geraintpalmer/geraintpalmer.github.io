@@ -43,8 +43,10 @@ Medi 2010 - Mai 2013: **BSc Mathemateg, Prifysgol Aberystwyth.** Anrhydedd Dosba
   <li><b>{{ pub.title }}</b> <i>{{ pub.authors }}</i> 
   	{% if pub.published == 'yes' %}
   	  <a class="page-link" href="{{ pub.link }}">{{ pub.journal }}</a>
+  	{% elsif pub.preprint == 'yes' %}
+  	  Dan Adolygiad. <a class="page-link" href="{{ pub.link }}">{{ pub.arxiv }}</a>
   	{% else %}
-  	  Dan adolygiad.
+  	  Dan Adolygiad.
   	{% endif %}
   </li>
 {% endfor %}
