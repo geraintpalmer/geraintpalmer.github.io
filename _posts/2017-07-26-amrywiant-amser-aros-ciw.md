@@ -2,6 +2,7 @@
 layout     : post
 title      : "Effaith amrywiant ar amseroedd aros"
 language   : cymraeg
+comments   : true
 ---
 
 Wythnos yma mynychais i'r Ysgol Haf Ymchwil Weithrediadol Gofal Iechyd

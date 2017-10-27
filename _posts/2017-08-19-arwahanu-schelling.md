@@ -2,6 +2,7 @@
 layout     : post
 title      : "Model arwahanu Schelling"
 language   : cymraeg
+comments   : true
 ---
 
 Dros yr wythnosau diwethaf cefais nifer o sgyrsiau am fodelu wedi'i seilio ar

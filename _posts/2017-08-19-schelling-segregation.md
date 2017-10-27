@@ -2,6 +2,7 @@
 layout     : post
 title      : "Schelling's segregation model"
 language   : english
+comments   : true
 ---
 
 Over the last few weeks I have had a number of conversations about agent based

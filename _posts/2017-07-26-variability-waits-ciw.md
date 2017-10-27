@@ -2,6 +2,7 @@
 layout     : post
 title      : "The effect of variability on waiting times"
 language   : english
+comments   : true
 ---
 
 This week I attended the [CHOIR](https://www.utwente.nl/en/choir/) Healthcare

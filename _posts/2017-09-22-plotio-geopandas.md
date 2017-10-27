@@ -2,6 +2,7 @@
 layout     : post
 title      : "Creu mapiau gyda Geopandas"
 language   : cymraeg
+comments   : true
 ---
 
 Y cwpl o wythnosau diwethaf dechreuais i chwarae gyda chreu mapiau yn Python gan

@@ -2,6 +2,7 @@
 layout     : post
 title      : "Creating maps with Geopandas"
 language   : english
+comments   : true
 ---
 
 The last few week I began playing with creating maps in Python using the
