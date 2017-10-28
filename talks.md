@@ -4,7 +4,7 @@ title: Talks
 permalink: /talks/
 ---
 
-+ [Python for Operational Research in Healthcare]({{ site.url }}/talks/pyconuk-2017.pdf) - PyCon UK, 2017, Cardiff
++ [Python for Operational Research in Healthcare]({{ site.url }}/talks/pyconuk-2017.pdf) - PyCon UK, 2017, Cardiff ([Video](https://www.youtube.com/watch?v=CcEURL392-w))
 
 + [Producing Pretty Plots in Python]({{ site.url }}/talks/pyconna-2017.pdf) - PyCon Namibia, 2017, Windhoek ([Code](https://github.com/geraintpalmer/Presentations/blob/master/PyConNamibia2017/PyCon%20Namibia%202017.ipynb))
 

@@ -88,6 +88,7 @@ Medi 2010 - Mai 2013: **BSc Mathemateg, Prifysgol Aberystwyth.** Anrhydedd Dosba
 Siaradwr dwyieithog. Profiad rhyngwladol. Pynciau technegol.
 Cynulleidfaoedd amryw yn cynnwys y cyhoedd, ymarferwyr gofal iechyd, ac aelod o'r llywodraeth Cymraeg.
 
+* Hyd 2017 - PyCon UK, Caerdydd - *Python for Operational Research in Healthcare*
 * Ebrill 2017 - IMA and OR Society Conference on Mathematics of Operational Research, Aston - *Queueing networks, Deadlock and Healthcare*
 * Chwef 2017 - PyCon Namibia, Windhoek - *Producing Pretty Plots in Python*
 * Medi 2016 - PyCon UK, Caerdydd - *Queueing and Python: pip install ciw*

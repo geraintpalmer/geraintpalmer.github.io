@@ -88,6 +88,7 @@ Sept 2010 - May 2013: **BSc Mathematics, Aberystwyth University.** First Class H
 Bilingual speaker. International experience. Technical topics.
 Diverse audiences including general public, healthcare practitioners, and member of the Welsh government.
 
+* Oct 2017 - PyCon UK, Cardiff - *Python for Operational Research in Healthcare*
 * April 2017 - IMA and OR Society Conference on Mathematics of Operational Research, Aston - *Queueing networks, Deadlock and Healthcare*
 * Feb 2017 - PyCon Namibia, Windhoek - *Producing Pretty Plots in Python*
 * Sept 2016 - PyCon UK, Cardiff - *Queueing and Python: pip install ciw*
