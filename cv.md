@@ -39,7 +39,7 @@ Sept 2010 - May 2013: **BSc Mathematics, Aberystwyth University.** First Class H
 ## Publications
 <ul>
 {% for pub in site.data.publications %}
-  <li><b>{{ pub.title }}</b> <i>{{ pub.authors }}</i> 
+  <li>{{ pub.year }}: <b>{{ pub.title }}</b> <i>{{ pub.authors }}</i> 
   	{% if pub.published == 'yes' %}
   	  <a class="page-link" href="{{ pub.link }}">{{ pub.journal }}</a>
   	{% elsif pub.preprint == 'yes' %}

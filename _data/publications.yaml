@@ -1,5 +1,6 @@
 - title: "Ciw: An open source discrete event simulation library"
   authors: "Palmer GI, Knight VA, Harper PR, Hawa, AL."
+  year: "2017"
   published: "no"
   preprint: "yes"
   link: "https://arxiv.org/abs/1710.03561"
@@ -7,11 +8,14 @@
 
 - title: "Modelling Deadlock in Open Restricted Queueing Networks"
   authors: "Palmer GI, Harper PR, Knight VA."
-  published: "no"
-  preprint: "no"
+  year: "2017"
+  published: "yes"
+  journal: "European Journal of Operational Research."
+  link: "http://www.sciencedirect.com/science/article/pii/S0377221717309529"
 
 - title: "An Open Framework for the Reproducible Study of the Iterated Prisoners Dilemma"
   authors: "Knight VA et al."
+  year: "2016"
   published: "yes"
   journal: "Journal of open research software."
   link: "http://openresearchsoftware.metajnl.com/article/10.5334/jors.125/"
