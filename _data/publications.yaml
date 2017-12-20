@@ -8,7 +8,7 @@
 
 - title: "Modelling Deadlock in Open Restricted Queueing Networks"
   authors: "Palmer GI, Harper PR, Knight VA."
-  year: "2017"
+  year: "2018"
   published: "yes"
   journal: "European Journal of Operational Research."
   link: "http://www.sciencedirect.com/science/article/pii/S0377221717309529"
@@ -17,5 +17,5 @@
   authors: "Knight VA et al."
   year: "2016"
   published: "yes"
-  journal: "Journal of open research software."
+  journal: "Journal of Open Research Software."
   link: "http://openresearchsoftware.metajnl.com/article/10.5334/jors.125/"
