@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Agent Based Modelling with Python</title>
+
+		<meta name="description" content="Agent Based Modelling with Python">
+		<meta name="author" content="Geraint Palmer">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="../reveal.js/css/reveal.css">
+		<link rel="stylesheet" href="../reveal.js/css/theme/geraint.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="../reveal.js/lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ?
+            '../reveal.js/css/print/pdf.css' : '../reveal.js/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+        <link rel="icon" href="../favicon.ico" type="image/x-icon" />
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body bgcolor="white">
+
+		<div class="reveal">
+
+			<div class="slides">
+                <section style="font-size: 48px; color:#cc5200;">
+                    <h3>Agent Based Modelling with Python</h3>
+
+                    <p>@GeraintPalmer</p>
+
+                    <img width=200 src="img/cflogo.svg"><br>
+
+                    <a href='http://127.0.0.1:4000/talks/AgentBasedModelling/index.html' style="font-size: 26px;">http://www.geraintianpalmer.org.uk/talks/AgentBasedModelling/index.html</a>
+                </section>
+
+                <section style="font-size: 58px">
+                    <p>Macrobehaviour from Micromotives</p>
+                </section>
+
+                <section>
+                    <img width=900 src="img/flocking-Walter-Baxter.jpg">
+                </section>
+
+                <section>
+                    <h3>Boids</h3>
+                    <figure>
+                        <img width=300 src="img/Rule_alignment.gif">
+                        <img width=300 src="img/Rule_cohesion.gif">
+                        <img width=300 src="img/Rule_separation.gif">
+                        <figcaption>Alignment &emsp; &emsp; &emsp; Cohesion &emsp; &emsp; &emsp; Separation</figcaption>
+                    </figure>
+                    <br>
+                    <a href='https://www.red3d.com/cwr/boids/' style="font-size: 26px">https://www.red3d.com/cwr/boids/</a>
+                </section>
+
+                <section>
+                    <img width=600 src="img/flocking.gif">
+                </section>
+
+                <section style="font-size: 48px">
+                    <blockquote>
+                    "Society does not consist of individuals but expresses the sum of interrelations, the relations within which these individuals stand."
+                    </blockquote>
+                    <p style="font-size: 32px">Karl Marx</p>
+                </section>
+
+                <section>
+                    <h3>Conway's Game of Life</h3>
+                    <img width=1200 src="img/conway.svg">
+                </section>
+
+                <section>
+                    <img width=600 src="img/conwaysGameOfLife.gif">
+                </section>
+
+                <section>
+                    <figure>
+                        <img width=800 src="img/NYrace.jpg">
+                        <figcaption>New York City</figcaption>
+                    </figure>
+                </section>
+
+                <section>
+                    <h3>Schelling's Segregation Model</h3>
+                    <img width=600 src="img/coinsandpaper.jpg">
+                </section>
+
+                <section>
+                    <img width=1500 src="img/code_1.svg">
+                    <a href='https://github.com/geraintpalmer/SchellingSegregationModel'>https://github.com/geraintpalmer/SchellingSegregationModel</a>
+                </section>
+                <section data-transition="none">
+                    <img width=1500 src="img/code_2.svg">
+                    <a href='https://github.com/geraintpalmer/SchellingSegregationModel'>https://github.com/geraintpalmer/SchellingSegregationModel</a>
+                </section>
+                <section data-transition="none">
+                    <img width=1500 src="img/code_3.svg">
+                    <a href='https://github.com/geraintpalmer/SchellingSegregationModel'>https://github.com/geraintpalmer/SchellingSegregationModel</a>
+                </section data-transition="none">
+                <section data-transition="none">
+                    <img width=1500 src="img/code_4.svg">
+                    <a href='https://github.com/geraintpalmer/SchellingSegregationModel'>https://github.com/geraintpalmer/SchellingSegregationModel</a>
+                </section>
+
+                <section>
+                    <img width=600 src="img/atlas.gif">
+                </section>
+
+                <section>
+                    <img width=700 src="img/increase_preference.png">
+                </section>
+
+                <section>
+                    <img width=1200 src="img/preference_meanhappiness.png">
+                </section>
+
+                <section>
+                    <img width=450 src="img/happynessdist_before.png">
+                    <img width=450 src="img/happynessdist_after.png">
+                </section>
+
+                <section>
+                    <img width=1200 src="img/connectedcomponents.svg">
+                </section>
+
+                <section>
+                    <img width=1200 src="img/preference_components.png">
+                </section>
+
+                <section style='font-size: 28px;'>
+                    <a href='http://www.geraintianpalmer.org.uk/2017/08/19/schelling-segregation/'>http://www.geraintianpalmer.org.uk/2017/08/19/schelling-segregation/</a><br><br>
+                    <a href='https://github.com/geraintpalmer/SchellingSegregationModel'>https://github.com/geraintpalmer/SchellingSegregationModel</a><br><br>
+                    <a href='https://www.labri.fr/perso/nrougier/teaching/numpy/numpy.html'>https://www.labri.fr/perso/nrougier/teaching/numpy/numpy.html</a><br><br>
+                    <a href='https://ccl.northwestern.edu/netlogo/models/'>NetLogo</a><br><br>
+                    <a href='https://twitter.com/GeraintPalmer' style="font-size: 48px;">@GeraintPalmer</a>
+                </section>
+
+		<script src="../reveal.js/lib/js/head.min.js"></script>
+		<script src="../reveal.js/js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: false,
+				progress: false,
+				history: true,
+				center: true,
+
+				transition: 'fade', // none/fade/slide/convex/concave/zoom
+
+                math: {
+                    mathjax: '../MathJax/MathJax-2.6-latest/MathJax.js',
+                    // mathjax: 'https://cdn.mathjax.org/mathjax/latest/MathJax.js',
+                    config: 'TeX-AMS_HTML-full'  // See http://docs.mathjax.org/en/latest/config-files.html
+                },
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: '../reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '../reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../reveal.js/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '../reveal.js/plugin/zoom-js/zoom.js', async: true },
+					{ src: '../reveal.js/plugin/notes/notes.js', async: true },
+                    { src: '../reveal.js/plugin/math/math.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
