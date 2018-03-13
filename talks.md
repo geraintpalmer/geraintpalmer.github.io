@@ -4,6 +4,8 @@ title: Talks
 permalink: /talks/
 ---
 
++ [Modelling Deadlock in Open Restricted Queueing Networks (poster)]({{ site.url }}/talks/STEMforBritain.pdf) - STEM for Britain, 2018, London
+
 + [Agent Based Modelling with Python]({{ site.url }}/talks/AgentBasedModelling/index.html) - PyCon Namibia, 2018, Windhoek
 
 + [Python for Operational Research in Healthcare]({{ site.url }}/talks/pyconuk-2017.pdf) - PyCon UK, 2017, Cardiff ([Video](https://www.youtube.com/watch?v=CcEURL392-w))

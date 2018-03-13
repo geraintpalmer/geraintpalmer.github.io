@@ -19,7 +19,7 @@ Sept 2017 - : **Teaching Associate** at Cardiff University's School of Mathemati
 Oct 2014 - : **PhD in Applied Stochastic Modelling, Cardiff University.**
 
 * Supervisors: Prof. Paul Harper & Dr. Vincent Knight
-* Jointly funded by ABUHB & Cardiff University.
+* Jointly funded by [ABUHB](http://www.wales.nhs.uk/sitesplus/866/home) & Cardiff University.
 * Modelling of patient flows & working at the interface of a healthcare organisation.
 * Modelling of deadlock in queueing networks using Markov models and discrete event simulation.
 * Development of an internationally used open source software package, [Ciw](http://ciw.readthedocs.io/).
@@ -55,17 +55,18 @@ Sept 2010 - May 2013: **BSc Mathematics, Aberystwyth University.** First Class H
 
 ## Learning & Teaching
 
+* Delivery of example classes, lectures and tutorials (see [Teaching](/teaching/)).
 * Experience of leading computer lab sessions (Python, Simul8, LaTeX, Vensim, Excel) for undergraduate & masters students.
 * Mathematics & Statistics support tutor.
 * Translation of pedagogic material from English to Welsh.
-* Experience of producing new bilingual learning materials (short LaTeX course).
+* Production of new learning materials in both English and Welsh.
 * Key participant in innovative international development initiative leading active learning sessions at the University of Namibia (under the [Cardiff University Phoenix Project](http://www.cardiff.ac.uk/about/our-profile/our-values/engagement/transforming-communities/the-phoenix-project)).
 
 
 
 ## Community Building & Organisation
 
-* Member of [the UK OR Society](https://www.theorsociety.com) & committee member of SWORDS (South Wales Operational Research Discussion Society).
+* Member of [the UK OR Society](https://www.theorsociety.com) & chair of SWORDS (South Wales Operational Research Discussion Society).
 * Co-organiser of the stochastic modelling stream at Young OR 19.
 * Member of organising committee for [DjangoCon Europe 2015, Cardiff](http://2015.djangocon.eu/).
 * Active member of [PyDiff](http://www.pydiff.wales/), the Cardiff Python meetup.
@@ -78,7 +79,7 @@ Sept 2010 - May 2013: **BSc Mathematics, Aberystwyth University.** First Class H
 ## Software Development
 
 * Main developer and maintainer of [Ciw](https://github.com/CiwPython/Ciw) ([ciw.readthedocs.io](http://ciw.readthedocs.io/)), a Python library for simulating queueing networks.
-* Experience of modern software development techniques: version control, testing, continuous integration.
+* Experience of modern software development techniques: version control, automated testing, continuous integration.
 * Contributor to the open source project [Axelrod](https://github.com/Axelrod-Python/Axelrod).
 
 
@@ -86,8 +87,10 @@ Sept 2010 - May 2013: **BSc Mathematics, Aberystwyth University.** First Class H
 ## Presentations
 
 Bilingual speaker. International experience. Technical topics.
-Diverse audiences including general public, healthcare practitioners, and member of the Welsh government.
+Diverse audiences including general public, adademics, healthcare practitioners, and member of the Welsh government.
 
+* Mar 2018 - STEM for Britain, London - Poster: *Modelling Deadlock in Open Resticted Queueing Networks*
+* Feb 2018 - PyCon Namibia, Windhoek - *Agent Based MOdelling with Python*
 * Oct 2017 - PyCon UK, Cardiff - *Python for Operational Research in Healthcare*
 * April 2017 - IMA and OR Society Conference on Mathematics of Operational Research, Aston - *Queueing networks, Deadlock and Healthcare*
 * Feb 2017 - PyCon Namibia, Windhoek - *Producing Pretty Plots in Python*
@@ -107,6 +110,10 @@ Diverse audiences including general public, healthcare practitioners, and member
 
 **Languages:**  English (Fluent), Welsh (Fluent).
 
+
+## Funding
+
++ 2017 - [Sustainable Software Institute](https://www.software.ac.uk/) Fellowship -  £3,000
 
 
 ## Courses Attended
