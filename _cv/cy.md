@@ -90,7 +90,7 @@ Siaradwr dwyieithog. Profiad rhyngwladol. Pynciau technegol.
 Cynulleidfaoedd amryw yn cynnwys y cyhoedd, academyddion, ymarferwyr gofal iechyd, ac aelod o'r llywodraeth Cymraeg.
 
 * Marw 2018 - STEM for Britain, Llundain - Poster: *Modelling Deadlock in Open Resticted Queueing Networks*
-* Chwef 2018 - PyCon Namibia, Windhoek - *Agent Based MOdelling with Python*
+* Chwef 2018 - PyCon Namibia, Windhoek - *Agent Based Modelling with Python*
 * Hyd 2017 - PyCon UK, Caerdydd - *Python for Operational Research in Healthcare*
 * Ebrill 2017 - IMA and OR Society Conference on Mathematics of Operational Research, Aston - *Queueing networks, Deadlock and Healthcare*
 * Chwef 2017 - PyCon Namibia, Windhoek - *Producing Pretty Plots in Python*

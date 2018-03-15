@@ -90,7 +90,7 @@ Bilingual speaker. International experience. Technical topics.
 Diverse audiences including general public, adademics, healthcare practitioners, and member of the Welsh government.
 
 * Mar 2018 - STEM for Britain, London - Poster: *Modelling Deadlock in Open Resticted Queueing Networks*
-* Feb 2018 - PyCon Namibia, Windhoek - *Agent Based MOdelling with Python*
+* Feb 2018 - PyCon Namibia, Windhoek - *Agent Based Modelling with Python*
 * Oct 2017 - PyCon UK, Cardiff - *Python for Operational Research in Healthcare*
 * April 2017 - IMA and OR Society Conference on Mathematics of Operational Research, Aston - *Queueing networks, Deadlock and Healthcare*
 * Feb 2017 - PyCon Namibia, Windhoek - *Producing Pretty Plots in Python*
