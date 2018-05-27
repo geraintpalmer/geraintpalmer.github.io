@@ -7,7 +7,7 @@ title: CV
 
 ## Appointments
 
-Sept 2017 - : **Teaching Associate** at Cardiff University's School of Mathematics
+Sept 2017 - : **Welsh Medium Teaching Associate** at Cardiff University's School of Mathematics
 
 + Welsh medium example classes and tutorials
 + Translation of educational resources
@@ -56,7 +56,7 @@ Sept 2010 - May 2013: **BSc Mathematics, Aberystwyth University.** First Class H
 ## Learning & Teaching
 
 * Delivery of example classes, lectures and tutorials (see [Teaching](/teaching/)).
-* Experience of leading computer lab sessions (Python, Simul8, LaTeX, Vensim, Excel) for undergraduate & masters students.
+* Leading computer lab sessions (Python, Simul8, LaTeX, Vensim, Excel) for undergraduate & masters students.
 * Mathematics & Statistics support tutor.
 * Translation of pedagogic material from English to Welsh.
 * Production of new learning materials in both English and Welsh.
@@ -66,7 +66,7 @@ Sept 2010 - May 2013: **BSc Mathematics, Aberystwyth University.** First Class H
 
 ## Community Building & Organisation
 
-* Member of [the UK OR Society](https://www.theorsociety.com) & chair of SWORDS (South Wales Operational Research Discussion Society).
+* Member of [the UK OR Society](https://www.theorsociety.com) & chair of [SWORDS](http://www.theorsociety.com/Pages/Regional/swords.aspx) (South Wales Operational Research Discussion Society).
 * Co-organiser of the stochastic modelling stream at Young OR 19.
 * Member of organising committee for [DjangoCon Europe 2015, Cardiff](http://2015.djangocon.eu/).
 * Active member of [PyDiff](http://www.pydiff.wales/), the Cardiff Python meetup.
@@ -89,6 +89,7 @@ Sept 2010 - May 2013: **BSc Mathematics, Aberystwyth University.** First Class H
 Bilingual speaker. International experience. Technical topics.
 Diverse audiences including general public, adademics, healthcare practitioners, and member of the Welsh government.
 
+* April 2018 - School of Mathematics 3MT, Cardiff ([2nd place](https://siamukie.wordpress.com/2018/05/01/cardiff-siam-ima-three-minute-thesis-competition/))
 * Mar 2018 - STEM for Britain, London - Poster: *Modelling Deadlock in Open Resticted Queueing Networks*
 * Feb 2018 - PyCon Namibia, Windhoek - *Agent Based Modelling with Python*
 * Oct 2017 - PyCon UK, Cardiff - *Python for Operational Research in Healthcare*
@@ -113,11 +114,13 @@ Diverse audiences including general public, adademics, healthcare practitioners,
 
 ## Funding
 
++ 2018 - [Coleg Cymraeg Small Grant](http://www.colegcymraeg.ac.uk/cy/ycoleg/prosiectau/grantiaubach/) (Creating Welsh medium multi-media progamming resources) -  £2,500
 + 2017 - [Sustainable Software Institute](https://www.software.ac.uk/) Fellowship -  £3,000
 
 
 ## Courses Attended
 
+* [Welsh for Adults](https://welshforadults.cardiff.ac.uk/) - Gloywi Iaith CDH001 (Grammar) - Cardiff University 20717/18 (Welsh medium)
 * [Coleg Cymraeg Cenedlaethol](http://www.colegcymraeg.ac.uk/en/)'s Teaching Skills Course - Aberystwyth University 2017 (Welsh Medium)
 * [CHOIR](https://www.utwente.nl/en/choir/) Healthcare Operations Research PhD Summer School - University of Twente 2017
 * [NATCOR](http://www.natcor.ac.uk) Forecasting & Predictive Analysis - Lancaster University 2016

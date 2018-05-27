@@ -8,7 +8,7 @@ permalink: cv/cy/
 
 ## Apwyntiadau
 
-Medi 2017 - : **Cyswllt Addysgu** yn Ysgol Mathemateg Prifysgol Caerdydd
+Medi 2017 - : **Cyswllt Addysgu Cyfrwng Cymraeg** yn Ysgol Mathemateg Prifysgol Caerdydd
 
 + Dosbarthiadau enghreifftiol a thiwtorialau cyfrwng Cymraeg
 + Cyfieithu adnoddau addysgu
@@ -22,14 +22,14 @@ Hyd 2014 - : **PhD mewn Modelu Stocastig Cymhwysol, Prifysgol Caerdydd.**
 * Goruchwylwyr: Yr Athro Paul Harper & Dr. Vincent Knight
 * Wedi'i chyd-ariannu gan [ABUHB](http://www.wales.nhs.uk/sitesplus/866/home) a Phrifysgol Caerdydd.
 * Modelu llifoedd cleifion & gweithio wrth ryngwyneb sefydliad gofal iechyd.
-* Modelu llwyrglo yn rhwydweithiau ciwio gan ddefnyddio modelau Markov ac efelychiad.
-* Datblygiad pecyn meddalwedd ffynhonnell agored, [Ciw](http://ciw.readthedocs.io/), a ddefnyddir yn rhyngwladol.
+* Modelu llwyrglo yn rhwydweithiau ciwio gan ddefnyddio modelau Markov ac efelychiad cyfrifiadurol.
+* Datblygu pecyn meddalwedd ffynhonnell agored, [Ciw](http://ciw.readthedocs.io/), a ddefnyddir yn rhyngwladol.
 * Teitl: *Deadlock in open restricted queueing networks.*
 
 
 Hyd 2013 - Hyd 2014: **MSc Ymchwil Weithrediadol ac Ystadegaeth Gymhwysol, Prifysgol Caerdydd.** Rhagoriaeth.
 
-* Pynciau a ddysgir yn cynnwys: Theori ciwio, Theori Gemau, Technegau ystadegol, Cyfres amser, Rhaglennu mathemategol, Dulliau hewristig.
+* Pynciau a ddysgir yn cynnwys: Theori ciwio, Theori Gemau, Technegau ystadegol, Cyfresi amser, Rhaglennu mathemategol, Dulliau hewristig.
 * Cwblhau'r traethawd hir ym Mhrifysgol Twente ar leoliad Erasmus.
 * Teitl traethawd hir: *Optimising surgery schedules in order to increase operating room utilisation and level beds in the PACU and holding area.*
 
@@ -56,7 +56,7 @@ Medi 2010 - Mai 2013: **BSc Mathemateg, Prifysgol Aberystwyth.** Anrhydedd Dosba
 ## Dysgu
 
 * Dosbarthiadau enghreifftiol, darlithoedd a thiwtorialau (gweler [Dysgu](/teaching/)).
-* Profiad arwain sesiynau labiau cyfrifiadur (Python, Simul8, LaTeX, Vensim, Excel) ar gyfer israddedigion & myfyrwyr gradd meistr.
+* Arwain sesiynau labiau cyfrifiadur (Python, Simul8, LaTeX, Vensim, Excel) ar gyfer israddedigion & myfyrwyr gradd meistr.
 * Tiwtor cefnogaeth mathemateg ac ystadegaeth.
 * Cyfieithu adnoddau pedagogaidd o Saesneg i Gymraeg.
 * Cynhyrchu adnoddau dysgu newydd yn Gymraeg ac yn Saesneg.
@@ -66,7 +66,7 @@ Medi 2010 - Mai 2013: **BSc Mathemateg, Prifysgol Aberystwyth.** Anrhydedd Dosba
 
 ## Adeiladu Cymdeithasau & Threfnu
 
-* Aelod o [Gymdeithas Ymchwil Weithrediadol y DU](https://www.theorsociety.com) & cadair bwyllgor SWORDS (Cymdeithas Trafodaeth Ymchwil Gweithrediadol De Cymru.)
+* Aelod o [Gymdeithas Ymchwil Weithrediadol y DU](https://www.theorsociety.com) & cadair bwyllgor [SWORDS](http://www.theorsociety.com/Pages/Regional/swords.aspx) (Cymdeithas Trafodaeth Ymchwil Gweithrediadol De Cymru.)
 * Cyd-drefnydd ffrwd modelu stocastig yng nghynhadledd Young OR 19.
 * Aelod o bwyllgor trefnu [DjangoCon Ewrop 2015, Caerdydd](http://2015.djangocon.eu/).
 * Aelod gweithredol o [PyDiff](http://www.pydiff.wales/), cyfarod Python Caerdydd.
@@ -79,7 +79,7 @@ Medi 2010 - Mai 2013: **BSc Mathemateg, Prifysgol Aberystwyth.** Anrhydedd Dosba
 ## Datblygu Meddalwedd
 
 * Prif ddatblygwr a chynhaliwr [Ciw](https://github.com/CiwPython/Ciw) ([ciw.readthedocs.io](http://ciw.readthedocs.io/)), llyfrgell Python ar gyfer efelychu rhwydweithiau ciwio.
-* Profiad technegau datblygiad meddalwedd modern: rheoliad fersiwn, profion meddalwedd, integreiddiad parhaus.
+* Profiad technegau datblygiad meddalwedd modern: rheolaeth fersiwn, profion awtomatig, integreiddiad parhaus.
 * Cyfrannwr i'r prosiect ffynhonnell agored [Axelrod](https://github.com/Axelrod-Python/Axelrod).
 
 
@@ -89,6 +89,7 @@ Medi 2010 - Mai 2013: **BSc Mathemateg, Prifysgol Aberystwyth.** Anrhydedd Dosba
 Siaradwr dwyieithog. Profiad rhyngwladol. Pynciau technegol.
 Cynulleidfaoedd amryw yn cynnwys y cyhoedd, academyddion, ymarferwyr gofal iechyd, ac aelod o'r llywodraeth Cymraeg.
 
+* Ebrill 2018 - 3MT yr Ysgol Mathemateg, Caerdydd ([2ail](https://siamukie.wordpress.com/2018/05/01/cardiff-siam-ima-three-minute-thesis-competition/))
 * Marw 2018 - STEM for Britain, Llundain - Poster: *Modelling Deadlock in Open Resticted Queueing Networks*
 * Chwef 2018 - PyCon Namibia, Windhoek - *Agent Based Modelling with Python*
 * Hyd 2017 - PyCon UK, Caerdydd - *Python for Operational Research in Healthcare*
@@ -113,12 +114,14 @@ Cynulleidfaoedd amryw yn cynnwys y cyhoedd, academyddion, ymarferwyr gofal iechy
 
 ## Cyllidau
 
++ 2018 - [Grant Bach y Coleg Cymraeg](http://www.colegcymraeg.ac.uk/cy/ycoleg/prosiectau/grantiaubach/) (Creu adnoddau aml-gyfrwng rhaglennu cyfrwng Cymraeg) -  £2,500
 + 2017 - Cymrodoriaeth y [Sustainable Software Institute](https://www.software.ac.uk/) - £3,000
 
 
 
 ## Cyrsiau a Fynychwyd
 
+* [Cymraeg i Oedolion](https://welshforadults.cardiff.ac.uk/cy) - Gloywi Iaith CDH001 (Gramadeg) - Prifysgol Caerdydd 20717/18 (Cyfrwng Cymraeg)
 * Cwrs Sgiliau Addysgu y [Coleg Cymraeg Cenedlaethol](http://www.colegcymraeg.ac.uk/cy/) - Prifysgol Aberystwyth 2017 (Cyfrwng Cymraeg)
 * Ysgol Haf PhD [CHOIR](https://www.utwente.nl/en/choir/) ar Ymchwil Gweithrediadol Gofal Iechyd - Prifysgol Twente 2017
 * [NATCOR](http://www.natcor.ac.uk) Rhagolygu & Dadansoddiad Rhagfynegol - Prifysgol Lancaster 2016
