@@ -189,15 +189,15 @@ tauros
 Rhoddir hwn y tîm Pokémon perffaith (Cenhedlaeth 1) fel Charizard, Arcanine,
 Poliwrath, Magneton, Cloyster a Tauros!
 
-| Pokémon   | Math           | Gwrthsefyll                                                | Cyfanswm Stats |
-|-----------|----------------|------------------------------------------------------------|----------------|
-| Charizard | Fire/Flying    | Fir, Gra, Fig, Gro, Bug, Ste, Fai                          | 456            |
-| Arcanine  | Fire           | Fir, Gra, Ice, Bug, Ste, Fai                               | 465            |
-| Poliwrath | Water/Fighting | Fir, Wat, Ice, Bug, Roc, Dar, Ste                          | 420            |
-| Magneton  | Electric/Steel | Nor, Ele, Gra, Ice, Poi, Fly, Psy, Bug, Roc, Dra, Ste, Fai | 415            |
-| Cloyster  | Water/Ice      | Wat, Ice                                                   | 475            |
-| Tauros    | Normal         | Gho                                                        | 415            |
-|-----------|----------------|------------------------------------------------------------|----------------|
+| Pokémon   | Math       | Gwrthsefyll                                               | Cyfanswm Stats |
+|-----------|------------|-----------------------------------------------------------|----------------|
+| Charizard | Tân/Hedfan | Tân, Gla, Yml, Dae, Byg, Dur, Tyl                         | 456            |
+| Arcanine  | Tân        | Tân, Gla, Iâ, Byg, Dur, Tyl                               | 465            |
+| Poliwrath | Dŵr/Ymladd | Tân, Dŵr, Iâ, Byg, Roc, Dar, Dur                          | 420            |
+| Magneton  | Trydan/Dur | Nor, Try, Gla, Iâ, Gwe, Hed, Sei, Byg, Cra, Dra, Dur, Tyl | 415            |
+| Cloyster  | Dŵr/Iâ     | Dŵr, Iâ                                                   | 475            |
+| Tauros    | Normal     | Ysb                                                       | 415            |
+|-----------|------------|-----------------------------------------------------------|----------------|
 
 <br>
 
