@@ -6,12 +6,13 @@ layout: page
 	{% if post.language == 'english' %}
 		<time>{{ post.date | date: "%b %-d, %Y" }}</time>
 		<h4><img class="emoji" draggable="false" src="https://twemoji.maxcdn.com/2/svg/1f1ec-1f1e7.svg"/> <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
+    <p>{{ post.excerpt }}</p>
 	{% endif %}
 	{% if post.language == 'cymraeg' %}
 		<time>{{ post.date | date: "%b %-d, %Y" }}</time>
 		<h4><img class="emoji" draggable="false" src="https://twemoji.maxcdn.com/2/svg/1f3f4-e0067-e0062-e0077-e006c-e0073-e007f.svg"/> <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
+    <p>{{ post.excerpt }}</p>
 	{% endif %}
-	<p>{{ post.excerpt }}</p>
 {% endfor %}
 
 <br>
