@@ -15,7 +15,7 @@ In particular I'm looking for:
 + the strongest team
 + that has resistances to as many types as possible.
 
-In this post I'll use some methematics, Python's
+In this post I'll use some mathematics, Python's
 [`requests`](http://docs.python-requests.org/en/master/) library to gain Pokémon
 data, and [`pulp`](https://pythonhosted.org/PuLP/) to solve a linear program
 which will give me my perfect team.
@@ -23,7 +23,7 @@ which will give me my perfect team.
 In the Pokémon games a player adventures around catching various species of
 Pokémon which they can then use in battles.
 Each player may only carry six Pokémon with them at a time, and so finding a
-stong all-round team of six is vital.
+strong all-round team of six is vital.
 Pokémon have six 'stats' which determine their stengths: Attack, Special Attack,
 Defence, Special Defence, Speed and HP.
 Here I'll use the Pokémon's total base 'stats' to measure their overall
@@ -32,7 +32,7 @@ strength.
 Another important concept in the games is Pokémon 'types'.
 There are 18 types: Normal, Fire, Water, Electric, Grass, Ice, Fighting, Poison,
 Ground, Flying, Psychic, Bug, Rock, Ghost, Dragon, Dark, Steel and Fairy.
-A Pokémon's type determines its weaknesses or resistances to different attck
+A Pokémon's type determines its weaknesses or resistances to different attack
 types according to the following table:
 
   |         | Nor | Fir | Wat | Ele | Gra | Ice | Fig | Poi | Gro | Fly | Psy | Bug | Roc | Gho | Dra | Dar | Ste | Fai |
@@ -213,8 +213,8 @@ The same is true for Cloyster.
 This indicates maybe only four Pokémon are needed for type coverage, and there's
 slack to choose two more based on pure strength.
 
-This method would easily generalise to inculde more generations, however
-retreiving the data would take longer.
+This method would easily generalise to include more generations, however
+retrieving the data would take longer.
 
 The mathematics used here is a standard operational research technique, and is
 used in many other more serious applications such as nurse rostering, exam
