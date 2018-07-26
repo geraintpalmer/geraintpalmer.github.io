@@ -30,7 +30,8 @@ obtaining a local version of LaTeX for serious work.
 + <a href="#5">5. Figures</a>
 + <a href="#6">6. Labels</a>
 + <a href="#7">7. Code</a>
-+ <a href="#8">8. Bibliographies</a>
++ <a href="#8">8. Environments</a>
++ <a href="#9">9. Bibliographies</a>
 
 
 <h1 id="1">1. Basics</h1>
@@ -489,7 +490,57 @@ figure, and write some sentences that refer to in.
 
 
 
-<h1 id="8">8. Bibliographies</h1>
+<h1 id="8">8. Environments</h1>
+
+Everytime we began a section with a command starting with `\begin{` and ended it
+with `\end{`, the content between those commands were in an environment.
+Here'a a list of some useful environments not covered so far:
+
++ `\begin{center}` and `\end{center}`: Centers all the content.
++ `\begin{figure}` and `\end{figure}`: An environment for figures, graphics, diagrams.
++ `\begin{table}` and `\end{table}`: An environment similar to `figure` for tables with `tabular`.
++ `\begin{multicols}` and `\end{multicols}`: An environment to set the text into columns.
++ `\begin{proof}` and `\end{proof}`: An environment for writing mathematical proofs.
+
+And using `amsthm` we get access to a number of commands for creating other
+useful environments.
+These are usually used for writing *theorems*, *definitions*, *propositions*,
+*remarks* and so on.
+
+To define a new Theorem environment in the preable:
+
+    \usepackage{asmthm}
+
+    \newtheorem{theorem}{Theorem}
+
+This gives us a numbered `theorem` environment that begins with the text
+`Theorem`.
+So we can write a theorem with proof as follows:
+
+    \begin{theorem}
+      $\log_a{B} + \log_a{C} = \log_a{BC}$
+    \end{theorem}
+
+    \begin{proof}
+      Let $x = \log_a{B}$ and $y = \log_a{C}$.
+      Now:
+      \begin{align}
+        a^x a^y &= BC\\
+        a^{x + y} &= BC\\
+        x + y &= \log_a{BC}\\
+        \log_a{B} + \log_a{C} &= \log_a{BC}
+      \end{align}
+      as required.
+    \end{proof}
+
+***Challenge:*** Choose two simple theorems and give their proofs by defining a
+new theorem environment.
+
+***Challenge:*** Create a definition environment and use it to define two
+mathematical terms.
+
+
+<h1 id="9">9. Bibliographies</h1>
 
 To produce bibliographies, references and citations, we need to include a `.bib`
 file containing the information of all the references we have used.
