@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sesiwn Gloywi LaTeX
+title: Tiwtorial LaTeX
 permalink: teaching/latex-refresher/cy/
 ---
 
@@ -118,7 +118,32 @@ Mae tablau yn ffordd arall o drefnu cynnwys. Fe allwch weithredu'r rhain trwy dd
     \hline
     \end{tabular}
 
-Mae'r llinell gyntaf yn setio opsiynau'r tabl. Gwelwch fod yna tair colofn wedi'i chanoli, `c` (ceisiwch amnewid rhaid gyda `r` neu `l` ar gyfer colofnau aliniadau de a chwith). Mae `|` yn dynodi fod llinell fertigol wedi'i thynnu cyn neu rhwng colofnau. Yn yr amgylchedd tabl ei hun rydym yn ychwanegu cynnwyd rhes wrth res. Mae `&` yn dynodi diwedd colofn, ac i roi unrhyw cynnwys pellach yn y golofn nesa. Mae `\\` yn dynodi fod y rhes wedi benu, a dylai unrhyw cynnwys pellach fod yn gelloedd yn y rhes nesa. Rhwng rhesi, mae rhoi `\hline` yn tynnu llinell lorweddol. Nodwch yn yr enghraifft syml hon, mae angen i bob rhes cynnwys tair colofn yn unig, er gallwn ychwanegu gymaint o resi a ddymunwn. Mae rhagor o wybodaeth ar dablau ar gael [fan hyn](https://en.wikibooks.org/wiki/LaTeX/Tables).
+Mae'r llinell gyntaf yn setio opsiynau'r tabl. Gwelwch fod yna tair colofn wedi'i chanoli, `c` (ceisiwch amnewid rhaid gyda `r` neu `l` ar gyfer colofnau aliniadau de a chwith). Mae `|` yn dynodi fod llinell fertigol wedi'i thynnu cyn neu rhwng colofnau. Yn yr amgylchedd tabl ei hun rydym yn ychwanegu cynnwyd rhes wrth res. Mae `&` yn dynodi diwedd colofn, ac i roi unrhyw cynnwys pellach yn y golofn nesa. Mae `\\` yn dynodi fod y rhes wedi benu, a dylai unrhyw cynnwys pellach fod yn gelloedd yn y rhes nesa. Rhwng rhesi, mae rhoi `\hline` yn tynnu llinell lorweddol. Nodwch yn yr enghraifft syml hon, mae angen i bob rhes cynnwys tair colofn yn unig, er gallwn ychwanegu gymaint o resi a ddymunwn.
+
+Rhoddir hwn:
+
+<img src="{{site.baseurl}}/images/tabular_example_cy.png" width="400">{: .center-image }
+
+Mae rhagor o wybodaeth ar dablau ar gael [fan hyn](https://en.wikibooks.org/wiki/LaTeX/Tables).
+
+Gall creu tablau mwy bert gan defnyddio'r pecyn `booktabs`.
+Gyda'r pecyn yma nid oes angen llinellau fertigol, a'r unig llinellau fertigol sydd angen yw `\toprule`, `\midrule` a `bottomrule`:
+
+    \usepackage{booktabs}
+
+    \begin{tabular}{ccc}
+    \toprule
+    Cymydaith & Cyfres & Gelyn Cyntaf \\
+    \midrule
+    Rose & 1, 2 & Autons \\
+    Martha & 3 & Judoon \\
+    Donna & 4 & Adipose \\
+    \bottomrule
+    \end{tabular}
+
+Cymharwch yr allwbn yma i'r uchod:
+
+<img src="{{site.baseurl}}/images/booktabs_example_cy.png" width="400">{: .center-image }
 
 ***Her*** O dan yr adran Dodrefn, crëwch restr rhifedig yn rhestru'r holl ddodrefn sydd yn yr ystafell, wedi'i threfnu gan faint. O dan bob eitem, crëwch restr bwled yn rhestru rhai priodweddau arall y darn o ddodrefn yna. Arbrofwch gyda nythu pellach.
 

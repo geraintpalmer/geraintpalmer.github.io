@@ -1,12 +1,12 @@
 ---
 layout: post
-title: LaTeX Refresher Session
+title: LaTeX Tutorial
 permalink: teaching/latex-refresher/
 ---
 
 # Instructions
 
-+ Please look over this worksheet *before* coming to to refresher session:
++ Please look over this worksheet *before* coming to the session:
 	+ Either work through this worksheet before the session, and bring any difficulties / problems to the session so that we can look them over together.
 	+ Or work through the worksheet in the session, addressing any difficulties when you get to them.
 + Anything you wish to go over that isn't covered in this worksheet, please *bring examples* and we can work through them together.
@@ -55,7 +55,6 @@ Many articles have an abstract, which briefly outlines the contents of the artic
 ***Challenge:*** Create an article with a title, author, date, and abstract.
 
 
-
 <h1 id="2">2. Sections</h1>
 
 Section are useful for organising your article into manageable chunks for reading. These are easily implemented in LaTeX:
@@ -68,7 +67,7 @@ Section are useful for organising your article into manageable chunks for readin
 
 Notice that section numbering is automatic, so there is no need to include numbering in your sections' titles. Subsections (numbered 2.1, 2.2, etc.) can be achieved with `\subsection{}`.
 
-***Challenge*** Include three sections in your article, entitled 'Food & Drink', 'Furniture', and 'Mathematics'. Under the Food & Drink section, include the subsections 'Fruit', and 'Vegetables'. Under the 'Fruit' subsection, include two further subsections entitled 'Citrus Fruit', and 'Berries'. Experiment with further sectioning.
+***Challenge:*** Include three sections in your article, entitled 'Food & Drink', 'Furniture', and 'Mathematics'. Under the Food & Drink section, include the subsections 'Fruit', and 'Vegetables'. Under the 'Fruit' subsection, include two further subsections entitled 'Citrus Fruit', and 'Berries'. Experiment with further sectioning.
 
 
 
@@ -118,11 +117,37 @@ Tables are another way of organising content. This is achieved using `tabular`. 
     \hline
     \end{tabular}
 
-The first line sets out the options for the table. We see there are three centred, `c` columns (try replacing these with `r` or `l` for right and left aligned columns). A `|` indicates a vertical drawn line before or between these columns. In the table environment itself we then insert contents row by row. A `&` indicates the end of a column, and to put further contents into the next column. A `\\` denotes that the row has ended, and further contents should be in cells on the next row. Between rows, placing a `\hline` draws a horizontal line. Notice that in this simple example, each row must have 3 columns and 3 columns only, although we may add rows as we wish. Further information on tables is available [here](https://en.wikibooks.org/wiki/LaTeX/Tables).
+The first line sets out the options for the table. We see there are three centred, `c` columns (try replacing these with `r` or `l` for right and left aligned columns). A `|` indicates a vertical drawn line before or between these columns. In the table environment itself we then insert contents row by row. A `&` indicates the end of a column, and to put further contents into the next column. A `\\` denotes that the row has ended, and further contents should be in cells on the next row. Between rows, placing a `\hline` draws a horizontal line. Notice that in this simple example, each row must have 3 columns and 3 columns only, although we may add rows as we wish.
 
-***Challenge*** Under the Furniture section create a numbered list of all the furniture in the room by size. Under each item, create an unordered list of some attributes of that piece of furniture. Experiment with further nesting.
+This yeids:
 
-***Challenge*** Under the Fruit section, create a table of 7 fruits, containing information on their colour, size, and shape. Experiment with different cell alignments, and cell borders.
+<img src="{{site.baseurl}}/images/tabular_example_en.png" width="400">{: .center-image }
+
+Further information on tables is available [here](https://en.wikibooks.org/wiki/LaTeX/Tables).
+
+Tables can be made prettier by using the `booktabs` package.
+With this package vertical lines are not needed, and horizontal lines are resticted to `\toprule`, `\midrule` and `bottomrule`:
+
+    \usepackage{booktabs}
+
+    \begin{tabular}{ccc}
+    \toprule
+    Companion & Series & First Foe \\
+    \midrule
+    Rose & 1, 2 & Autons \\
+    Martha & 3 & Judoon \\
+    Donna & 4 & Adipose \\
+    \bottomrule
+    \end{tabular}
+
+Compare this output with that above:
+
+<img src="{{site.baseurl}}/images/booktabs_example_en.png" width="400">{: .center-image }
+
+
+***Challenge:*** Under the Furniture section create a numbered list of all the furniture in the room by size. Under each item, create an unordered list of some attributes of that piece of furniture. Experiment with further nesting.
+
+***Challenge:*** Under the Fruit section, create a table of 7 fruits, containing information on their colour, size, and shape. Experiment with different cell alignments, and cell borders.
 
 
 
@@ -199,7 +224,7 @@ For accented characters simply apply a transformation to the relevant character,
         \end{cases}
       \end{equation}
 
-***Challenge*** Reproduce these in LaTeX:
+***Challenge:*** Reproduce these in LaTeX:
 
 1. $$ \frac{\partial c}{\partial t} = D \nabla^2 \left( c^3 - c - \gamma \nabla^2 c \right)$$
 
@@ -239,7 +264,7 @@ Let's add `my_image.png`, which we'll put *in the same folder* as the main docum
       \caption{A brief description of the figure.}
     \end{figure}
 
-***Challenge*** Find an image of a piece of furniture on the internet, download it. Include it under the 'Furniture' section, add an appropriate caption.
+***Challenge:*** Find an image of a piece of furniture on the internet, download it. Include it under the 'Furniture' section, add an appropriate caption.
 
 We can create our own diagrams using the `tikz` package. This powerful package can be used to draw almost all diagrams you will require. We must include the package in the preamble:
 
@@ -273,7 +298,7 @@ All tikz commands must end with a semicolon. The following flow diagram was draw
     \end{tikzpicture}
 
 
-***Challenge*** Attempt to recreate this diagram of a queue using tikz:
+***Challenge:*** Attempt to recreate this diagram of a queue using tikz:
 
 ![Tikz Queue Diagram]({{ site.url }}/images/tikzqueuediagram.png)
 
@@ -304,7 +329,7 @@ Figures and equations can also be labelled:
       \label{fig:myimage}
     \end{figure}
 
-***Challenge*** In your article, label all sections, subsections, equations and figures. Write some sentences that refer to all these things.
+***Challenge:*** In your article, label all sections, subsections, equations and figures. Write some sentences that refer to all these things.
 
 
 
@@ -327,7 +352,7 @@ If you already have code written in a file (for example a `.py` file, or a `.R` 
     \lstinputlisting[language=Python]{source_code.py}
 
 
-***Challenge*** Under your table of fruit, include a figure that shows the LaTeX code used to create that table. Include an appropriate caption, label the figure, and write some sentences that refer to in.
+***Challenge:*** Under your table of fruit, include a figure that shows the LaTeX code used to create that table. Include an appropriate caption, label the figure, and write some sentences that refer to in.
 
 
 
@@ -359,7 +384,7 @@ Finally we must tell LaTeX where to look for the `.bib` file, and to output a bi
     \bibliographystyle{plain}
     \bibliography{refs}
 
-***Challenge*** Find an article, book, and (reputable) website, add then to a `.bib` file. Write some sentences that cite these sources, and add a bibliography to your article.
+***Challenge:*** Find an article, book, and (reputable) website, add then to a `.bib` file. Write some sentences that cite these sources, and add a bibliography to your article.
 
 
 Finally, many of you will find this [template](https://github.com/drvinceknight/CU_BSc_LaTeX_Template) useful for writing your final year projects. [Here's](https://www.overleaf.com/read/zxrwjdsfnnvn) a link to an Overleaf project with solutions to the challenges.
