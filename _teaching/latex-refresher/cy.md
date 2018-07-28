@@ -34,8 +34,11 @@ awgrymu cael fersiwn lleol o LaTeX ar gyfer gwaith difrifol.
 + <a href="#7">7. Cod</a>
 + <a href="#8">8. Amgylcheddau</a>
 + <a href="#9">9. Llyfryddiaethau</a>
++ <a href="#10">10. Cyflwyniadau</a>
 
 &nbsp;
+
+---
 
 <h1 id="1">1. Sylfeini</h1>
 
@@ -47,7 +50,7 @@ achos yma), ac yn lle mae'r dogfen ei hun yn dechrau a lle mae'n gorffen:
     \documentclass{article}
 
     \begin{document}
-    % Eich cynnwys fan hyn...  
+    % Eich cynnwys fan hyn...
     \end{document}
 
 Enw'r cod rhwng `\begin` a `\end` y ddogfen yw'r prif gorff.
@@ -80,6 +83,8 @@ O fewn y prif gorff, fe allwn greu abstract yn defnyddio:
 
 &nbsp;
 
+---
+
 <h1 id="2">2. Adrannau</h1>
 
 Mae adrannau yn ddefnyddiol ar gyfer trefnu eich erthygl i ddarnau hylaw ar
@@ -111,6 +116,8 @@ Arbrofwch gyda adrannau pellach.
 
 
 &nbsp;
+
+---
 
 <h1 id="3">3. Rhestrau & Thablau</h1>
 
@@ -219,6 +226,8 @@ Arbrofwch gydag aliniadau cell wahanol, a ffiniau cell.
 
 
 &nbsp;
+
+---
 
 <h1 id="4">4. Mathemateg</h1>
 
@@ -350,6 +359,8 @@ Astudiwch yr enghraifft ganlynol o'r ffwythiant step Heavyside:
 
 &nbsp;
 
+---
+
 <h1 id="5">5. Ffigyrau</h1>
 
 Ychwanegir ffigyrau trwy ddefnyddio'r amgylchedd `figure`.
@@ -440,6 +451,8 @@ Tynnir y diagram llif canlynol gyda'r cod tikz isod:
 
 &nbsp;
 
+---
+
 <h1 id="6">6. Labeli</h1>
 
 Labeli yw sut y gallwn gyfeirio at adrannau, ffigyrau, a hafaliadau (a llawer o
@@ -478,6 +491,8 @@ Ysgrifennwch gwpl o frawddegau yn cyfeirio at bob un o rain.
 
 &nbsp;
 
+---
+
 <h1 id="7">7. Cod</h1>
 
 Ychwanegir pytiau cod trwy ddefnyddio pecyn o'r enw `listings`.
@@ -514,6 +529,8 @@ yn cyfeirio ato.
 
 
 &nbsp;
+
+---
 
 <h1 id="8">8. Amgylcheddau</h1>
 
@@ -568,6 +585,8 @@ mathemategol.
 
 &nbsp;
 
+---
+
 <h1 id="9">9. Llyfryddiaethau</h1>
 
 I greu llyfryddiaethau a chyfeiriadau, mae angen ychwanegu ffeil `.bib` yn
@@ -613,8 +632,98 @@ Ysgrifennwch frawddegau sy'n cyfeirio at y ffynhonnellau yma, ac ychwanegwch
 lyfryddiaeth i'ch erthygl.
 
 
+&nbsp;
+
+---
+
+<h1 id="10">10. Cyflwyniadau</h1>
+
+Hyd yn hyn rydym ond wedi ystyried y dosbarth dogfen `article`.
+Gallwn creu cyflwyniadau fel rhai 'powerpoint' gyda latex trwy defnyddio'r
+dosbarth dogfen `beamer`.
+Dylai rhaglith y cyflwyniad beamer edrych fel hyn:
+
+    \documentclass{beamer}
+
+    \begin{document}
+    % Eich cynnwys fan hyn...
+    \end{document}
+
+Mae cyflwyniad Beamer yn cynnwys cyfres o 'fframau'.
+Mae gan rhain cynnwys tu fewn i amgylchedd `frame`.
+Gall ffrâm cael teitl, wedi'i osod gan `\frametitle{`:
+
+    \begin{frame}
+      \frametitle{Teitl fy ffr\^{a}m}
+      Cynnwys...
+    \end{frame}
+
+<img src="{{site.baseurl}}/images/beamer-cy.png" width="600">{: .center-image }
+
+Gallwn cynnys popeth rydym wedi edrych arnynt hyd yn hyn o fewn cynnwys y frame:
+rhestrau, tablau, ffigyrau, mathemateg a cod.
+Hefyd mae gan Beamer gorchmynion pellach ar gyfer trin
+[troshaenau](https://www.sharelatex.com/blog/2013/08/20/beamer-series-pt4.html):
+
++ Mae `\pause` yn splitio ffrâm: rhoddir cynnwys cyn y gorchymyn hyn ar un
+ffrâm, ac ar y ffrâm nesaf yn bydd y cynnwys cyn ac ar ôl y gorchymyn yma.
++ Mae `\onslide<3>{}` a `\only<3>{}` yn opsiynnau troshaen fwy hyblyg. Bydd y
+cynnwys o fewn y cromfachau cyrliog yn dangos are y troshaen y rhif sydd o fewn
+y symbolau `<` ac `>`; yn yr achos yma ar y 3ydd troshaen. I dangos cynnwys ar
+fframau o'r trydydd troshaen ymlaen gallwn ychwanegu llinell doriad: `<3->`.
++ Nodwch bod `\onslide` ac `\only` yn ymddwyn bach yn wahanol o rhan leoliadau.
+Cymharwch:
+
+      \begin{frame}
+        \frametitle{Enghreifftiau troshaen}
+        \onslide<1->{Cyntaf}
+      
+        \onslide<2>{Ail}
+      
+        \onslide<3>{Trydydd}
+      \end{frame}
+
+  <img src="{{site.baseurl}}/images/onslide1-cy.png" width="230">
+  <img src="{{site.baseurl}}/images/onslide2-cy.png" width="230">
+  <img src="{{site.baseurl}}/images/onslide3-cy.png" width="230">
+
+  i:
+
+      \begin{frame}
+        \frametitle{Enghreifftiau troshaen}
+        \only<1->{Cyntaf}
+      
+        \only<2>{Ail}
+      
+        \only<3>{Trydydd}
+      \end{frame}
+
+  <img src="{{site.baseurl}}/images/only1-cy.png" width="230">
+  <img src="{{site.baseurl}}/images/only2-cy.png" width="230">
+  <img src="{{site.baseurl}}/images/only3-cy.png" width="230">
+
+Gallwn addasu cyflwyniadau Beamer trwy dewis thema a thema lliw.
+I osod rhain, defnyddiwch y gorchmynion isod mewn rhaglith y dogfen Beamer
+(mae'r enghraifft yma yn dewis y thema `Singapore` a'r thema lliw `crane`):
+
+    \usetheme{Singapore}
+    \usecolortheme{crane}
+
+Cymerwch cipolwg ar y
+[matrics steiliau beamer](https://hartwork.org/beamer-theme-matrix/)
+i weld esiamplau o holl cyfuniadau y themau a'r themau lliw.
+
+> ***Her:*** Crëwch cyflwyniad tri ffrâm yn disgrifio theorem mathemategol o'ch
+dewis. Dewisiwch thema a thema lliw, defnyddiwch mathemateg, ychwanegwch ffigwr,
+ac arbrofwch gyda opsiynnau troshaen.
+
+&nbsp;
+
+---
+
+
 Yn olaf, efallai bydd nifer ohonoch yn ffeindio'r
 [templed yma](https://github.com/drvinceknight/CU_BSc_LaTeX_Template) o werth
 wrth ysgrifennu eith prosiectau blwyddyn olaf.
 [Dyma](https://www.overleaf.com/read/frqfmpwhzndm) linc i prosiect Overleaf gyda
-datrysiadau i'r heriau.
+datrysiadau i rhai o'r heriau.

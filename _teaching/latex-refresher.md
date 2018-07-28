@@ -32,9 +32,12 @@ obtaining a local version of LaTeX for serious work.
 + <a href="#7">7. Code</a>
 + <a href="#8">8. Environments</a>
 + <a href="#9">9. Bibliographies</a>
++ <a href="#10">10. Presentations</a>
 
 
 &nbsp;
+
+---
 
 <h1 id="1">1. Basics</h1>
 
@@ -80,6 +83,8 @@ Within the main body, we can create an abstract using:
 
 &nbsp;
 
+---
+
 <h1 id="2">2. Sections</h1>
 
 Section are useful for organising your article into manageable chunks for
@@ -113,6 +118,8 @@ Experiment with further sectioning.
 
 
 &nbsp;
+
+---
 
 <h1 id="3">3. Lists & Tables</h1>
 
@@ -221,6 +228,8 @@ Experiment with different cell alignments, and cell borders.
 
 
 &nbsp;
+
+---
 
 <h1 id="4">4. Mathematics</h1>
 
@@ -352,6 +361,8 @@ Study the following example of the Heavyside step function:
 
 &nbsp;
 
+---
+
 <h1 id="5">5. Figures</h1>
 
 Figures may be added using the `figure` environment.
@@ -444,6 +455,8 @@ The following flow diagram was drawn using the tikz code below:
 
 &nbsp;
 
+---
+
 <h1 id="6">6. Labels</h1>
 
 Labels are how we can refer to earlier sections, figures, and equations (an many
@@ -483,6 +496,8 @@ Write some sentences that refer to all these things.
 
 &nbsp;
 
+---
+
 <h1 id="7">7. Code</h1>
 
 Including code snippets in your article can be done with another package called
@@ -521,6 +536,8 @@ figure, and write some sentences that refer to in.
 
 
 &nbsp;
+
+---
 
 <h1 id="8">8. Environments</h1>
 
@@ -574,6 +591,8 @@ mathematical terms.
 
 &nbsp;
 
+---
+
 <h1 id="9">9. Bibliographies</h1>
 
 To produce bibliographies, references and citations, we need to include a `.bib`
@@ -619,8 +638,98 @@ Write some sentences that cite these sources, and add a bibliography to your
 article.
 
 
+&nbsp;
+
+---
+
+<h1 id="10">10. Presentations</h1>
+
+So far we have only considered the `article` document class.
+Presentations like 'powerpoint' can be created using latex using the `beamer`
+document class.
+The preable of a beamer presentation will look like this:
+
+    \documentclass{beamer}
+
+    \begin{document}
+    % Your contents here...  
+    \end{document}
+
+A presentation with Beamer consists of a series of 'frames'.
+These contain content contained in a `frame` environment.
+A frame can have a title, set with `\frametitle{`:
+
+    \begin{frame}
+      \frametitle{My frame's title}
+      Content...
+    \end{frame}
+
+<img src="{{site.baseurl}}/images/beamer-en.png" width="600">{: .center-image }
+
+Everything that has been discussed so far can be included in the frame's conent:
+lists, tables, figures, mathematics and code.
+Beamer also has some further commands for manipulating
+[overlays](https://www.sharelatex.com/blog/2013/08/20/beamer-series-pt4.html):
+
++ `\pause` splits a frame: content before this command is put on one frame, and
+the next frame will contain the content both before and after this command.
++ `\onslide<3>{}` and `\only<3>{}` are more flexible overlay options. The
+content within the curly brackets will only be displayed on the number overlay
+inside the `<` and `>` symbols; in this case only on the 3rd overlay. To display
+content on slides from the 3rd overlay onwards we can add a dash: `<3->`.
++ Note that `\onslide` and `\only` have subtly different content positionings.
+Compare:
+
+      \begin{frame}
+        \frametitle{Overlay examples}
+        \onslide<1->{First}
+      
+        \onslide<2>{Second}
+      
+        \onslide<3>{Third}
+      \end{frame}
+
+  <img src="{{site.baseurl}}/images/onslide1-en.png" width="230">
+  <img src="{{site.baseurl}}/images/onslide2-en.png" width="230">
+  <img src="{{site.baseurl}}/images/onslide3-en.png" width="230">
+
+  to:
+
+      \begin{frame}
+        \frametitle{Overlay examples}
+        \only<1->{First}
+      
+        \only<2>{Second}
+      
+        \only<3>{Third}
+      \end{frame}
+
+  <img src="{{site.baseurl}}/images/only1-en.png" width="230">
+  <img src="{{site.baseurl}}/images/only2-en.png" width="230">
+  <img src="{{site.baseurl}}/images/only3-en.png" width="230">
+
+Beamer presentations can be customised with a theme and colour theme.
+To set these, use the following commands in the preable of your Beamer document
+(this example chooses the `Singapore` theme and `crane` colour theme):
+
+    \usetheme{Singapore}
+    \usecolortheme{crane}
+
+Check out the [beamer style matrix](https://hartwork.org/beamer-theme-matrix/)
+for examples of all combinations of themes and colour themes.
+
+> ***Challenge:*** Create a three frame presentation describing a mathematical
+theorem of your choice. Choose a theme and color theme, use mathematics, insert
+a figure, and experiment with overlay options.
+
+&nbsp;
+
+---
+
 Finally, many of you will find this
 [template](https://github.com/drvinceknight/CU_BSc_LaTeX_Template) useful for
 writing your final year projects.
 [Here's](https://www.overleaf.com/read/zxrwjdsfnnvn) a link to an Overleaf
-project with solutions to the challenges.
+project with solutions to some of the challenges.
+
+
