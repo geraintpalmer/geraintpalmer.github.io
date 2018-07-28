@@ -430,7 +430,7 @@ a rhoi tecst wrth gyfesuryn (4, 5):
 Rhaid i bob gorchymyn tikz gorffen gyda hanner colon.
 Tynnir y diagram llif canlynol gyda'r cod tikz isod:
 
-![Siart Llif Tikz]({{ site.url }}/images/tikzflowchart.png)
+![Siart Llif Tikz]({{ site.baseurl }}/images/tikzflowchart-cy.png)
 
 
     \begin{tikzpicture}
@@ -446,7 +446,7 @@ Tynnir y diagram llif canlynol gyda'r cod tikz isod:
 
 > ***Her:*** Ceisiwch ail-greu'r diagram hwn o giw yn defnyddio tikz:
 
-![Diagram Ciw Tikz]({{ site.url }}/images/tikzqueuediagram.png)
+![Diagram Ciw Tikz]({{ site.baseurl }}/images/tikzqueuediagram.png)
 
 
 &nbsp;
