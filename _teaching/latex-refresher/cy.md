@@ -35,6 +35,7 @@ awgrymu cael fersiwn lleol o LaTeX ar gyfer gwaith difrifol.
 + <a href="#8">8. Amgylcheddau</a>
 + <a href="#9">9. Llyfryddiaethau</a>
 
+&nbsp;
 
 <h1 id="1">1. Sylfeini</h1>
 
@@ -74,9 +75,10 @@ O fewn y prif gorff, fe allwn greu abstract yn defnyddio:
     % Eich abstract fan hyn...
     \end{abstract}
 
-***Her:*** Crëwch erthygl gyda theitl, awdur, dyddiad, ac abstract.
+> ***Her:*** Crëwch erthygl gyda theitl, awdur, dyddiad, ac abstract.
 
 
+&nbsp;
 
 <h1 id="2">2. Adrannau</h1>
 
@@ -100,7 +102,7 @@ dogfen:
 
     \tableofcontents
 
-***Her:*** Ychwanegwch tair adran i'ch erthygl, wedi enwi 'Bwyd & Diod',
+> ***Her:*** Ychwanegwch tair adran i'ch erthygl, wedi enwi 'Bwyd & Diod',
 'Dodrefn', a 'Mathemateg'.
 O dan yr adran Bwyd a Diod, ychwanegwch isadrannau 'Ffrwythau' a 'Llysiau'.
 O dan yr isadran 'Ffrwythau', ychwanegwch dau is-isadran pellach o'r enw
@@ -108,6 +110,7 @@ O dan yr isadran 'Ffrwythau', ychwanegwch dau is-isadran pellach o'r enw
 Arbrofwch gyda adrannau pellach.
 
 
+&nbsp;
 
 <h1 id="3">3. Rhestrau & Thablau</h1>
 
@@ -202,19 +205,20 @@ Cymharwch yr allwbn yma i'r uchod:
 
 <img src="{{site.baseurl}}/images/booktabs_example_cy.png" width="400">{: .center-image }
 
-***Her:*** O dan yr adran Dodrefn, crëwch restr rhifedig yn rhestru'r holl
+> ***Her:*** O dan yr adran Dodrefn, crëwch restr rhifedig yn rhestru'r holl
 ddodrefn sydd yn yr ystafell, wedi'i threfnu gan faint.
 O dan bob eitem, crëwch restr bwled yn rhestru rhai priodweddau arall y darn o
 ddodrefn yna.
 Arbrofwch gyda nythu pellach.
 
-***Her:*** O dan yr adran Ffrwythau, crëwch dabl o 7 ffrwyth, yn cynnwys
+> ***Her:*** O dan yr adran Ffrwythau, crëwch dabl o 7 ffrwyth, yn cynnwys
 gwybodaeth am eu lliw, maint, a siâp.
 Arbrofwch gydag aliniadau cell wahanol, a ffiniau cell.
 
 
 
 
+&nbsp;
 
 <h1 id="4">4. Mathemateg</h1>
 
@@ -325,7 +329,7 @@ Astudiwch yr enghraifft ganlynol o'r ffwythiant step Heavyside:
         \end{cases}
       \end{equation}
 
-***Her:*** Ail-grëwch y rhain yn LaTeX:
+> ***Her:*** Ail-grëwch y rhain yn LaTeX:
 
 1. $$ \frac{\partial c}{\partial t} = D \nabla^2 \left( c^3 - c - \gamma \nabla^2 c \right)$$
 
@@ -344,6 +348,7 @@ Astudiwch yr enghraifft ganlynol o'r ffwythiant step Heavyside:
 
 
 
+&nbsp;
 
 <h1 id="5">5. Ffigyrau</h1>
 
@@ -372,7 +377,23 @@ Nawr dylwn ni cael:
       \caption{Disgrifiad cryno o'r ffigwr.}
     \end{figure}
 
-***Her:*** Ffeindiwch lun o ddarn o ddodrefn ar y we, a'i lawrlwytho.
+Gan ddefnyddio'r pecyn `subcaption` gallwn rhoi is-ffigyrau o fewn ffigyrau.
+Mae amgylchedd `subfigure` yn gweithio'n debyg i'r amgylchedd `figure`, ac yn
+galluogu capsiynau ar gyfer yr is-ffigyrau ac hefyd y ffigwr llawn:
+
+    \begin{figure}
+      \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\textwidth]{fy_llun_1.png}
+        \caption{Disgrifiad cryno o'r is-ffigwr cyntaf.}
+      \end{subfigure}
+      \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\textwidth]{fy_llun_2.png}
+        \caption{Disgrifiad cryno o'r ail is-ffigwr.}
+      \end{subfigure}
+      \caption{Capsiwn ar gyfer yr holl ffigwr.}
+    \end{figure}
+
+> ***Her:*** Ffeindiwch lun o ddarn o ddodrefn ar y we, a'i lawrlwytho.
 Rhowch y llun fel ffigwr yn yr adran 'Dodrefn', ychwanegwch gapsiwn priodol.
 
 Fe allwch greu diagramau yn defnyddio'r pecyn `tikz`.
@@ -412,12 +433,12 @@ Tynnir y diagram llif canlynol gyda'r cod tikz isod:
     \end{tikzpicture}
 
 
-***Her:*** Ceisiwch ail-greu'r diagram hwn o giw yn defnyddio tikz:
+> ***Her:*** Ceisiwch ail-greu'r diagram hwn o giw yn defnyddio tikz:
 
 ![Diagram Ciw Tikz]({{ site.url }}/images/tikzqueuediagram.png)
 
 
-
+&nbsp;
 
 <h1 id="6">6. Labeli</h1>
 
@@ -450,11 +471,12 @@ Hefyd fe ellir labelu ffigyrau a hafaliadau:
       \label{fig:fyllun}
     \end{figure}
 
-***Her:*** Yn eich erthygl, labelwch bob adran, isadran, hafaliad, a ffigwr.
+> ***Her:*** Yn eich erthygl, labelwch bob adran, isadran, hafaliad, a ffigwr.
 Ysgrifennwch gwpl o frawddegau yn cyfeirio at bob un o rain.
 
 
 
+&nbsp;
 
 <h1 id="7">7. Cod</h1>
 
@@ -484,13 +506,14 @@ Pecyn da arall ar gyfer cynnwys pytiau cod yw
 [minted](ftp://ftp.dante.de/tex-archive/macros/latex/contrib/minted/minted.pdf)
 sy'n galluogu uwch-oleuo cystrawen bert.
 
-***Her:*** O dan eich tabl o ffrwythau, ychwanegwch ffigwr sy'n dangos y cod
+> ***Her:*** O dan eich tabl o ffrwythau, ychwanegwch ffigwr sy'n dangos y cod
 LaTeX a ddefnyddioch i greu'r tabl.
 Ychwanegwch gapsiwn priodol, labelwch y ffigwr, a ysgrifennwch frawddeg neu dau
 yn cyfeirio ato.
 
 
 
+&nbsp;
 
 <h1 id="8">8. Amgylcheddau</h1>
 
@@ -509,7 +532,7 @@ yn hyn:
 Gan ddefnyddio'r pecyn `asmthm` cawn mynediau i nifer o gorchmynion ar gyfer
 creu amgylcheddau defnyddiol.
 Defnyddiwn nhw fel arfer ar gyfer *theoremau*, *diffiniadau*, *gosodiadau*,
-*sylwadau ac yn y blaen.
+*sylwadau* ac yn y blaen.
 
 I ddiffinio amgylchedd Theorem yn y rhaglith:
 
@@ -536,13 +559,14 @@ Nawr allwn ni ysgrifennu theorem a prawf fel y ganlyn:
       fel sydd angen.
     \end{proof}
 
-***Her:*** Dewisiwch day theorem syml a rhowch eu profion trwy diffinio
+> ***Her:*** Dewisiwch day theorem syml a rhowch eu profion trwy diffinio
 amgylchedd theorem newydd.
 
-***Her:*** Crëwch amgylchedd diffiniad a'i ddefnyddio i diffinio dau term
+> ***Her:*** Crëwch amgylchedd diffiniad a'i ddefnyddio i diffinio dau term
 mathemategol.
 
 
+&nbsp;
 
 <h1 id="9">9. Llyfryddiaethau</h1>
 
@@ -583,8 +607,8 @@ Ar ddiwedd y ddogfen (cyn `\end{document}`) ychwanegwch:
     \bibliographystyle{plain}
     \bibliography{refs}
 
-***Her:*** Chwiliwch am erthygl, llyfr a gwefan (dibynadwy), a ychwanegwch hwy i
-ffeil `.bib`.
+> ***Her:*** Chwiliwch am erthygl, llyfr a gwefan (dibynadwy), a ychwanegwch nhw
+i ffeil `.bib`.
 Ysgrifennwch frawddegau sy'n cyfeirio at y ffynhonnellau yma, ac ychwanegwch
 lyfryddiaeth i'ch erthygl.
 

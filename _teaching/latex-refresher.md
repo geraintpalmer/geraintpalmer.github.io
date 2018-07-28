@@ -34,6 +34,8 @@ obtaining a local version of LaTeX for serious work.
 + <a href="#9">9. Bibliographies</a>
 
 
+&nbsp;
+
 <h1 id="1">1. Basics</h1>
 
 Many LaTeX commands begin with a backslash `\`.
@@ -73,8 +75,10 @@ Within the main body, we can create an abstract using:
     % Your abstract here...
     \end{abstract}
 
-***Challenge:*** Create an article with a title, author, date, and abstract.
+> ***Challenge:*** Create an article with a title, author, date, and abstract.
 
+
+&nbsp;
 
 <h1 id="2">2. Sections</h1>
 
@@ -98,7 +102,7 @@ can be placed at the beginning of a document:
 
     \tableofcontents
 
-***Challenge:*** Include three sections in your article, entitled 'Food &
+> ***Challenge:*** Include three sections in your article, entitled 'Food &
 Drink', 'Furniture', and 'Mathematics'.
 Under the Food & Drink section, include the subsections 'Fruit', and
 'Vegetables'.
@@ -107,6 +111,8 @@ Fruit', and 'Berries'.
 Experiment with further sectioning.
 
 
+
+&nbsp;
 
 <h1 id="3">3. Lists & Tables</h1>
 
@@ -200,19 +206,21 @@ Compare this output with that above:
 <img src="{{site.baseurl}}/images/booktabs_example_en.png" width="400">{: .center-image }
 
 
-***Challenge:*** Under the Furniture section create a numbered list of all the
+> ***Challenge:*** Under the Furniture section create a numbered list of all the
 furniture in the room by size.
 Under each item, create an unordered list of some attributes of that piece of
 furniture.
 Experiment with further nesting.
 
-***Challenge:*** Under the Fruit section, create a table of 7 fruits, containing
-information on their colour, size, and shape.
+> ***Challenge:*** Under the Fruit section, create a table of 7 fruits,
+containing information on their colour, size, and shape.
 Experiment with different cell alignments, and cell borders.
 
 
 
 
+
+&nbsp;
 
 <h1 id="4">4. Mathematics</h1>
 
@@ -322,7 +330,7 @@ Study the following example of the Heavyside step function:
         \end{cases}
       \end{equation}
 
-***Challenge:*** Reproduce these in LaTeX:
+> ***Challenge:*** Reproduce these in LaTeX:
 
 1. $$\frac{\partial c}{\partial t} = D \nabla^2 \left( c^3 - c - \gamma \nabla^2 c \right)$$
 
@@ -341,6 +349,8 @@ Study the following example of the Heavyside step function:
 
 
 
+
+&nbsp;
 
 <h1 id="5">5. Figures</h1>
 
@@ -369,8 +379,24 @@ Now we should get:
       \caption{A brief description of the figure.}
     \end{figure}
 
-***Challenge:*** Find an image of a piece of furniture on the internet, download
-it.
+With the `subcaption` package subfigures can be places within figures.
+A `subfigure` environment works similar to the `figure` environment, allowing
+captions for both the subfigures and the overall figure:
+
+    \begin{figure}
+      \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\textwidth]{my_image_1.png}
+        \caption{A brief description of the first subfigure.}
+      \end{subfigure}
+      \begin{subfigure}{0.5\textwidth}
+        \includegraphics[width=\textwidth]{my_image_2.png}
+        \caption{A brief description of the second subfigure.}
+      \end{subfigure}
+      \caption{A caption for the whole figure}
+    \end{figure}
+
+> ***Challenge:*** Find an image of a piece of furniture on the internet,
+download it.
 Include it under the 'Furniture' section, add an appropriate caption.
 
 We can create our own diagrams using the `tikz` package.
@@ -409,12 +435,14 @@ The following flow diagram was drawn using the tikz code below:
     \end{tikzpicture}
 
 
-***Challenge:*** Attempt to recreate this diagram of a queue using tikz:
+> ***Challenge:*** Attempt to recreate this diagram of a queue using tikz:
 
 ![Tikz Queue Diagram]({{ site.url }}/images/tikzqueuediagram.png)
 
 
 
+
+&nbsp;
 
 <h1 id="6">6. Labels</h1>
 
@@ -446,12 +474,14 @@ Figures and equations can also be labelled:
       \label{fig:myimage}
     \end{figure}
 
-***Challenge:*** In your article, label all sections, subsections, equations and
-figures.
+> ***Challenge:*** In your article, label all sections, subsections, equations
+and figures.
 Write some sentences that refer to all these things.
 
 
 
+
+&nbsp;
 
 <h1 id="7">7. Code</h1>
 
@@ -483,12 +513,14 @@ Another great package for inluding code snippets is
 [minted](ftp://ftp.dante.de/tex-archive/macros/latex/contrib/minted/minted.pdf)
 which allows for pretty syntax highlighting.
 
-***Challenge:*** Under your table of fruit, include a figure that shows the
+> ***Challenge:*** Under your table of fruit, include a figure that shows the
 LaTeX code used to create that table. Include an appropriate caption, label the
 figure, and write some sentences that refer to in.
 
 
 
+
+&nbsp;
 
 <h1 id="8">8. Environments</h1>
 
@@ -533,12 +565,14 @@ So we can write a theorem with proof as follows:
       as required.
     \end{proof}
 
-***Challenge:*** Choose two simple theorems and give their proofs by defining a
-new theorem environment.
+> ***Challenge:*** Choose two simple theorems and give their proofs by defining
+a new theorem environment.
 
-***Challenge:*** Create a definition environment and use it to define two
+> ***Challenge:*** Create a definition environment and use it to define two
 mathematical terms.
 
+
+&nbsp;
 
 <h1 id="9">9. Bibliographies</h1>
 
@@ -579,7 +613,7 @@ At the end of your document (before `\end{document}`) insert:
     \bibliographystyle{plain}
     \bibliography{refs}
 
-***Challenge:*** Find an article, book, and (reputable) website, add then to a
+> ***Challenge:*** Find an article, book, and (reputable) website, add then to a
 `.bib` file.
 Write some sentences that cite these sources, and add a bibliography to your
 article.
