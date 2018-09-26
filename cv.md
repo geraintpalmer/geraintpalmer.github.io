@@ -23,12 +23,12 @@ Oct 2014 - : **PhD in Applied Stochastic Modelling, Cardiff University.**
 * Modelling of patient flows & working at the interface of a healthcare organisation.
 * Modelling of deadlock in queueing networks using Markov models and discrete event simulation.
 * Development of an internationally used open source software package, [Ciw](http://ciw.readthedocs.io/).
-* Title: *Deadlock in open restricted queueing networks.*
+* Title: *Modelling Deadlock in Queueing Systems.*
 
 
 Oct 2013 - Oct 2014: **MSc Operational Research and Applied Statistics, Cardiff University.** Distinction.
 
-* Taught topics include: Queueing theory, Game theory, Statistical techniques, Time series, Mathematical Programming, Heuristics.
+* Taught topics include: queueing theory, game theory, statistical techniques, time series, mathematical programming, heuristics.
 * Completed dissertation at the University of Twente on an Erasmus placement.
 * Dissertation title: *Optimising surgery schedules in order to increase operating room utilisation and level beds in the PACU and holding area.*
 
@@ -67,10 +67,8 @@ Sept 2010 - May 2013: **BSc Mathematics, Aberystwyth University.** First Class H
 ## Community Building & Organisation
 
 * Member of [the UK OR Society](https://www.theorsociety.com) & chair of [SWORDS](http://www.theorsociety.com/Pages/Regional/swords.aspx) (South Wales Operational Research Discussion Society).
-* Co-organiser of the stochastic modelling stream at Young OR 19.
 * Member of organising committee for [DjangoCon Europe 2015, Cardiff](http://2015.djangocon.eu/).
 * Active member of [PyDiff](http://www.pydiff.wales/), the Cardiff Python meetup.
-* Help run the School of Mathematics Code Club.
 * Regular volunteer and participant at PyCon Namibia (under the [Cardiff University Phoenix Project](http://www.cardiff.ac.uk/about/our-profile/our-values/engagement/transforming-communities/the-phoenix-project)).
 
 
@@ -89,6 +87,8 @@ Sept 2010 - May 2013: **BSc Mathematics, Aberystwyth University.** First Class H
 Bilingual speaker. International experience. Technical topics.
 Diverse audiences including general public, adademics, healthcare practitioners, and member of the Welsh government.
 
+* Sept 2018 - OR60, Lancaster - Poster: *Ciw: An open source discrete event simulation library*
+* June 2018 - Cynhadledd Wyddonol y CCC, Aberystwyth - *Dulliau ac Offerynnau ar gyfer Ymchwil Ailgynhyrchiadwy*
 * April 2018 - School of Mathematics 3MT, Cardiff ([2nd place](https://siamukie.wordpress.com/2018/05/01/cardiff-siam-ima-three-minute-thesis-competition/))
 * Mar 2018 - STEM for Britain, London - Poster: *Modelling Deadlock in Open Resticted Queueing Networks*
 * Feb 2018 - PyCon Namibia, Windhoek - *Agent Based Modelling with Python*
@@ -107,7 +107,7 @@ Diverse audiences including general public, adademics, healthcare practitioners,
 
 ## Skills
 
-**Software:**  Python, LaTeX, VBA, Excel, SPSS, Simul8, HTML, CSS, version control with Git and GitHub.
+**Software:**  Python, LaTeX, Excel, SPSS, Simul8, version control with Git and GitHub.
 
 **Languages:**  English (Fluent), Welsh (Fluent).
 
@@ -120,6 +120,7 @@ Diverse audiences including general public, adademics, healthcare practitioners,
 
 ## Courses Attended
 
+* [The OR Society](http://www.theorsociety.com/) - Early Career Researcher Workshop - Prifysgol Lancaster 2018
 * [Welsh for Adults](https://welshforadults.cardiff.ac.uk/) - Gloywi Iaith CDH001 (Grammar) - Cardiff University 20717/18 (Welsh medium)
 * [Coleg Cymraeg Cenedlaethol](http://www.colegcymraeg.ac.uk/en/)'s Teaching Skills Course - Aberystwyth University 2017 (Welsh Medium)
 * [CHOIR](https://www.utwente.nl/en/choir/) Healthcare Operations Research PhD Summer School - University of Twente 2017

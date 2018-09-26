@@ -4,6 +4,10 @@ title: Talks
 permalink: /talks/
 ---
 
++ [Ciw: An open source discrete event simulation library (poster)]({{ site.url }}/talks/OR60_poster.pdf) - OR60, 2018, Lancaster
+
++ [Dulliau ac Offerynnau ar gyfer Ymchwil Ailgynhyrchiadwy]({{ site.url }}/talks/cynhadleddwyddonol2018.pdf) - Cynhadledd Wyddonol y Coleg Cymraeg Cenedlaethol, 2018, Aberystwyth 
+
 + [Modelling Deadlock in Open Restricted Queueing Networks (poster)]({{ site.url }}/talks/STEMforBritain.pdf) - STEM for Britain, 2018, London
 
 + [Agent Based Modelling with Python]({{ site.url }}/talks/AgentBasedModelling/index.html) - PyCon Namibia, 2018, Windhoek

@@ -660,7 +660,7 @@ Gall ffrâm cael teitl, wedi'i osod gan `\frametitle{`:
 
 <img src="{{site.baseurl}}/images/beamer-cy.png" width="600">{: .center-image }
 
-Gallwn cynnys popeth rydym wedi edrych arnynt hyd yn hyn o fewn cynnwys y frame:
+Gallwn cynnys popeth rydym wedi edrych arnynt hyd yn hyn o fewn cynnwys y ffrâm:
 rhestrau, tablau, ffigyrau, mathemateg a cod.
 Hefyd mae gan Beamer gorchmynion pellach ar gyfer trin
 [troshaenau](https://www.sharelatex.com/blog/2013/08/20/beamer-series-pt4.html):
