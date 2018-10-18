@@ -40,7 +40,8 @@ Rydym ni'n gobeithio dechrau llenwi'r prinder yma er mwyn:
  + Set gynhwysfawr o 28 fideo sy'n cwmpasu lawr lwytho, gosod a rhedeg Python;
  cystrawen sylfaenol; a meddwl algorithmig trwy ddatrys problemau enghreifftiol.
  Y nod yw iddynt ategu a chyd-fynd gydag addysgu ffurfiol mewn prifysgolion.
- Maent ar gael fan hyn: [https://www.youtube.com/playlist?list=PLSkPgScy-DkFdCzwJW9X_B9IfTouojem7](https://www.youtube.com/playlist?list=PLSkPgScy-DkFdCzwJW9X_B9IfTouojem7)
+ Maent ar gael [fan hyn](/teaching/tiwtorialau-python) ac fan hyn:
+ [https://www.youtube.com/playlist?list=PLSkPgScy-DkFdCzwJW9X_B9IfTouojem7](https://www.youtube.com/playlist?list=PLSkPgScy-DkFdCzwJW9X_B9IfTouojem7)
  + Wefan cyfrwng Cymraeg sy'n rhan addasiad o
  [weithdy datblygu meddalwedd ymchwil](https://vknight.org/rsd/), a rhan
  curadiad o adnoddau sgiliau ymchwil cyfrifiadurol. Mae'n cynnwys pynciau megis

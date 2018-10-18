@@ -40,7 +40,8 @@ We are hoping to begin to fill this shortage in order to:
  + A comprehensive set of 28 videos that cover downloading, installing and
  running Python; basic syntax; and algorithmic thinking by solving example
  problems. The aim is for them to complement anc accompancy formal teaching in
- universities. There are available here: [https://www.youtube.com/playlist?list=PLSkPgScy-DkFdCzwJW9X_B9IfTouojem7](https://www.youtube.com/playlist?list=PLSkPgScy-DkFdCzwJW9X_B9IfTouojem7)
+ universities. There are available [here](/teaching/tiwtorialau-python) and
+ here: [https://www.youtube.com/playlist?list=PLSkPgScy-DkFdCzwJW9X_B9IfTouojem7](https://www.youtube.com/playlist?list=PLSkPgScy-DkFdCzwJW9X_B9IfTouojem7)
  + A Welsh language website that is part adapation of a
  [research software development workshop](https://vknight.org/rsd/), and part
  curation of resources on computational research skills. It includes topics such
