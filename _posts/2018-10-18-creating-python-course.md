@@ -29,7 +29,7 @@ We are hoping to begin to fill this shortage in order to:
  Welsh universities (e.g. in Cardiff and Aberystwyth universities, and others) -
  and so support Welsh medium higher education, and deepen theses students'
  experiences.
- + Develop coders and software engineers of the future who are comfirtable
+ + Develop coders and software engineers of the future who are comfortable
  working bilingually.
  + Communicate computational skills in a more personal, accessible and
  appropriate way for the Welsh speaking community.
@@ -39,14 +39,14 @@ We are hoping to begin to fill this shortage in order to:
 
  + A comprehensive set of 28 videos that cover downloading, installing and
  running Python; basic syntax; and algorithmic thinking by solving example
- problems. The aim is for them to complement anc accompancy formal teaching in
+ problems. The aim is for them to complement and accompany formal teaching in
  universities. There are available [here](/teaching/tiwtorialau-python) and
  here: [https://www.youtube.com/playlist?list=PLSkPgScy-DkFdCzwJW9X_B9IfTouojem7](https://www.youtube.com/playlist?list=PLSkPgScy-DkFdCzwJW9X_B9IfTouojem7)
- + A Welsh language website that is part adapation of a
+ + A Welsh language website that is part adaptation of a
  [research software development workshop](https://vknight.org/rsd/), and part
  curation of resources on computational research skills. It includes topics such
  open research, automation skills, best practices in coding, and version
- control. This adaption to a website increases it's availability to the
+ control. This adaptation to a website increases it's availability to the
  community of Welsh speaking researchers, and can also act as a reference
  resource. It is available here: [https://sgiliauymchwilcyfrifiadurol.github.io/](https://sgiliauymchwilcyfrifiadurol.github.io/)
 
