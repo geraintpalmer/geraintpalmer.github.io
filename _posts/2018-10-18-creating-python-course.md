@@ -5,7 +5,7 @@ language   : english
 comments   : true
 ---
 
-Over the Summer I was successful in my application for on of the
+Over the Summer I was successful in my application for one of the
 [Coleg Cymraeg Cenedlaethol's small grants](http://www.colegcymraeg.ac.uk/en/thecoleg/projects/smallgrants/) (£2500), to start a project entitled
 "Creating Welsh Medium Multi-Media Programming Resources".
 There were two main aims to the project, to teach and communicate computational
