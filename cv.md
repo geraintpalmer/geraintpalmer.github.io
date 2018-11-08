@@ -120,7 +120,7 @@ Diverse audiences including general public, adademics, healthcare practitioners,
 
 ## Courses Attended
 
-* [The OR Society](http://www.theorsociety.com/) - Early Career Researcher Workshop - Prifysgol Lancaster 2018
+* [The OR Society](http://www.theorsociety.com/) - Early Career Researcher Workshop - Lancaster University 2018
 * [Welsh for Adults](https://welshforadults.cardiff.ac.uk/) - Gloywi Iaith CDH001 (Grammar) - Cardiff University 20717/18 (Welsh medium)
 * [Coleg Cymraeg Cenedlaethol](http://www.colegcymraeg.ac.uk/en/)'s Teaching Skills Course - Aberystwyth University 2017 (Welsh Medium)
 * [CHOIR](https://www.utwente.nl/en/choir/) Healthcare Operations Research PhD Summer School - University of Twente 2017
