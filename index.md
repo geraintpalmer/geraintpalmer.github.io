@@ -4,8 +4,7 @@ layout: default
 
 ### About
 
- + PhD student at Cardiff University.
- + Welsh language teaching associate.
+ + Teaching Associate at Cardiff University.
  + Software development and teaching.
  + Research interests: stochastic modelling, queueing theory, simulation.
  + Bilingual: English, Cymraeg.

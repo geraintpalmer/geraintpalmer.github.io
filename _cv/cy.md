@@ -17,7 +17,7 @@ Medi 2017 - : **Cynorthwy-ydd Addysgu Cyfrwng Cymraeg** yn Ysgol Mathemateg Prif
 
 ## Addysg
 
-Hyd 2014 - : **PhD mewn Modelu Stocastig Cymhwysol, Prifysgol Caerdydd.**
+Hyd 2014 - Tach 2018: **PhD mewn Modelu Stocastig Cymhwysol, Prifysgol Caerdydd.**
 
 * Goruchwylwyr: Yr Athro Paul Harper & Dr. Vincent Knight
 * Wedi'i chyd-ariannu gan [ABUHB](http://www.wales.nhs.uk/sitesplus/866/home) a Phrifysgol Caerdydd.

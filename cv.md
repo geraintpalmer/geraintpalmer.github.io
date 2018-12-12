@@ -16,7 +16,7 @@ Sept 2017 - : **Welsh Medium Teaching Associate** at Cardiff University's School
 
 ## Education
 
-Oct 2014 - : **PhD in Applied Stochastic Modelling, Cardiff University.**
+Oct 2014 - Nov 2018: **PhD in Applied Stochastic Modelling, Cardiff University.**
 
 * Supervisors: Prof. Paul Harper & Dr. Vincent Knight
 * Jointly funded by [ABUHB](http://www.wales.nhs.uk/sitesplus/866/home) & Cardiff University.
