@@ -4,6 +4,8 @@ title: Talks
 permalink: /talks/
 ---
 
++ [Gotta Solve 'Em All]({{ site.url }}/talks/PGR-talk-2018.pdf) - Postgraduate Seminar, 2018, Cardiff
+
 + [Ciw: An open source discrete event simulation library (poster)]({{ site.url }}/talks/OR60_poster.pdf) - OR60, 2018, Lancaster
 
 + [Dulliau ac Offerynnau ar gyfer Ymchwil Ailgynhyrchiadwy]({{ site.url }}/talks/cynhadleddwyddonol2018.pdf) - Cynhadledd Wyddonol y Coleg Cymraeg Cenedlaethol, 2018, Aberystwyth 
