@@ -10,9 +10,9 @@ I always introduce the Normal distribution by saying "lots of natural things fol
 
 <img src="{{site.baseurl}}/images/NormalDist.png" width="350">{: .center-image }
 
-It's nice to begin with talking about a [Galton board](https://en.wikipedia.org/wiki/Bean_machine) (or bean machine) which shows that a small cumulative increments either side of a starting point results in a final resting place that follows a Normal distribution.
+It's nice to begin by talking about a [Galton board](https://en.wikipedia.org/wiki/Bean_machine) (or bean machine) which shows that a small cumulative increments either side of a starting point results in a final resting place that follows a Normal distribution.
 
-We could say that as a child's height will differ by a small increment to their parents then this Galton board can explain why human height follows a Normal distribution.
+We could say that as a child's height will differ by a small increment to their parents; then this Galton board can explain why human height follows a Normal distribution.
 But this seems to me a bit of a hand-wavy explanation.
 
 Let's think about Darwin's theory of natural selection.
@@ -110,7 +110,7 @@ Plotting the distribution of heights of each generation show that they also begi
 Again, consider the $$k^{\text{th}}$$ generation:
 
 + This is the distribution of sums of random samples of size $$2$$ of the previous *acquired* generation (divided by $$2$$),
-+ The previous *acquired* generation is the sum of elements of the previous generation and $$x \sim \text{Uniform}(-\epsilon, \epsilon)$$,
++ The previous *acquired* generation is the sum of elements of the original previous generation and $$x \sim \text{Uniform}(-\epsilon, \epsilon)$$,
 + So, in turn, the $$k^{\text{th}}$$ generation is the sum of random samples of size $$2^k$$ of elements of the first generation (constants of 5) plus $$kx$$ (and divided by $$2^k$$), where $$x \sim \text{Uniform}(-\epsilon, \epsilon)$$,
 
 and so the Central Limit Theorem can be applied again, explaining the trend towards normality.
