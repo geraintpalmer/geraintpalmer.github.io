@@ -10,6 +10,10 @@ twitter_username: "@GeraintPalmer"
 markdown: kramdown
 permalink: pretty
 syntax_highlighter: rouge
+future: true
+
+plugins:
+   - jekyll-paginate
 
 paginate: 6
 paginate_path: "/blog/:num/"
