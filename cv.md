@@ -9,9 +9,11 @@ title: CV
 
 Sept 2017 - : **Welsh Medium Teaching Associate** at Cardiff University's School of Mathematics
 
-+ Welsh medium example classes and tutorials
++ Module Leader: *Preliminary Mathematics II, Datrys Problemau*
++ Tutorials, Example Classes, and Labs: *Preliminary Mathematics I, Cyflwyniad i Theori Tebygolrywdd, Cyfrifiadureg ar gyfer Mathemateg, Algebra Llinol II, Calcwlws Aml-Newidyn a Fector, Dadansoddi Cymhlyg, Cyfresi a Thrawsffurfiau*
 + Translation of educational resources
 + Welsh provision at Maths Support
++ Supporting FMSP outreach events
 
 
 ## Education
@@ -53,6 +55,20 @@ Sept 2010 - May 2013: **BSc Mathematics, Aberystwyth University.** First Class H
 
 
 
+## Funding
+
++ 2019 - [NESTA - Y Lab](https://www.nesta.org.uk/project/y-lab/) modelling work with [MAWWFRS](www.mawwfire.gov.uk/) -  £1,606
++ 2018 - [Coleg Cymraeg Small Grant](http://www.colegcymraeg.ac.uk/cy/ycoleg/prosiectau/grantiaubach/) (Creating Welsh medium multi-media progamming resources) -  £2,500
++ 2017 - [Sustainable Software Institute](https://www.software.ac.uk/) Fellowship -  £3,000
+
+
+## Research Interests
+
++ Applied operational research, in particular healthcare and public services,
++ Stochastic simulation,
++ Stochastic modelling, graph theory, and queueing theory.
+
+
 ## Learning & Teaching
 
 * Delivery of example classes, lectures and tutorials (see [Teaching](/teaching/)).
@@ -61,7 +77,7 @@ Sept 2010 - May 2013: **BSc Mathematics, Aberystwyth University.** First Class H
 * Translation of pedagogic material from English to Welsh.
 * Production of new learning materials in both English and Welsh.
 * Key participant in innovative international development initiative leading active learning sessions at the University of Namibia (under the [Cardiff University Phoenix Project](http://www.cardiff.ac.uk/about/our-profile/our-values/engagement/transforming-communities/the-phoenix-project)).
-
+* Supervision of Summer project and Nuffield placement students.
 
 
 ## Community Building & Organisation
@@ -70,7 +86,16 @@ Sept 2010 - May 2013: **BSc Mathematics, Aberystwyth University.** First Class H
 * Member of organising committee for [DjangoCon Europe 2015, Cardiff](http://2015.djangocon.eu/).
 * Active member of [PyDiff](http://www.pydiff.wales/), the Cardiff Python meetup.
 * Regular volunteer and participant at PyCon Namibia (under the [Cardiff University Phoenix Project](http://www.cardiff.ac.uk/about/our-profile/our-values/engagement/transforming-communities/the-phoenix-project)).
+* Experience of organising conference streams and assisting in conference organisation (Young OR 19, SSI Collaborations Workshop 2018).
+* Organiser of a yearly [Research Software Development Workshop](https://vknight.org/rsd/) for PhD students at the School of Mathematics.
+* Have lead many outreach activities for school pupils of all ages (from years 5 to 13) in both English and Welsh.
 
+
+## Skills
+
+**Software:**  Python, LaTeX, Excel, SPSS, Simul8, version control with Git and GitHub.
+
+**Languages:**  English (Fluent), Welsh (Fluent).
 
 
 
@@ -81,16 +106,31 @@ Sept 2010 - May 2013: **BSc Mathematics, Aberystwyth University.** First Class H
 * Contributor to the open source project [Axelrod](https://github.com/Axelrod-Python/Axelrod).
 
 
+## Courses Attended
+
+* [The OR Society](http://www.theorsociety.com/) - Early Career Researcher Workshop - Lancaster University 2018
+* [Welsh for Adults](https://welshforadults.cardiff.ac.uk/) - Gloywi Iaith CDH001 (Grammar) - Cardiff University 2017/18 (Welsh medium)
+* [Coleg Cymraeg Cenedlaethol](http://www.colegcymraeg.ac.uk/en/)'s Teaching Skills Course - Aberystwyth University 2017 (Welsh Medium)
+* [CHOIR](https://www.utwente.nl/en/choir/) Healthcare Operations Research PhD Summer School - University of Twente 2017
+* [NATCOR](http://www.natcor.ac.uk) Forecasting & Predictive Analysis - Lancaster University 2016
+* [NATCOR](http://www.natcor.ac.uk) Convex Optimisation - Edinburgh University 2016
+* [Coleg Cymraeg Cenedlaethol](http://www.colegcymraeg.ac.uk/en/)'s Research Skills Programme - Lampeter University 2015 (Welsh Medium)
+* [NATCOR](http://www.natcor.ac.uk) Combinatorial Optimisation - Southampton University 2015
+* [NATCOR](http://www.natcor.ac.uk) Simulation - Loughborough University 2015
+* Data Mining - Cardiff University 2015
+* [NATCOR](http://www.natcor.ac.uk) Stochastic Modelling - Lancaster University 2015
+
+
 
 ## Presentations
 
 Bilingual speaker. International experience. Technical topics.
-Diverse audiences including general public, adademics, healthcare practitioners, and member of the Welsh government.
+Diverse audiences including general public, academics, healthcare practitioners, and member of the Welsh government.
 
 * Sept 2018 - OR60, Lancaster - Poster: *Ciw: An open source discrete event simulation library*
 * June 2018 - Cynhadledd Wyddonol y CCC, Aberystwyth - *Dulliau ac Offerynnau ar gyfer Ymchwil Ailgynhyrchiadwy*
 * April 2018 - School of Mathematics 3MT, Cardiff ([2nd place](https://siamukie.wordpress.com/2018/05/01/cardiff-siam-ima-three-minute-thesis-competition/))
-* Mar 2018 - STEM for Britain, London - Poster: *Modelling Deadlock in Open Resticted Queueing Networks*
+* Mar 2018 - STEM for Britain, London - Poster: *Modelling Deadlock in Open Restricted Queueing Networks*
 * Feb 2018 - PyCon Namibia, Windhoek - *Agent Based Modelling with Python*
 * Oct 2017 - PyCon UK, Cardiff - *Python for Operational Research in Healthcare*
 * April 2017 - IMA and OR Society Conference on Mathematics of Operational Research, Aston - *Queueing networks, Deadlock and Healthcare*
@@ -103,34 +143,6 @@ Diverse audiences including general public, adademics, healthcare practitioners,
 * Sept 2015 - Young OR 19, Aston - *Queueing Networks for a Healthcare System, Deadlocking & Reinforcement Learning*
 * July 2015 - EURO 2015, Glasgow - *Queueing Networks for a Healthcare System Deadlocking, Reinforcement Learning & Workforce Planning*
 * Feb 2015 - Python Namibia 2015, Windhoek - *Playing with Reinforcement Learning in Python*
-
-
-## Skills
-
-**Software:**  Python, LaTeX, Excel, SPSS, Simul8, version control with Git and GitHub.
-
-**Languages:**  English (Fluent), Welsh (Fluent).
-
-
-## Funding
-
-+ 2018 - [Coleg Cymraeg Small Grant](http://www.colegcymraeg.ac.uk/cy/ycoleg/prosiectau/grantiaubach/) (Creating Welsh medium multi-media progamming resources) -  £2,500
-+ 2017 - [Sustainable Software Institute](https://www.software.ac.uk/) Fellowship -  £3,000
-
-
-## Courses Attended
-
-* [The OR Society](http://www.theorsociety.com/) - Early Career Researcher Workshop - Lancaster University 2018
-* [Welsh for Adults](https://welshforadults.cardiff.ac.uk/) - Gloywi Iaith CDH001 (Grammar) - Cardiff University 20717/18 (Welsh medium)
-* [Coleg Cymraeg Cenedlaethol](http://www.colegcymraeg.ac.uk/en/)'s Teaching Skills Course - Aberystwyth University 2017 (Welsh Medium)
-* [CHOIR](https://www.utwente.nl/en/choir/) Healthcare Operations Research PhD Summer School - University of Twente 2017
-* [NATCOR](http://www.natcor.ac.uk) Forecasting & Predictive Analysis - Lancaster University 2016
-* [NATCOR](http://www.natcor.ac.uk) Convex Optimisation - Edinburgh University 2016
-* [Coleg Cymraeg Cenedlaethol](http://www.colegcymraeg.ac.uk/en/)'s Research Skills Programme - Lampeter University 2015 (Welsh Medium)
-* [NATCOR](http://www.natcor.ac.uk) Combinatorial Optimisation - Southampton University 2015
-* [NATCOR](http://www.natcor.ac.uk) Simulation - Loughborough University 2015
-* Data Mining - Cardiff University 2015
-* [NATCOR](http://www.natcor.ac.uk) Stochastic Modelling - Lancaster University 2015
 
 
 

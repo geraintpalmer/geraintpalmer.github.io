@@ -10,9 +10,11 @@ permalink: cv/cy/
 
 Medi 2017 - : **Cynorthwy-ydd Addysgu Cyfrwng Cymraeg** yn Ysgol Mathemateg Prifysgol Caerdydd
 
-+ Dosbarthiadau enghreifftiol a thiwtorialau cyfrwng Cymraeg
++ Arweinydd Modiwl: *Preliminary Mathematics II, Datrys Problemau*
++ Tiwtorialau, Dosbarthiadau Enghreifftiol, a Labiau: *Preliminary Mathematics I, Cyflwyniad i Theori Tebygolrywdd, Cyfrifiadureg ar gyfer Mathemateg, Algebra Llinol II, Calcwlws Aml-Newidyn a Fector, Dadansoddi Cymhlyg, Cyfresi a Thrawsffurfiau*
 + Cyfieithu adnoddau addysgu
-+ Darpariaeth cyfrwng Cymraeg yn Maths Support
++ Darpariaeth cyfrwng Cymraeg yn y gwasanaeth Cefnogaeth Mathemateg
++ Cefnogi digwyddiadau allanol FMSP
 
 
 ## Addysg
@@ -53,6 +55,21 @@ Medi 2010 - Mai 2013: **BSc Mathemateg, Prifysgol Aberystwyth.** Anrhydedd Dosba
 </ul>
 
 
+## Cyllidau
+
++ 2019 - Gwaith modelu [NESTA - Y Lab](https://www.nesta.org.uk/project/y-lab/) gyda [MAWWFRS](www.mawwfire.gov.uk/) -  £1,606
++ 2018 - [Grant Bach y Coleg Cymraeg](http://www.colegcymraeg.ac.uk/cy/ycoleg/prosiectau/grantiaubach/) (Creu adnoddau aml-gyfrwng rhaglennu cyfrwng Cymraeg) -  £2,500
++ 2017 - Cymrodoriaeth y [Sustainable Software Institute](https://www.software.ac.uk/) - £3,000
+
+
+
+## Diddordebau Ymchwil
+
++ Ymchwil gweithrediadol cymhwysol, yn arbennig mewn gofal iechyd a gwasanaethau cyhoeddus,
++ Efelychiadau stocastig,
++ Modelu stocastig, theori graffiau, a theori ciwio.
+
+
 ## Dysgu
 
 * Dosbarthiadau enghreifftiol, darlithoedd a thiwtorialau (gweler [Dysgu](/teaching/)).
@@ -60,17 +77,27 @@ Medi 2010 - Mai 2013: **BSc Mathemateg, Prifysgol Aberystwyth.** Anrhydedd Dosba
 * Tiwtor cefnogaeth mathemateg ac ystadegaeth.
 * Cyfieithu adnoddau pedagogaidd o Saesneg i Gymraeg.
 * Cynhyrchu adnoddau dysgu newydd yn Gymraeg ac yn Saesneg.
-* Cyfrannwr allweddol yn fenter datblygiad rhyngwladol arloesol, trwy arwain sesiynau dysgu actif ym Mhrifysgol Namibia (gyda [Prosiect Phoenix Prifysgol Caerdydd](http://www.cardiff.ac.uk/about/our-profile/our-values/engagement/transforming-communities/the-phoenix-project)).
+* Cyfrannwr allweddol yn fenter datblygiad rhyngwladol arloesol, trwy arwain sesiynau dysgu actif ym Mhrifysgol Namibia (o dan nawdd [Prosiect Phoenix Prifysgol Caerdydd](http://www.cardiff.ac.uk/about/our-profile/our-values/engagement/transforming-communities/the-phoenix-project)).
++ Goruchwylio myfyrwyr prosiect Haf a leoliad Nuffield.
 
 
 
 ## Adeiladu Cymdeithasau & Threfnu
 
-* Aelod o [Gymdeithas Ymchwil Weithrediadol y DU](https://www.theorsociety.com) & cadair bwyllgor [SWORDS](http://www.theorsociety.com/Pages/Regional/swords.aspx) (Cymdeithas Trafodaeth Ymchwil Gweithrediadol De Cymru.)
+* Aelod o [Gymdeithas Ymchwil Weithrediadol y DU](https://www.theorsociety.com) & chadair [SWORDS](http://www.theorsociety.com/Pages/Regional/swords.aspx) (Cymdeithas Trafodaeth Ymchwil Gweithrediadol De Cymru.)
 * Aelod o bwyllgor trefnu [DjangoCon Ewrop 2015, Caerdydd](http://2015.djangocon.eu/).
 * Aelod gweithredol o [PyDiff](http://www.pydiff.wales/), grŵp cyfarod Python Caerdydd.
-* Gwirfoddolwr a chyfrannwr rheolaidd yn PyCon Namibia (gyda [Prosiect Phoenix Prifysgol Caerdydd](http://www.cardiff.ac.uk/about/our-profile/our-values/engagement/transforming-communities/the-phoenix-project)).
+* Gwirfoddolwr a chyfrannwr rheolaidd yn PyCon Namibia (o dan nawdd [Prosiect Phoenix Prifysgol Caerdydd](http://www.cardiff.ac.uk/about/our-profile/our-values/engagement/transforming-communities/the-phoenix-project)).
+* Profiad trefnu ffrydoedd cynhadledd a helpu trefnu cynhadleddau (Young OR 19, Gweithdy Cydweithio'r SSI 2018).
+* Un o drefnwyr [Gweithdu Datblygu Meddalwedd Ymchwil](https://vknight.org/rsd/) blynyddol ar gyfer myfyrwyr PhD yr Ysgol Mathemateg.
+* Wedi arwain nifer o ddigwyddiadau estyn ar gyfer disgyblion ysgol o bob oedran (o flynyddoedd 5 i 13) yn Saesneg ac yn Gymraeg.
 
+
+## Sgiliau
+
+**Meddalwedd:**  Python, LaTeX, Excel, SPSS, Simul8, rheolaeth fersiwn gyda Git a GitHub.
+
+**Ieithoedd:** Cymraeg (Rhygl), Saesneg (Rhygl).
 
 
 
@@ -79,6 +106,21 @@ Medi 2010 - Mai 2013: **BSc Mathemateg, Prifysgol Aberystwyth.** Anrhydedd Dosba
 * Prif ddatblygwr a chynhaliwr [Ciw](https://github.com/CiwPython/Ciw) ([ciw.readthedocs.io](http://ciw.readthedocs.io/)), llyfrgell Python ar gyfer efelychu rhwydweithiau ciwio.
 * Profiad defnyddio technegau datblygu meddalwedd modern: rheolaeth fersiwn, profion awtomatig, integreiddiad parhaus.
 * Cyfrannwr i'r prosiect ffynhonnell agored [Axelrod](https://github.com/Axelrod-Python/Axelrod).
+
+
+## Cyrsiau a Fynychwyd
+
+* [Cymdeithas Ymchwil Weithrediadol y DU](http://www.theorsociety.com/) - Gweithdy Ymchwilwyr Gyrfa Cynnar - Prifysgol Lancaster 2018
+* [Cymraeg i Oedolion](https://welshforadults.cardiff.ac.uk/cy) - Gloywi Iaith CDH001 (Gramadeg) - Prifysgol Caerdydd 20717/18 (Cyfrwng Cymraeg)
+* Cwrs Sgiliau Addysgu y [Coleg Cymraeg Cenedlaethol](http://www.colegcymraeg.ac.uk/cy/) - Prifysgol Aberystwyth 2017 (Cyfrwng Cymraeg)
+* Ysgol Haf PhD [CHOIR](https://www.utwente.nl/en/choir/) ar Ymchwil Gweithrediadol Gofal Iechyd - Prifysgol Twente 2017
+* [NATCOR](http://www.natcor.ac.uk) Rhagolygu & Dadansoddiad Rhagfynegol - Prifysgol Lancaster 2016
+* [NATCOR](http://www.natcor.ac.uk) Optimeiddiaeth Amgrwm - Prifysgol Caeredin 2016
+* Rhaglen Sgiliau Ymchwil y [Coleg Cymraeg Cenedlaethol](http://www.colegcymraeg.ac.uk/cy/) - Prifysgol Llambed 2015 (Cyfrwng Cymraeg)
+* [NATCOR](http://www.natcor.ac.uk) Optimeiddiaeth Cyfuniadol - Prifysgol Southampton 2015
+* [NATCOR](http://www.natcor.ac.uk) Efelychiad Cyfrifiadurol - Prifysgol Loughborough 2015
+* Cwrs Cloddio Data - Prifysgol Caerdydd 2015
+* [NATCOR](http://www.natcor.ac.uk) Modelu Stocastig - Prifysgol Lancaster 2015
 
 
 
@@ -103,35 +145,6 @@ Cynulleidfaoedd amryw gan gynnwys y cyhoedd, academyddion, ymarferwyr gofal iech
 * Medi 2015 - Young OR 19, Aston - *Queueing Networks for a Healthcare System, Deadlocking & Reinforcement Learning*
 * Gorff 2015 - EURO 2015, Glasgow - *Queueing Networks for a Healthcare System Deadlocking, Reinforcement Learning & Workforce Planning*
 * Chwef 2015 - Python Namibia 2015, Windhoek - *Playing with Reinforcement Learning in Python*
-
-
-## Sgiliau
-
-**Meddalwedd:**  Python, LaTeX, Excel, SPSS, Simul8, rheolaeth fersiwn gyda Git a GitHub.
-
-**Ieithoedd:**  Saesneg (Rhygl), Cymraeg (Rhygl).
-
-
-## Cyllidau
-
-+ 2018 - [Grant Bach y Coleg Cymraeg](http://www.colegcymraeg.ac.uk/cy/ycoleg/prosiectau/grantiaubach/) (Creu adnoddau aml-gyfrwng rhaglennu cyfrwng Cymraeg) -  £2,500
-+ 2017 - Cymrodoriaeth y [Sustainable Software Institute](https://www.software.ac.uk/) - £3,000
-
-
-
-## Cyrsiau a Fynychwyd
-
-* [Cymdeithas Ymchwil Weithrediadol y DU](http://www.theorsociety.com/) - Gwiethdy Ymchwilwyr Gyrfa Cynnar - Prifysgol Lancaster 2018
-* [Cymraeg i Oedolion](https://welshforadults.cardiff.ac.uk/cy) - Gloywi Iaith CDH001 (Gramadeg) - Prifysgol Caerdydd 20717/18 (Cyfrwng Cymraeg)
-* Cwrs Sgiliau Addysgu y [Coleg Cymraeg Cenedlaethol](http://www.colegcymraeg.ac.uk/cy/) - Prifysgol Aberystwyth 2017 (Cyfrwng Cymraeg)
-* Ysgol Haf PhD [CHOIR](https://www.utwente.nl/en/choir/) ar Ymchwil Gweithrediadol Gofal Iechyd - Prifysgol Twente 2017
-* [NATCOR](http://www.natcor.ac.uk) Rhagolygu & Dadansoddiad Rhagfynegol - Prifysgol Lancaster 2016
-* [NATCOR](http://www.natcor.ac.uk) Optimeiddiaeth Amgrwm - Prifysgol Caeredin 2016
-* Rhaglen Sgiliau Ymchwil y [Coleg Cymraeg Cenedlaethol](http://www.colegcymraeg.ac.uk/cy/) - Prifysgol Llambed 2015 (Cyfrwng Cymraeg)
-* [NATCOR](http://www.natcor.ac.uk) Optimeiddiaeth Cyfuniadol - Prifysgol Southampton 2015
-* [NATCOR](http://www.natcor.ac.uk) Efelychiad Cyfrifiadurol - Prifysgol Loughborough 2015
-* Cwrs Cloddio - Prifysgol Caerdydd 2015
-* [NATCOR](http://www.natcor.ac.uk) Modelu Stocastig - Prifysgol Lancaster 2015
 
 
 
