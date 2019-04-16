@@ -20,6 +20,6 @@ title: Teaching
 ### Resources / Adnoddau
 
   + [Fideo Tiwtorialau Python](/teaching/tiwtorialau-python/)
-  + [Latex Refresher Session](/teaching/latex-refresher/) / [Sesiwn Gloywi Latex](/teaching/latex-refresher/cy/)
+  + [Latex Tutorial](/teaching/latex-refresher/) / [Tiwtorial Latex](/teaching/latex-refresher/cy/)
   + [MSc Maths Skills: Algebra, Calculus & Probability Refresher](/MSc_week_0/maths_skills.pdf)
   + [Sgiliau Ymchwil Cyfrifiadurol](https://sgiliauymchwilcyfrifiadurol.github.io/)
