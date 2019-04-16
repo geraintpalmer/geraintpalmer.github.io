@@ -436,11 +436,11 @@ Tynnir y diagram llif canlynol gyda'r cod tikz isod:
     \begin{tikzpicture}
       \draw[->] (0, 0) -- (2, 0);
       \draw[fill=yellow] (2, 0) -- (3, 1) -- (4, 0) -- (3, -1) -- cycle;
-      \node at (3, 0) {Eat food?};
-      \draw[->] (3, 1) -- (3, 3) node[pos=0.5, left] {Yes};
-      \draw[fill=orange] (3, 4) circle (1) node {Full};
-      \draw[->] (4, 0) -- (6, 0) node[pos=0.5, above] {No};
-      \draw[fill=orange] (7, 0) circle (1) node {Hungry};
+      \node at (3, 0) {Bwyta?};
+      \draw[->] (3, 1) -- (3, 3) node[pos=0.5, left] {Ie};
+      \draw[fill=orange] (3, 4) circle (1) node {Llawn};
+      \draw[->] (4, 0) -- (6, 0) node[pos=0.5, above] {Na};
+      \draw[fill=orange] (7, 0) circle (1) node {Llwglyd};
     \end{tikzpicture}
 
 
