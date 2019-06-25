@@ -19,6 +19,7 @@ title: Teaching
 
 ### Resources / Adnoddau
 
+  + [Outreach Activities](/outreach/)
   + [Fideo Tiwtorialau Python](/teaching/tiwtorialau-python/)
   + [Latex Tutorial](/teaching/latex-refresher/) / [Tiwtorial Latex](/teaching/latex-refresher/cy/)
   + [MSc Maths Skills: Algebra, Calculus & Probability Refresher](/MSc_week_0/maths_skills.pdf)
