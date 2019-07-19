@@ -15,7 +15,7 @@ future: true
 plugins:
    - jekyll-paginate
 
-paginate: 6
+paginate: 8
 paginate_path: "/blog/:num/"
 
 collections:
