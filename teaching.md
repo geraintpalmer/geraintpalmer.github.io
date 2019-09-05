@@ -5,16 +5,26 @@ title: Teaching
 
 ### Courses / Cyrsiau:
 
-  + MA0003 - Preliminary Mathematics I
-  + MA0004 - Preliminary Mathematics II
-  + MA1751 - Computing for Mathematics / Cyfrifiadureg ar gyfer Mathemateg
-  + MA1550 - Introduction to Probability Theory / Cyflwyniad i Theori Tebygolrwydd
-  + MA2058 - Linear Algebra II / Algebra Llinol II
-  + MA2060 - Multivariable and Vector Calculus / Calcwlws Aml-newidyn a Fector
-  + MA2053 - Complex Analysis / Dadansoddi Cymhlyg
-  + MA2054 - Series and Transforms / Cyfresi a Thrawsffurfiau
-  + MA2901 - Datrys Problemau
-  + [Research Software Development Workshop](https://vknight.org/rsd/)
+  + *Current*
+    + MA0003 - Preliminary Mathematics I
+    + MA0004 - Preliminary Mathematics II
+    + MA2901 - Datrys Problemau
+    + MAT004 - Computational Methods
+    + [Research Software Development Workshop](https://vknight.org/rsd/)
+
+  
+  + *Tutorials*
+    + MA1054 - Geometreg / Geometry
+    + MA1051 - Hafaliadau Differol Eflennol / Elementary Differential Equations
+    + MA1751 - Computing for Mathematics / Cyfrifiadureg ar gyfer Mathemateg
+    + MA1550 - Introduction to Probability Theory / Cyflwyniad i Theori Tebygolrwydd
+    + MA2060 - Multivariable and Vector Calculus / Calcwlws Aml-newidyn a Fector
+    + MA2053 - Complex Analysis / Dadansoddi Cymhlyg
+
+  
+  + *Past*
+    + MA2058 - Linear Algebra II / Algebra Llinol II
+    + MA2054 - Series and Transforms / Cyfresi a Thrawsffurfiau
 
 
 ### Resources / Adnoddau

@@ -7,10 +7,14 @@ title: CV
 
 ## Appointments
 
-Sept 2017 - : **Welsh Medium Teaching Associate** at Cardiff University's School of Mathematics
+Sept 2019 - : **Welsh Medium Lecturer** at Cardiff University's School of Mathematics
++ Module Leader: *Preliminary Mathematics II, Datrys Problemau, Computational Methods*
++ Tutorials, Example Classes, and Labs: *Preliminary Mathematics I, Cyflwyniad i Theori Tebygolrywdd, Cyfrifiadureg ar gyfer Mathemateg, Geometreg, Hafaliadau Differol Elfennol, Calcwlws Aml-Newidyn a Fector, Dadansoddi Cymhlyg*
++ Member of the [Operational Research group](https://www.cardiff.ac.uk/research/explore/research-units/operational-research)
 
-+ Module Leader: *Preliminary Mathematics II, Datrys Problemau*
-+ Tutorials, Example Classes, and Labs: *Preliminary Mathematics I, Cyflwyniad i Theori Tebygolrywdd, Cyfrifiadureg ar gyfer Mathemateg, Algebra Llinol II, Calcwlws Aml-Newidyn a Fector, Dadansoddi Cymhlyg, Cyfresi a Thrawsffurfiau*
+2017 - 2019 : **Welsh Medium Teaching Associate** at Cardiff University's School of Mathematics
+
++ Leading modules, taking tutorials, example Classes, and labs
 + Translation of educational resources
 + Welsh provision at Maths Support
 + Supporting FMSP outreach events
@@ -25,7 +29,7 @@ Oct 2014 - Nov 2018: **PhD in Applied Stochastic Modelling, Cardiff University.*
 * Modelling of patient flows & working at the interface of a healthcare organisation.
 * Modelling of deadlock in queueing networks using Markov models and discrete event simulation.
 * Development of an internationally used open source software package, [Ciw](http://ciw.readthedocs.io/).
-* Title: *Modelling Deadlock in Queueing Systems.*
+* Title: [*Modelling Deadlock in Queueing Systems*](http://orca.cf.ac.uk/117490/).
 
 
 Oct 2013 - Oct 2014: **MSc Operational Research and Applied Statistics, Cardiff University.** Distinction.
@@ -127,6 +131,7 @@ Sept 2010 - May 2013: **BSc Mathematics, Aberystwyth University.** First Class H
 Bilingual speaker. International experience. Technical topics.
 Diverse audiences including general public, academics, healthcare practitioners, and member of the Welsh government.
 
++ Aug 2019 - Second ABCi Innovation Day, Cardiff Bay - *Using Python for Healthcare Modelling*
 * Sept 2018 - OR60, Lancaster - Poster: *Ciw: An open source discrete event simulation library*
 * June 2018 - Cynhadledd Wyddonol y CCC, Aberystwyth - *Dulliau ac Offerynnau ar gyfer Ymchwil Ailgynhyrchiadwy*
 * April 2018 - School of Mathematics 3MT, Cardiff ([2nd place](https://siamukie.wordpress.com/2018/05/01/cardiff-siam-ima-three-minute-thesis-competition/))

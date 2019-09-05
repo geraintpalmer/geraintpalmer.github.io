@@ -4,9 +4,9 @@ layout: default
 
 ### About
 
- + Teaching Associate at Cardiff University.
- + Software development and teaching.
+ + Lecturer at Cardiff University.
  + Research interests: stochastic modelling, queueing theory, simulation.
+ + Software development and teaching.
  + Bilingual: English, Cymraeg.
 
 

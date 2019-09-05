@@ -8,10 +8,14 @@ permalink: cv/cy/
 
 ## Apwyntiadau
 
-Medi 2017 - : **Cynorthwy-ydd Addysgu Cyfrwng Cymraeg** yn Ysgol Mathemateg Prifysgol Caerdydd
+Medi 2019 - : **Darlithydd Cyfrwng Cymraeg** yn Ysgol Mathemateg Prifysgol Caerdydd
++ Arweinydd Modiwl: *Preliminary Mathematics II, Datrys Problemau, Computational Methods*
++ Tutorials, Example Classes, and Labs: *Preliminary Mathematics I, Cyflwyniad i Theori Tebygolrywdd, Cyfrifiadureg ar gyfer Mathemateg, Geometreg, Hafaliadau Differol Elfennol, Calcwlws Aml-Newidyn a Fector, Dadansoddi Cymhlyg*
++ Aelod y [grŵp Ymchwil Gweithrediadol](https://www.cardiff.ac.uk/research/explore/research-units/operational-research)
 
-+ Arweinydd Modiwl: *Preliminary Mathematics II, Datrys Problemau*
-+ Tiwtorialau, Dosbarthiadau Enghreifftiol, a Labiau: *Preliminary Mathematics I, Cyflwyniad i Theori Tebygolrywdd, Cyfrifiadureg ar gyfer Mathemateg, Algebra Llinol II, Calcwlws Aml-Newidyn a Fector, Dadansoddi Cymhlyg, Cyfresi a Thrawsffurfiau*
+2017 - 2019: **Cynorthwy-ydd Addysgu Cyfrwng Cymraeg** yn Ysgol Mathemateg Prifysgol Caerdydd
+
++ Arwain modiwlau, cymryd tiwtorialau, dosbarthiadau enghreifftiol, a labiau
 + Cyfieithu adnoddau addysgu
 + Darpariaeth cyfrwng Cymraeg yn y gwasanaeth Cefnogaeth Mathemateg
 + Cefnogi digwyddiadau allanol FMSP
@@ -26,7 +30,7 @@ Hyd 2014 - Tach 2018: **PhD mewn Modelu Stocastig Cymhwysol, Prifysgol Caerdydd.
 * Modelu llifoedd cleifion & gweithio wrth ryngwyneb sefydliad gofal iechyd.
 * Modelu llwyrglo yn rhwydweithiau ciwio gan ddefnyddio modelau Markov ac efelychiad cyfrifiadurol.
 * Datblygu pecyn meddalwedd ffynhonnell agored, [Ciw](http://ciw.readthedocs.io/), a ddefnyddir yn rhyngwladol.
-* Teitl: *Modelling Deadlock in Queueing Systems.*
+* Teitl: [*Modelling Deadlock in Queueing Systems*](http://orca.cf.ac.uk/117490/).
 
 
 Hyd 2013 - Hyd 2014: **MSc Ymchwil Weithrediadol ac Ystadegaeth Gymhwysol, Prifysgol Caerdydd.** Rhagoriaeth.
@@ -129,6 +133,7 @@ Medi 2010 - Mai 2013: **BSc Mathemateg, Prifysgol Aberystwyth.** Anrhydedd Dosba
 Siaradwr dwyieithog. Profiad rhyngwladol. Pynciau technegol.
 Cynulleidfaoedd amryw gan gynnwys y cyhoedd, academyddion, ymarferwyr gofal iechyd, ac aelod o'r llywodraeth Cymraeg.
 
++ Awst 2019 - Ail Diwrnod Arloesi'r ABCi, Bae Caerdydd - *Using Python for Healthcare Modelling*
 * Medi 2018 - OR60, Lancaster - Poster: *Ciw: An open source discrete event simulation library*
 * Meh 2018 - Cynhadledd Wyddonol y CCC, Aberystwyth - *Dulliau ac Offerynnau ar gyfer Ymchwil Ailgynhyrchiadwy*
 * Ebrill 2018 - 3MT yr Ysgol Mathemateg, Caerdydd ([2ail](https://siamukie.wordpress.com/2018/05/01/cardiff-siam-ima-three-minute-thesis-competition/))
