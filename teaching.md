@@ -9,7 +9,7 @@ title: Teaching
     + MA0003 - Preliminary Mathematics I
     + MA0004 - Preliminary Mathematics II
     + MA2901 - Datrys Problemau
-    + MAT004 - Computational Methods
+    + [MAT004 - Computational Methods](/cm/)
     + [Research Software Development Workshop](https://vknight.org/rsd/)
 
   
