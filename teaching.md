@@ -34,3 +34,4 @@ title: Teaching
   + [Latex Tutorial](/teaching/latex-refresher/) / [Tiwtorial Latex](/teaching/latex-refresher/cy/)
   + [MSc Maths Skills: Algebra, Calculus & Probability Refresher](/MSc_week_0/maths_skills.pdf)
   + [Sgiliau Ymchwil Cyfrifiadurol](https://sgiliauymchwilcyfrifiadurol.github.io/)
+  + [Safbwynt Personol ar Addysg Cymraeg](/teaching/addysg-cymraeg/) / [Personal Perspective on Welsh Education](/teaching/addysg-cymraeg/en/)
