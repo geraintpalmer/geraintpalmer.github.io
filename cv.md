@@ -8,6 +8,7 @@ title: CV
 ## Appointments
 
 Sept 2019 - : **Welsh Medium Lecturer** at Cardiff University's School of Mathematics
+
 + Module Leader: *Preliminary Mathematics II, Datrys Problemau, Computational Methods*
 + Tutorials, Example Classes, and Labs: *Preliminary Mathematics I, Cyflwyniad i Theori Tebygolrywdd, Cyfrifiadureg ar gyfer Mathemateg, Geometreg, Hafaliadau Differol Elfennol, Calcwlws Aml-Newidyn a Fector, Dadansoddi Cymhlyg*
 + Member of the [Operational Research group](https://www.cardiff.ac.uk/research/explore/research-units/operational-research)
@@ -112,6 +113,7 @@ Sept 2010 - May 2013: **BSc Mathematics, Aberystwyth University.** First Class H
 
 ## Courses Attended
 
+* [IMA](https://ima.org.uk/11361/induction-course-for-new-lecturers-in-the-mathematical-sciences-2019/) Induction Course for New Lecturers in the Mathematical Sciences - Cambridge University 2019
 * [The OR Society](http://www.theorsociety.com/) - Early Career Researcher Workshop - Lancaster University 2018
 * [Welsh for Adults](https://welshforadults.cardiff.ac.uk/) - Gloywi Iaith CDH001 (Grammar) - Cardiff University 2017/18 (Welsh medium)
 * [Coleg Cymraeg Cenedlaethol](http://www.colegcymraeg.ac.uk/en/)'s Teaching Skills Course - Aberystwyth University 2017 (Welsh Medium)

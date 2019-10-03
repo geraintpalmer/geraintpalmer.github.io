@@ -18,7 +18,7 @@ It's there because we put it there, we use $$e$$ in mathamatical models because 
 
 Consider a simple population growth model:
 
-$$N(t) = N_0 e^{ax}$$
+$$N(t) = N_0 e^{at}$$
 
 Why is $$e$$ there?
 Wouldn't it make more sense to use something like $$2^x$$, meaning the population doubles every time unit?

@@ -9,6 +9,7 @@ permalink: cv/cy/
 ## Apwyntiadau
 
 Medi 2019 - : **Darlithydd Cyfrwng Cymraeg** yn Ysgol Mathemateg Prifysgol Caerdydd
+
 + Arweinydd Modiwl: *Preliminary Mathematics II, Datrys Problemau, Computational Methods*
 + Tutorials, Example Classes, and Labs: *Preliminary Mathematics I, Cyflwyniad i Theori Tebygolrywdd, Cyfrifiadureg ar gyfer Mathemateg, Geometreg, Hafaliadau Differol Elfennol, Calcwlws Aml-Newidyn a Fector, Dadansoddi Cymhlyg*
 + Aelod y [grŵp Ymchwil Gweithrediadol](https://www.cardiff.ac.uk/research/explore/research-units/operational-research)
@@ -114,6 +115,7 @@ Medi 2010 - Mai 2013: **BSc Mathemateg, Prifysgol Aberystwyth.** Anrhydedd Dosba
 
 ## Cyrsiau a Fynychwyd
 
+* Cwrs Ragarweiniol ar gyfer Darlithwyr Newydd yn y Gwyddorau Mathemategol yr [IMA](https://ima.org.uk/11361/induction-course-for-new-lecturers-in-the-mathematical-sciences-2019/) - Prifysgol Caergrawnt 2019
 * [Cymdeithas Ymchwil Weithrediadol y DU](http://www.theorsociety.com/) - Gweithdy Ymchwilwyr Gyrfa Cynnar - Prifysgol Lancaster 2018
 * [Cymraeg i Oedolion](https://welshforadults.cardiff.ac.uk/cy) - Gloywi Iaith CDH001 (Gramadeg) - Prifysgol Caerdydd 20717/18 (Cyfrwng Cymraeg)
 * Cwrs Sgiliau Addysgu y [Coleg Cymraeg Cenedlaethol](http://www.colegcymraeg.ac.uk/cy/) - Prifysgol Aberystwyth 2017 (Cyfrwng Cymraeg)
