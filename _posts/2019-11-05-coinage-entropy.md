@@ -16,7 +16,7 @@ I'll consider three coinage systems here (as fractions of their largest coin):
 + Euros (or British pound sterling post-decimalisation, as they have the same denominations) with the following coins: 1c, 2c, 5c, 10c, 20c, 50c, and €1 or 100c;
 + American dollars with the following coins: cent (1¢), nickel (5¢), dime (10¢), quarter (25¢), half-dollar (50¢), and a dollar ($1 or 100¢).
 
-I'll compare these in three dimensions: *efficiency*, *complexity*, and *availability*. I'll use brute-force to evaluate these, using Python's `itertools` and `pandas` to analyse all possible coin combinations below a value of the currencies' largest coin.
+I'll compare these in three dimensions: *efficiency*, *availability*, and *complexity*. I'll use brute-force to evaluate these, using Python's `itertools` and `pandas` to analyse all possible coin combinations below the value of the currencies' largest coin.
 
 
 # Efficiency
@@ -32,10 +32,10 @@ Euros are by far the most efficient currency with pre-decimalised British money 
 
 # Availability
 
-Here I wanted to measure the currencies' robustness to running out of a certain denomination, and began to consider the well known mathematical puzzle of [Frobenius coin problem](https://en.wikipedia.org/wiki/Coin_problem) (also known as the McNugget problem), when certain denominations were removed from the set.
+Here I wanted to measure the currencies' robustness to running out of a certain denomination, and began to consider the well known mathematical puzzle of the [Frobenius coin problem](https://en.wikipedia.org/wiki/Coin_problem) (also known as the McNugget problem), when certain denominations were removed from the set.
 This is a hard problem, though could be brute-forced in this case.
 
-I simplified the problem by asking a similar question of what percentage of all possible value am I able to make out of $$n$$ coins?
+I simplified the problem by asking a similar question of what percentage of all possible values am I able to make out of $$n$$ coins?
 We get:
 
 ![]({{site.baseurl}}/images/availability.png){: .center-image }
@@ -47,7 +47,8 @@ Euros have a much higher availability than dollar, which in turn are more availa
 
 What did my Grampa originally mean by 'simpler'?
 I'm not too sure, but we can measure complexity by considering coinage as a probabilistic problem:
-assume there are an equally infinite number of coins of each denomination.
+assume there are $$\left\lfloor\frac{x_\text{max}}{x_i}\right\rfloor$$ of each denomination $$x$$, where $$x_\text{max}$$ is the value of the maximum coin.
+This corresponds to all possible obtainable values less than $$x_\text{max}$$.
 Let $$N$$ and $$V$$ be random variables representing a randomly chosen number of coins and a randomly chosen value to obtain, respectively.
 Let $$\mathbb{P}(N=n, V=v)$$ be the probability of getting a value of $$v$$ with $$n$$ randomly chosen coins.
 
@@ -87,13 +88,14 @@ In comparison to the other three:
 
 ![]({{site.baseurl}}/images/gringotts.png){: .center-image }
 
-This is interesting! Wizarding money require much more coins (so less efficient), and have a far lower availability than all three other currencies compared.
+This is interesting! Wizarding money requires much more coins (so less efficient), and has a far lower availability than all three other currencies compared.
 However it has substantially lower marginal entropies (although a relatively moderate join entropy, $$H(N, V) = 12.12$$).
 
 Why does wizarding money act to differently to the other coins?
 There is one major difference between wizarding money and the other three compared here: all denominations of wizarding money are multiples of the others.
 The other systems have at least one pair of denominations that are not multiples: dimes and quarters (10¢ and 25¢), 20c and 50c, and a number in old British money, e.g. florins and half crowns (24d and 30d).
 This may be one cause of a coinage' complexity.
+It could also be a clue if trying to identify between real and fictional currencies.
 
 
 ---
