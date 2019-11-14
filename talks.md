@@ -4,6 +4,7 @@ title: Talks
 permalink: /talks/
 ---
 
++ [Assessing a Preliminary Year Data Literacy Module]({{ site.url }}/talks/MERG_Seminar.pdf) - MERG Seminar, 2019, Cardiff Univeristy
 + [Using Python for Healthcare Modelling]({{ site.url }}/talks/python-opp.pdf) - ABCi Innovation Day, 2019, Cardiff Bay
 + [Gotta Solve 'Em All]({{ site.url }}/talks/PGR-talk-2018.pdf) - Postgraduate Seminar, 2018, Cardiff
 + [Ciw: An open source discrete event simulation library (poster)]({{ site.url }}/talks/OR60_poster.pdf) - OR60, 2018, Lancaster
