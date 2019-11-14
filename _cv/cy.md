@@ -60,11 +60,13 @@ Medi 2010 - Mai 2013: **BSc Mathemateg, Prifysgol Aberystwyth.** Anrhydedd Dosba
 </ul>
 
 
-## Cyllidau
+## Cyllido & Phrosiectau
 
-+ 2019 - Gwaith modelu [NESTA - Y Lab](https://www.nesta.org.uk/project/y-lab/) gyda [MAWWFRS](www.mawwfire.gov.uk/) -  £1,606
-+ 2018 - [Grant Bach y Coleg Cymraeg](http://www.colegcymraeg.ac.uk/cy/ycoleg/prosiectau/grantiaubach/) (Creu adnoddau aml-gyfrwng rhaglennu cyfrwng Cymraeg) -  £2,500
-+ 2017 - Cymrodoriaeth y [Sustainable Software Institute](https://www.software.ac.uk/) - £3,000
++ 2019 - £90,000 - CI (gyda [Irena Spasic (COMSC)](https://www.cardiff.ac.uk/people/view/118164-spasic-irena) yn PI, [Padraig Cocoran (COMSC)](https://www.cardiff.ac.uk/people/view/155896-corcoran-padraig) yn CI, a [Dawn Knight (ENCAP)](https://www.cardiff.ac.uk/people/view/142032-knight-dawn) yn CI) gan [Llywodraeth Cymru](https://gov.wales/) ar prosiect gwelyad geiriau'r iaith Cymraeg (yn cyllido 20% o'm amser)
++ 2019 - £1,606 - Gwaith modelu [NESTA - Y Lab](https://www.nesta.org.uk/project/y-lab/) gyda [MAWWFRS](www.mawwfire.gov.uk/)
++ 2018 - £2,500 - [Grant Bach y Coleg Cymraeg](http://www.colegcymraeg.ac.uk/cy/ycoleg/prosiectau/grantiaubach/) er mwyn creu adnoddau aml-gyfrwng rhaglennu cyfrwng Cymraeg
++ 2017 - £3,000 - Cymrodoriaeth y [Sustainable Software Institute](https://www.software.ac.uk/)
++ 2014 - £75,400 - PhD a chyllidir gan [Bwrdd Iechyd Prifysgol Aneurin Bevan](http://www.wales.nhs.uk/sitesplus/866/home) (50%) a [Phrifysgol Caerdydd](https://www.cardiff.ac.uk/mathematics) (50%)
 
 
 

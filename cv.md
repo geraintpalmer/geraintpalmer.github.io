@@ -60,11 +60,13 @@ Sept 2010 - May 2013: **BSc Mathematics, Aberystwyth University.** First Class H
 
 
 
-## Funding
+## Funding & Projects
 
-+ 2019 - [NESTA - Y Lab](https://www.nesta.org.uk/project/y-lab/) modelling work with [MAWWFRS](www.mawwfire.gov.uk/) -  £1,606
-+ 2018 - [Coleg Cymraeg Small Grant](http://www.colegcymraeg.ac.uk/cy/ycoleg/prosiectau/grantiaubach/) (Creating Welsh medium multi-media progamming resources) -  £2,500
-+ 2017 - [Sustainable Software Institute](https://www.software.ac.uk/) Fellowship -  £3,000
++ 2019 - £90,000 - CI (with [Irena Spasic (COMSC)](https://www.cardiff.ac.uk/people/view/118164-spasic-irena) as PI, [Padraig Cocoran (COMSC)](https://www.cardiff.ac.uk/people/view/155896-corcoran-padraig) as CI, and [Dawn Knight (ENCAP)](https://www.cardiff.ac.uk/people/view/142032-knight-dawn) as CI) from [Welsh Government](https://gov.wales/) on a Welsh language word embedding project (funding 20% of my time)
++ 2019 - £1,606 - [NESTA - Y Lab](https://www.nesta.org.uk/project/y-lab/) modelling work with [MAWWFRS](www.mawwfire.gov.uk/)
++ 2018 - £2,500 - [Coleg Cymraeg Small Grant](http://www.colegcymraeg.ac.uk/cy/ycoleg/prosiectau/grantiaubach/) for creating Welsh medium multi-media progamming resources
++ 2017 - £3,000 - [Sustainable Software Institute](https://www.software.ac.uk/) Fellowship
++ 2014 - £75,400 - [Aneurin Bevan University Health Board](http://www.wales.nhs.uk/sitesplus/866/home) (50%) and [Cardiff University](https://www.cardiff.ac.uk/mathematics) (50%) funded PhD
 
 
 ## Research Interests
