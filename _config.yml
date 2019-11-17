@@ -23,3 +23,5 @@ collections:
         output: true
     cv:
         output: true
+    projects:
+        output: true
