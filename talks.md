@@ -4,6 +4,7 @@ title: Talks
 permalink: /talks/
 ---
 
++ [Applying Mathematics to Public Services in Wales]({{ site.url }}/talks/DKE_Seminar.pdf) - DKE Seminar, 2019, Cardiff Univeristy
 + [Assessing a Preliminary Year Data Literacy Module]({{ site.url }}/talks/MERG_Seminar.pdf) - MERG Seminar, 2019, Cardiff Univeristy
 + [Using Python for Healthcare Modelling]({{ site.url }}/talks/python-opp.pdf) - ABCi Innovation Day, 2019, Cardiff Bay
 + [Gotta Solve 'Em All]({{ site.url }}/talks/PGR-talk-2018.pdf) - Postgraduate Seminar, 2018, Cardiff
