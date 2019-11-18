@@ -78,18 +78,6 @@
   crynodeb: "Cymrodoriaeth yn ganolbwyntio ar codi ymwybyddiaeth o broblemau ailgynhyrchadwyedd ymchwil cyfrifiadurol a dechnegau meddalwedd cynaliadwy."
   current: "no"
 
-- title: "Supporting the Namibian programming community"
-  teitl: "Cefnogi'r cymuned rhaglennu yn Namibia"
-  year: "2015-2018"
-  amount: 'na'
-  with: "<a href='https://www.cardiff.ac.uk/phoenix-project/projects/inspiring-african-programmers'>Cardiff University Phoenix Project</a>, <a href='http://www.unam.edu.na/faculty-of-science/school-of-computing'>UNAM</a> and <a href='https://pynamibia.org/'>PyNam</a>."
-  gyda: "<a href='https://www.cardiff.ac.uk/phoenix-project/projects/inspiring-african-programmers'>Prosiect Phoenix Prifysgol Caerdydd</a>, <a href='http://www.unam.edu.na/faculty-of-science/school-of-computing'>UNAM</a> a <a href='https://pynamibia.org/'>PyNam</a>."
-  role: "Participant"
-  rol: "Cyfranogwr"
-  summary: "Supporting the establishment of an annual Python conference in Windhoek, Namibia."
-  crynodeb: "Cefnogi sefydlu cynhadledd Python blynyddol yn Windhoek, Namibia."
-  current: "no"
-
 - title: "A mathematics Summer school at UNAM"
   teitl: "Ysgol Haf mathemateg yn UNAM"
   year: "2016-2017"
@@ -100,6 +88,18 @@
   rol: "Cyfranogwr"
   summary: "Supporting the establishment of, and helping run, a pre-university semester mathematics Summar school at UNAM in Windhoek, Namibia."
   crynodeb: "Cefnogi sefydlu, a helpu rhedeg, ysgol Haf mathemateg cyn y semester prifysgol yn UNAM yn Windhoek, Namibia."
+  current: "no"
+
+- title: "Supporting the Namibian programming community"
+  teitl: "Cefnogi'r cymuned rhaglennu yn Namibia"
+  year: "2015-2018"
+  amount: 'na'
+  with: "<a href='https://www.cardiff.ac.uk/phoenix-project/projects/inspiring-african-programmers'>Cardiff University Phoenix Project</a>, <a href='http://www.unam.edu.na/faculty-of-science/school-of-computing'>UNAM</a> and <a href='https://pynamibia.org/'>PyNam</a>."
+  gyda: "<a href='https://www.cardiff.ac.uk/phoenix-project/projects/inspiring-african-programmers'>Prosiect Phoenix Prifysgol Caerdydd</a>, <a href='http://www.unam.edu.na/faculty-of-science/school-of-computing'>UNAM</a> a <a href='https://pynamibia.org/'>PyNam</a>."
+  role: "Participant"
+  rol: "Cyfranogwr"
+  summary: "Supporting the establishment of an annual Python conference in Windhoek, Namibia."
+  crynodeb: "Cefnogi sefydlu cynhadledd Python blynyddol yn Windhoek, Namibia."
   current: "no"
 
 - title: "PhD in applied stochastic modelling"
