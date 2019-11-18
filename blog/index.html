@@ -2,8 +2,18 @@
 layout: page
 ---
 
+<style> 
+.vertical { 
+    border-left: 2px solid lightgrey; 
+    height: 60%; 
+    position:absolute; 
+    left: 50%; 
+} 
+</style> 
+
+
 <!-- Pagination links -->
-<div class="pagination" style="float: center; width: 100%">
+<div class="pagination" align='center', style="float: center; width: 100%">
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path }}" class="previous"><<<</a>
   {% else %}
@@ -20,18 +30,17 @@ layout: page
  -->
 <br>
 
-<div style="width: 100%">
-<div style="float: left; width: 45%">
+<div style="width: 100%; min-height: 480px">
+<div align='right', style="float: left; width: 46%">
 {% for post in paginator.posts %}
   {% if post.language == 'english' %}
     <time>{{ post.date | date: "%b %-d, %Y" }}</time>
-    <p style="font-size: 110%; font-weight: bold"><img class="emoji" draggable="false" src="https://twemoji.maxcdn.com/2/svg/1f1ec-1f1e7.svg"/> <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+    <p style="font-size: 110%; font-weight: bold"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><img class="emoji" draggable="false" src="https://twemoji.maxcdn.com/2/svg/1f1ec-1f1e7.svg"/></p>
   {% endif %}
 {% endfor %}
 </div>
-<div style="width: 10%">
-</div>
-<div  style="float: right; width: 45%">
+<div class = "vertical"></div> 
+<div  style="float: right; width: 46%">
 {% for post in paginator.posts %}
   {% if post.language == 'cymraeg' %}
     <time>{% assign m = post.date | date: "%-m" %}
