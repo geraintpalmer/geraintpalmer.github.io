@@ -35,7 +35,7 @@ layout: page
 {% for post in paginator.posts %}
   {% if post.language == 'english' %}
     <time>{{ post.date | date: "%b %-d, %Y" }}</time>
-    <p style="font-size: 110%; font-weight: bold"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><img class="emoji" draggable="false" src="https://twemoji.maxcdn.com/2/svg/1f1ec-1f1e7.svg"/></p>
+    <p style="font-size: 110%; font-weight: bold"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} </a><img class="emoji" draggable="false" src="https://twemoji.maxcdn.com/2/svg/1f1ec-1f1e7.svg"/></p>
   {% endif %}
 {% endfor %}
 </div>

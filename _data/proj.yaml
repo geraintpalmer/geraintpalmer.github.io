@@ -14,7 +14,7 @@
 
 - title: "Modelling intensive care units with Cwm Taf Health Board"
   teitl: "Modelu unedau gofal dwys gyda Bwrdd Iechyd Cwm Taf"
-  year: "2019"
+  year: "2019-2020"
   amount: "na"
   role: "na"
   rol: "na"
@@ -22,7 +22,7 @@
   gyda: "<a href='https://sites.google.com/site/profpaulharper/home'>Prof. Paul Harper</a> a <a href='https://cwmtafmorgannwg.wales/'>Bwrdd Iechyd Cwm Taf</a>"
   summary: "Modelling three intensive care units using data analysis and discrete event simulation techniques to explore potential future demographic or structural changes."
   crynodeb: "Modelu tri uned gofal dwys yn defnyddio technegau dadansoddi data ac efelychiad cyfrifiadurol er mwyn archwilio unrhyw newidiadau demograffeg neu strwythurol yn y dyfodol."
-  current: "yes"
+  current: "no"
 
 - title: "Modelling a pooled system for personal protective equipment in the fire service"
   teitl: "Modelu system rhannu offer diogelwch personol yn y wasanaeth tân"
