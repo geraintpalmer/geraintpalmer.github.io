@@ -37,7 +37,7 @@ Also define:
 + $$b$$, the birth rate,
 + $$m$$, the mortality rate.
 
-Crude estimates give $$g_c = \frac{1}{15}$$ (fertile at 15), $$g_o = \frac{1}{50}$$ (infertile at 65). [Wikipedia gives that](https://en.wikipedia.org/wiki/Demographics_of_the_world#Age_structure) 26% of the world is $$C$$, 9% of the world is $$I$$, and so 65% of the world is $$F$$. [It also gives that](https://en.wikipedia.org/wiki/Birth_rate) the birth rate is 18.5 births per thousand people, thus the birth rate for $$F$$ is $$b=0.0285$$; while the mortality rate 7.8 per thousand people, thus $$m = 0.0078$$. Torchwood opening credits give the initial world population at the start of the miracle day as 6,928,198,257; thus our initial compartment sizes are $$C(0) = 1,801,331,547$$, $$F(0) = 4,503,328,867$$, and $$I(0) = 623,537,843$$.
+Crude estimates give $$g_c = \frac{1}{15}$$ (fertile at 15), $$g_o = \frac{1}{50}$$ (infertile at 65). [Wikipedia gives that](https://en.wikipedia.org/wiki/Demographics_of_the_world#Age_structure) 26% of the world is $$C$$, 9% of the world is $$I$$, and so 65% of the world is $$F$$. [It also gives that](https://en.wikipedia.org/wiki/Birth_rate) the birth rate is 18.5 births per thousand people, thus the birth rate for $$F$$ is $$b=0.0285$$; while the mortality rate is 7.8 per thousand people, thus $$m = 0.0078$$. Torchwood opening credits give the initial world population at the start of the miracle day as 6,928,198,257; thus our initial compartment sizes are $$C(0) = 1,801,331,547$$, $$F(0) = 4,503,328,867$$, and $$I(0) = 623,537,843$$.
 
 The compartmental model can is set up:
 
@@ -103,9 +103,9 @@ Now just because everyone's immortal, that doesn't mean people are not sick and 
 > **VERA**: Don't you see? Even the worst injured aren't gonna die. So we need to do this backwards. Reverse it. We're desperate for beds so we treat the minor injuries first. If you can get somebody out of here in ten minutes, get them out. Free up the beds for the ones who need help.
 
 
-Seems to make sense. Let's investigate by simulating the system under both prioritisation schemes, pre- and post-miracle.
+Seems to make sense. Let's investigate by simulating a system under both prioritisation schemes, pre- and post-miracle.
 
-We'll use [Ciw](https://ciw.readthedocs.io/en/latest/) to simulate a simple hospital under the two prioritisation systems, pre-miracle where the most severe triage categories are treated before the less severe, and post-miracle where the least severe are treated before the most severe. Let's say there are five triage categories, the more severe the patient the longer they take to be treated, but they arrive less frequently than the less severe triage category patients.
+We'll use [Ciw](https://ciw.readthedocs.io/en/latest/) to simulate a simple example hospital under the two prioritisation systems: pre-miracle where the most severe triage categories are treated before the less severe; and post-miracle where the least severe are treated before the most severe. Let's say there are five triage categories, the more severe the patient the longer they take to be treated, but they arrive less frequently than the less severe triage category patients.
 
 Let's make up some some parameters for illustration:
 
@@ -166,7 +166,7 @@ and
 ... )
 {% endhighlight %}
 
-Now we'll compare how crowded the hospitals are comparing average amount of patients in the system over a year. This takes a little bit of work to calculate:
+Now we'll compare how crowded the hospitals are comparing average amount of patients in the system at any time. This takes a little bit of work to calculate:
 
 {% highlight python %}
 >>> import pandas as pd
@@ -185,7 +185,7 @@ Now we'll compare how crowded the hospitals are comparing average amount of pati
 ...     return (crowd_df["date interval"] * crowd_df["people"]).sum() / 365
 {% endhighlight %}
 
-and to account for variability we'll run 25 trials of each system:
+To account for variability we'll run 25 trials of each system:
 
 {% highlight python %}
 >>> def get_average_crowd_size(N):

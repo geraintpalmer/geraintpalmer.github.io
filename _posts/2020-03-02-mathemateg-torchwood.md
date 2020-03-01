@@ -5,15 +5,15 @@ language   : cymraeg
 comments   : true
 ---
 
-Rydw i wedi bod yn gwylio lot o [Torchwood](https://cy.wikipedia.org/wiki/Torchwood) yn diweddar (cystadleuwr am shoe teledu gorau erioed), sef spin-off ffuglen wyddonol 'ar gyfer oedolion' o [Doctor Who](https://www.bbc.co.uk/programmes/b006q2x0) (y cystadleuwr arall ar gyfer shoe teledu gorau erioed), wedi'i osod yn benodol yng Nghaerdydd a De Cymru. Mae'r pedwerydd cyfres, a elwir yn "Miracle Day", yn symud y drama i America. Ffuglen wyddonol yw hon, ond y gwyddoeniaeth yn y cyfres hon yw ymchwil gweithredol gofal iechyd.
+Rydw i wedi bod yn gwylio lot o [Torchwood](https://cy.wikipedia.org/wiki/Torchwood) yn ddiweddar (cystadleuwr am sioe teledu gorau erioed), sef spin-off ffuglen wyddonol 'ar gyfer oedolion' o [Doctor Who](https://www.bbc.co.uk/programmes/b006q2x0) (y cystadleuwr arall ar gyfer y sioe teledu gorau erioed), wedi'i osod yn benodol yng Nghaerdydd a De Cymru. Mae'r pedweredd gyfres, a elwir yn "Miracle Day", yn symud y ddrama i America. Ffuglen wyddonol yw hon, ond y wyddoniaeth yn y gyfres hon yw ymchwil gweithrediadol gofal iechyd.
 
 Y syniad: *un diwrnod mae pob person ar y Ddaear yn peidio marw*.
 
-Mae un is-stori sylweddol o'r gyfres yw gweithio allan sut gall y system gofal iechyd ymdopi â'r 'gwyrth'? Hoffwn ymchwilio ymhellach.
+Un is-stori sylweddol o'r gyfres yw gweithio allan sut gall y system gofal iechyd ymdopi â'r 'gwyrth'? Hoffwn ymchwilio ymhellach.
 
 # Twf Poblogaeth
 
-Thema pwysig o'r gyfres yw gorboblogaeth, mae'r teitlau agoriadol yn dangos cyfrif cynyddol o boblogaeth y Ddaear. Mewn pennod un, mae ein arwres Gwen Cooper a'i cyn-cydweithwr heddwas Andy yn trafod sgîl-effaith y gwyrth ar twf poblogaeth:
+Thema bwysig o'r gyfres yw gorboblogaeth, mae'r teitlau agoriadol yn dangos cyfrif cynyddol o boblogaeth y Ddaear. Mewn pennod un, mae ein harwres Gwen Cooper a'i cyn-cydweithiwr heddwas Andy yn trafod sgîl-effaith y wyrth ar dwf poblogaeth:
 
 
 > **ANDY**: Here we go, look. Planet Earth. On average, three hundred thousand people die every day. So if they stop dying, that's an extra what, million people in just over three days. Add to that five hundred thousand people born every day.
@@ -25,19 +25,19 @@ Thema pwysig o'r gyfres yw gorboblogaeth, mae'r teitlau agoriadol yn dangos cyfr
 > **GWEN**: We're gonna run out of room. 
 
 
-Ie. Ond mae'r cyfrifiad bras hyn yn gadael allan rhai manylion pwysig: po leiaf y mae pobl yn marw, y fwy gyflym y mae pobl yn cael eu geni. Mae hwn yn enghraifft o system dynamegol, lle mae cyfraddau newid yn dibynnu ar cyflwr y system.
+Ie. Ond mae'r cyfrifiad bras hyn yn gadael allan rhai manylion pwysig: po leiaf y mae pobl yn marw, y fwy cyflym y mae pobl yn cael eu geni. Mae hwn yn enghraifft o system ddynamegol, lle mae cyfraddau newid yn dibynnu ar gyflwr y system.
 
-Byddwn yn modelu poblogaeth y Ddaear fel model adrannol: gadewch i $$C$$ bod nifer o blant yn y byd (ni allant cael plant eu hun), gadewch i $$F$$ bod y nifer o oedolion oedran ffrwythlon yn y byd, a gadewch i $$I$$ bod y nifer o oedolion sy'n amhlantadwy oherwydd eu oedran.
+Byddwn yn modelu poblogaeth y Ddaear fel model adrannol: gadewch i $$C$$ bod nifer o blant yn y byd (ni allant gael plant eu hun), gadewch i $$F$$ bod y nifer o oedolion oedran ffrwythlon yn y byd, a gadewch i $$I$$ bod y nifer o oedolion sy'n amhlantadwy oherwydd eu hoedran.
 
 Hefyd diffiniwn:
 
-+ $$P = C + F + I$$, poplogaeth y Ddaear,
-+ $$g_c$$, y cyfradd y mae plant yn tyfu i mewn i oedolion,
-+ $$g_o$$, y cyfradd y mae oedolion yn dod yn amhlantadwy oherwydd eu oedran,
-+ $$b$$, y cyfradd geni,
-+ $$m$$, y cyfradd marw.
++ $$P = C + F + I$$, poblogaeth y Ddaear,
++ $$g_c$$, y gyfradd y mae plant yn tyfu i mewn i oedolion,
++ $$g_o$$, y gyfradd y mae oedolion yn dod yn amhlantadwy oherwydd eu hoedran,
++ $$b$$, y gyfradd geni,
++ $$m$$, y gyfradd marw.
 
-Mae brasamcanion syml yn rhoi $$g_c = \frac{1}{15}$$ (yn ffrwythlon yn 15), $$g_o = \frac{1}{50}$$ (yn amhlantadwy yn 65). Mae [Wicipedia yn rhoi](https://en.wikipedia.org/wiki/Demographics_of_the_world#Age_structure) bod 26% o'r byd yn $$C$$, 9% o'r byd yn $$I$$, ac felly mae 65% o'r byd yn $$F$$. [Mae hefyd yn rhoi taw'r](https://en.wikipedia.org/wiki/Birth_rate) cyfradd geni yw 18.5 genedigaeth i pob mil o bobl, felly'r gyfradd geni aer gyfer $$F$$ yw $$b=0.0285$$; tra bod y gyfradd mawr yw 7.8 pob mil o bobl, felly $$m = 0.0078$$. Mae teitlau agoriadol Torchwood yn rhoi poblogaeth y Ddaear ar dechrau diwrnod y gwyrth fel 6,928,198,257; felly meintiau cychwynnol ein adrannau yw $$C(0) = 1,801,331,547$$, $$F(0) = 4,503,328,867$$, ac $$I(0) = 623,537,843$$.
+Mae brasamcanion syml yn rhoi $$g_c = \frac{1}{15}$$ (yn ffrwythlon yn 15), $$g_o = \frac{1}{50}$$ (yn amhlantadwy yn 65). Mae [Wicipedia yn rhoi](https://en.wikipedia.org/wiki/Demographics_of_the_world#Age_structure) bod 26% o'r byd yn $$C$$, 9% o'r byd yn $$I$$, ac felly mae 65% o'r byd yn $$F$$. [Mae hefyd yn rhoi taw'r](https://en.wikipedia.org/wiki/Birth_rate) gyfradd geni yw 18.5 genedigaeth i bob mil o bobl, felly'r gyfradd geni ar gyfer $$F$$ yw $$b=0.0285$$; tra'r gyfradd marw yw 7.8 pob mil o bobl, felly $$m = 0.0078$$. Mae teitlau agoriadol Torchwood yn rhoi poblogaeth y Ddaear ar ddechrau diwrnod y wyrth fel 6,928,198,257; felly meintiau cychwynnol ein hadrannau yw $$C(0) = 1,801,331,547$$, $$F(0) = 4,503,328,867$$, ac $$I(0) = 623,537,843$$.
 
 Sefydlwn ein model adrannol:
 
@@ -49,9 +49,9 @@ $$
 \end{align}
 $$
 
-Nodwch bod hwn dal yn model syml iawn, nid yw'n ystyried nifer o ffactorau megis erthyliadau, camesgoriadau, na'r gwahanol cyfraddau marw ar gyfer pob categori gwahanol o bobl.
+Nodwch fod hwn dal yn fodel syml iawn, nid yw'n ystyried nifer o ffactorau megis erthyliadau, camesgoriadau, na'r gwahanol gyfraddau marw ar gyfer pob categori gwahanol o bobl.
 
-Nawr defnyddiwn y ffwythiant Python `odeint` o `scipy.integrate` i arsylwi'r system dros cyfnod o deng mlwyddyn. Cymharwn byd heb gwyrth $$m = 0.0078$$, gyda diwrnod y gwyrth, $$m = 0$$:
+Nawr defnyddiwn y ffwythiant Python `odeint` o `scipy.integrate` i arsylwi'r system dros gyfnod o ddeng mlwyddyn. Cymharwn fyd heb wyrth $$m = 0.0078$$, gyda diwrnod y wyrth, $$m = 0$$:
 
 {% highlight python %}
 >>> def deilliadau(y, t, cyfradd_marw=0.01):
@@ -81,16 +81,16 @@ Nawr defnyddiwn y ffwythiant Python `odeint` o `scipy.integrate` i arsylwi'r sys
 >>> P_gwyrth = C + F + I
 {% endhighlight %}
 
-Cymharwn `P_dimgwyrth` i `P_gwyrth` a gwelwn effaith y gwyrth ar poblogaeth y Ddaear:
+Cymharwn `P_dimgwyrth` i `P_gwyrth` a gwelwn effaith y wyrth ar boblogaeth y Ddaear:
 
 ![]({{site.baseurl}}/images/miracle-day-cy.png){: .center-image }
 
-Mae poblogaeth y Ddaear yn dangos twf esbonyddol fel y disgwylir. Yn yr wythnos cyntaf mae poblogaeth y Ddaear yn tyfu gan 0.4 biliwn o bobl, tra bod y rhagolwg 10 blwyddyn yn edrych yn ofnadwy. Gwell i Torchwood sorto rhywbeth allan yn gloi!
+Mae poblogaeth y Ddaear yn dangos twf esbonyddol fel y disgwylir. Yn yr wythnos gyntaf mae poblogaeth y Ddaear yn tyfu gan 0.4 biliwn o bobl, tra bod y rhagolwg 10 blwyddyn yn edrych yn ofnadwy. Gwell i Torchwood sortio rhywbeth allan yn gloi!
 
 
 # Blaenoriaethu Gwelyau Ysbyty
 
-Mae pawb yn anfarwol, ond nid yw hwn yn golygu bod pobl ddim yn mynd yn sal neu'n anafu. Mae'r ysbytai o day straen enfawr, ac yn gloi mae'n nhw'n gorlawn yn yn rhedeg allan  o gwelyau. Yn yr ail pennod, mewn ysbyty yn Washington DC, mae Doctor Vera Juarez yn sylweddoli yn sydyn eu bod nhw'n blaenoriaethu cleifion yn anghywir:
+Mae pawb yn anfarwol, ond nid yw hwn yn golygu bod pobl ddim yn mynd yn sâl neu'n anafu. Mae'r ysbytai o dan straen enfawr, ac yn gloi maen nhw'n orlawn ac yn rhedeg allan o welyau. Yn yr ail bennod, mewn ysbyty yn Washington DC, mae Doctor Vera Juarez yn sylweddoli yn sydyn eu bod nhw'n blaenoriaethu cleifion yn anghywir:
 
 
 > **VERA**: Oh my God, we're doing it wrong. Everyone, we're doing it wrong.
@@ -104,11 +104,11 @@ Mae pawb yn anfarwol, ond nid yw hwn yn golygu bod pobl ddim yn mynd yn sal neu'
 > **VERA**: Don't you see? Even the worst injured aren't gonna die. So we need to do this backwards. Reverse it. We're desperate for beds so we treat the minor injuries first. If you can get somebody out of here in ten minutes, get them out. Free up the beds for the ones who need help.
 
 
-Mae hwn i weld yn synhwyrol. Gadewch i ni ymchwilio trwy efelychu'r system o dan y ddau system blaenoriaethu, cyn- ac wedi'r gwyrth.
+Mae hwn i weld yn synhwyrol. Gadewch i ni ymchwilio trwy efelychu'r system o dan y ddwy system blaenoriaethu, cyn- ac wedi'r wyrth.
 
-Defnyddiwn [Ciw](https://ciw.readthedocs.io/cy/latest/) i efelychu ysbyty syml o dau y ddau system blaenoriaethu, cyn y gwyrth lle mae categorïau mwyaf difrifol yn cael eu trin cyn y rhai lleiaf difrifol, ac wedi'i gwyrth lle mae'r rhai lleiaf difrifol yn cael eu trin cyn y fwyaf difrifol. Dywedwn fod pump categori o ddifrifoldeb, mae'r rhai mwyaf difrifol yn cymryd yn hirach i'w trin, ond maent yn cyrraedd yr ysbyty yn llai aml na'r categorïau llai difrifol.
+Defnyddiwn [Ciw](https://ciw.readthedocs.io/cy/latest/) i efelychu ysbyty enghreifftiol syml o dan y ddwy system blaenoriaethu: cyn y wyrth lle mae categorïau mwyaf difrifol yn cael eu trin cyn y rhai lleiaf difrifol; ac wedi'r wyrth lle mae'r rhai lleiaf difrifol yn cael eu trin cyn y fwyaf difrifol. Dywedwn fod pum categori o ddifrifoldeb, mae'r rhai mwyaf difrifol yn cymryd yn hirach i'w trin, ond maent yn cyrraedd yr ysbyty yn llai aml na'r categorïau llai difrifol.
 
-Fel enghraifft, byddwn yn ffugio'r paramedrau:
+Fel enghraifft, byddwn yn ffugio paramedrau:
 
 {% highlight python %}
 >>> import ciw
@@ -167,7 +167,7 @@ ac
 ... )
 {% endhighlight %}
 
-Nawr cymharwn pa mor gorlawn yw'r ysbytai trwy cymharu nifer cymedrig o gleifion sydd yn y system dros cyfnod o flwyddyn. Mae hwn yn cymryd bach o waith i'r cyfrifo:
+Nawr cymharwn pa mor orlawn yw'r ysbytai trwy gymharu nifer cymedrig o gleifion sydd yn y system ar unrhyw adeg. Mae hwn yn cymryd bach o waith i'r cyfrifo:
 
 {% highlight python %}
 >>> import pandas as pd
@@ -186,7 +186,7 @@ Nawr cymharwn pa mor gorlawn yw'r ysbytai trwy cymharu nifer cymedrig o gleifion
 ...     return (torf_df["cyfwng dyddiad"] * torf_df["pobl"]).sum() / 365
 {% endhighlight %}
 
-ac er mwyn ystyried amrywiant byddwn yn rhedeg 25 treial o pob system:
+Er mwyn ystyried amrywiant byddwn yn rhedeg 25 treial o bob system:
 
 {% highlight python %}
 >>> def cael_maint_torf_cymedrig(N):
@@ -197,18 +197,18 @@ ac er mwyn ystyried amrywiant byddwn yn rhedeg 25 treial o pob system:
 ...     return sum(meintiau_torf) / len(meintiau_torf)
 {% endhighlight %}
 
-Nawr, cyn y gwyrth, o dan blaenoriaethu normal (trin y cleifion mwyaf difrifol yn gyntaf), cawn:
+Nawr, cyn y wyrth, o dan flaenoriaethu arferol (trin y cleifion mwyaf difrifol yn gyntaf), cawn:
 
 {% highlight python %}
 >>> cael_maint_torf_cymedrig(N_cyngwyrth)
 15.093945104963574
 {% endhighlight%}
 
-sef 15.1 claf yn yr ysbyty ar cyfartaledd. Ac wedi'r gwyrth, o dan y blaenoriathu newydd (trin y lleiaf difrifol yn gyntaf), cawn:
+sef 15.1 claf yn yr ysbyty ar gyfartaledd. Ac wedi'r wyrth, o dan y blaenoriaethu newydd (trin y lleiaf difrifol yn gyntaf), cawn:
 
 {% highlight python %}
 >>> cael_maint_torf_cymedrig(N_wedigwyrth)
 9.930771001044622
 {% endhighlight %}
 
-sef 9.9 claf yn yr ysbyty ar cyfartaledd. Felly mae cynnig Vera yn gweithio! O dan y system blaenoriathu newydd mae'r ysbyty llai gorlawn. Wrth gwrs, pan mae neb yn mawr bydd y galw yn cynyddu'n gwirion ta beth, felly mae dal angen i Torchwood achub y dydd!
+sef 9.9 claf yn yr ysbyty ar gyfartaledd. Felly mae cynnig Vera yn gweithio! O dan y system blaenoriaethu newydd mae'r ysbyty llai gorlawn. Wrth gwrs, pan nad yw unrhyw un yn marw bydd y galw yn cynyddu'n wirion ta beth, felly mae dal angen i Torchwood achub y dydd!
