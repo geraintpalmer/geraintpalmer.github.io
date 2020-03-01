@@ -85,6 +85,12 @@ Medi 2010 - Mai 2013: **BSc Mathemateg, Prifysgol Aberystwyth.** Anrhydedd Dosba
 + Modelu stocastig, theori graffiau, a theori ciwio.
 
 
+## Gobrau
+
++ [Enillydd 2018](https://www.cardiff.ac.uk/cy/news/view/1764522-best-operational-research-phd-thesis-in-in-the-uk-for-school-of-maths-lecturer) o [Wobr Doethurol y Cymdeithas Ymchwil Gweithrediadol](https://www.theorsociety.com/what-we-do/awards-medals-and-scholarships/the-doctoral-award/) ar gyfer "Corff o Ymchwil Mwyaf Nodedig yn arwain at Doethuriath ym maes Ymchwil Gweithrediadol" - *Modelling Deadlock in Queueing Systems*
++ Enillydd 2016 poster gorau yng Nghynhadledd Wyddonol y CCC, Aberystwyth - *Llwyrglo yn Rhwydweithiau Ciwio*
+
+
 ## Dysgu
 
 * Dosbarthiadau enghreifftiol, darlithoedd a thiwtorialau (gweler [Dysgu](/teaching/)).
@@ -99,7 +105,7 @@ Medi 2010 - Mai 2013: **BSc Mathemateg, Prifysgol Aberystwyth.** Anrhydedd Dosba
 
 ## Adeiladu Cymdeithasau & Threfnu
 
-* Aelod o [Gymdeithas Ymchwil Weithrediadol y DU](https://www.theorsociety.com) & chadair [SWORDS](http://www.theorsociety.com/Pages/Regional/swords.aspx) (Cymdeithas Trafodaeth Ymchwil Gweithrediadol De Cymru.)
+* Aelod o [Gymdeithas Ymchwil Weithrediadol y DU](https://www.theorsociety.com) & chyn-cadair [SWORDS](http://www.theorsociety.com/Pages/Regional/swords.aspx) (Cymdeithas Trafodaeth Ymchwil Gweithrediadol De Cymru.)
 * Aelod o bwyllgor trefnu [DjangoCon Ewrop 2015, Caerdydd](http://2015.djangocon.eu/).
 * Aelod gweithredol o [PyDiff](http://www.pydiff.wales/), grŵp cyfarod Python Caerdydd.
 * Gwirfoddolwr a chyfrannwr rheolaidd yn PyCon Namibia (o dan nawdd [Prosiect Phoenix Prifysgol Caerdydd](http://www.cardiff.ac.uk/about/our-profile/our-values/engagement/transforming-communities/the-phoenix-project)).

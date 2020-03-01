@@ -83,6 +83,13 @@ Sept 2010 - May 2013: **BSc Mathematics, Aberystwyth University.** First Class H
 + Stochastic modelling, graph theory, and queueing theory.
 
 
+## Awards
+
++ [2018 Winner](https://www.cardiff.ac.uk/news/view/1764522-best-operational-research-phd-thesis-in-in-the-uk-for-school-of-maths-lecturer) of the [OR Society Doctoral Award](https://www.theorsociety.com/what-we-do/awards-medals-and-scholarships/the-doctoral-award/) for "Most Distinguished Body of Research leading to the Award of a Doctorate in the field of OR" - *Modelling Deadlock in Queueing Systems*
++ 2016 Winner of best poster at the Cynhadledd Wyddonol y CCC, Aberystwyth - *Llwyrglo yn Rhwydweithiau Ciwio*
+
+
+
 ## Learning & Teaching
 
 * Delivery of example classes, lectures and tutorials (see [Teaching](/teaching/)).
@@ -96,7 +103,7 @@ Sept 2010 - May 2013: **BSc Mathematics, Aberystwyth University.** First Class H
 
 ## Community Building & Organisation
 
-* Member of [the UK OR Society](https://www.theorsociety.com) & chair of [SWORDS](http://www.theorsociety.com/Pages/Regional/swords.aspx) (South Wales Operational Research Discussion Society).
+* Member of [the UK OR Society](https://www.theorsociety.com) & former chair of [SWORDS](http://www.theorsociety.com/Pages/Regional/swords.aspx) (South Wales Operational Research Discussion Society).
 * Member of organising committee for [DjangoCon Europe 2015, Cardiff](http://2015.djangocon.eu/).
 * Active member of [PyDiff](http://www.pydiff.wales/), the Cardiff Python meetup.
 * Regular volunteer and participant at PyCon Namibia (under the [Cardiff University Phoenix Project](http://www.cardiff.ac.uk/about/our-profile/our-values/engagement/transforming-communities/the-phoenix-project)).

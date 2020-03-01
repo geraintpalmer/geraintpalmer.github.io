@@ -10,7 +10,6 @@ title: Teaching
     + MA0004 - Preliminary Mathematics II
     + MA2901 - Datrys Problemau
     + [MAT004 - Computational Methods](/cm/)
-    + [Research Software Development Workshop](https://vknight.org/rsd/)
 
   
   + *Tutorials*
@@ -25,6 +24,7 @@ title: Teaching
   + *Past*
     + MA2058 - Linear Algebra II / Algebra Llinol II
     + MA2054 - Series and Transforms / Cyfresi a Thrawsffurfiau
+    + [Research Software Development Workshop](https://vknight.org/rsd/)
 
 
 ### Resources / Adnoddau
