@@ -7,7 +7,16 @@ title: Projects
 
 Current and past projects. ([Yn Gymraeg](/projects/cy/))
 
-### Current
+{% assign show = false %}
+{% for proj in site.data.proj %}
+  {% if proj.current == 'yes' %}
+    {% assign show = true %}
+  {% endif %}
+{% endfor %}
+
+{% if show == true %}
+
+<h3>Current</h3>
 
 <ul>
 {% for proj in site.data.proj %}
@@ -28,6 +37,8 @@ Current and past projects. ([Yn Gymraeg](/projects/cy/))
   {% endif %}
 {% endfor %}
 </ul>
+
+{% endif %}
 
 ### Past
 

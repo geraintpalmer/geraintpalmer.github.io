@@ -22,8 +22,8 @@
   with: "<a href='https://www.cardiff.ac.uk/people/view/118164-spasic-irena'>Irena Spasic</a> as PI, <a href='https://www.cardiff.ac.uk/people/view/155896-corcoran-padraig'>Padraig Cocoran</a> as CI, and <a href='https://www.cardiff.ac.uk/people/view/142032-knight-dawn'>Dawn Knight</a> as CI."
   gyda: "<a href='https://www.cardiff.ac.uk/people/view/118164-spasic-irena'>Irena Spasic</a> yn PI, <a href='https://www.cardiff.ac.uk/people/view/155896-corcoran-padraig'>Padraig Cocoran</a> yn CI, and <a href='https://www.cardiff.ac.uk/people/view/142032-knight-dawn'>Dawn Knight</a> yn CI."
   summary: "Develop and evaluate word embeddings for the Welsh language using open text data. Explore the use of word embeddings for language learning tools."
-  crynodeb: "Datblygu a gwerthuso gwelyadau geiriau ar gyfer yr iaith Gymraeg yn defnyddio data testyn agored. Archwilio defnydd gwelyadau geiriau fel offerynnau dysgu ieithoedd."
-  current: "yes"
+  crynodeb: "Datblygu a gwerthuso mewnblaniadau geiriau ar gyfer yr iaith Gymraeg yn defnyddio data testyn agored. Archwilio defnydd gwelyadau geiriau fel offerynnau dysgu ieithoedd."
+  current: "no"
 
 - title: "Modelling intensive care units with Cwm Taf Health Board"
   teitl: "Modelu unedau gofal dwys gyda Bwrdd Iechyd Cwm Taf"

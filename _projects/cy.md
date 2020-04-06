@@ -7,7 +7,16 @@ permalink: projects/cy/
 
 Prosiectau presennol a gorffenol. ([In English](/projects/))
 
-### Presennol
+{% assign show = false %}
+{% for proj in site.data.proj %}
+  {% if proj.current == 'yes' %}
+    {% assign show = true %}
+  {% endif %}
+{% endfor %}
+
+{% if show == true %}
+
+<h3>Presennol</h3>
 
 <ul>
 {% for proj in site.data.proj %}
@@ -28,6 +37,8 @@ Prosiectau presennol a gorffenol. ([In English](/projects/))
   {% endif %}
 {% endfor %}
 </ul>
+
+{% endif %}
 
 ### Gorffenol
 
