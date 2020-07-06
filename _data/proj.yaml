@@ -1,3 +1,30 @@
+- title: "Exploring and demonstrating ways in which Ciw is applicable to hybrid simulations"
+  teitl: "Archwilio a dangos y ffyrdd y mae Ciw yn gymwys ar gyfer efelychiadau croesryw"
+  year: "2020"
+  amount: "na"
+  fundingbody: "na"
+  role: "Supervisor"
+  rol: "Goruchwyliwr"
+  with: "Yawen Tian"
+  gyda: "Yawen Tian"
+  summary: "An MSc summer project investigating how <a href='https://ciw.readthedocs.io/en/latest/index.html'>Ciw</a>, along with other open source Python libraries, can be used to build an integrated discrete event simulation - systems dynamics model."
+  crynodeb: "Prosiect Haf MSc yn archwilio i sut ellir defnyddio <a href='https://ciw.readthedocs.io/cy/latest/'>Ciw</a>, ynghyd a llyfrgelloedd Python ffynhonnell agored eraill, er mwyn adeiladu model cyfannol efelychiad digwyddiad arwahanol - deinameg systemau."
+  current: "yes"
+
+- title: "Learning English-Welsh bilingual embeddings and applications in text categorisation"
+  teitl: "Dysgu mewnblaniadau geiriau dwyieithog Saesneg-Cymraeg a chymwysiadau mewn categoreiddio testun"
+  year: "2020-2021"
+  amount: "£90,000"
+  fundingbody: "<a href='https://gov.wales/'>Welsh Government</a>"
+  corffcyllido: "<a href='https://gov.wales/'>Llywodraeth Cymru</a>"
+  role: "Co-Investigator"
+  rol: "Cyd-Ymchwilydd"
+  with: "<a href='https://www.cardiff.ac.uk/people/view/142032-knight-dawn'>Dawn Knight</a> as PI, <a href='https://www.cardiff.ac.uk/people/view/1063569-anke-luis'>Luis Espinosa Anke</a> as CI, <a href='https://www.cardiff.ac.uk/people/view/1764539-muralidaran-vigneshwaran'>Vigneshwaran Muralidaran</a> as CI, <a href='https://www.cardiff.ac.uk/people/view/118164-spasic-irena'>Irena Spasic</a> as PI, <a href='https://www.cardiff.ac.uk/people/view/155896-corcoran-padraig'>Padraig Cocoran</a> as CI."
+  gyda: "<a href='https://www.cardiff.ac.uk/people/view/142032-knight-dawn'>Dawn Knight</a> yn PI, <a href='https://www.cardiff.ac.uk/people/view/1063569-anke-luis'>Luis Espinosa Anke</a> yn CI, <a href='https://www.cardiff.ac.uk/people/view/1764539-muralidaran-vigneshwaran'>Vigneshwaran Muralidaran</a> yn CI, <a href='https://www.cardiff.ac.uk/people/view/118164-spasic-irena'>Irena Spasic</a> yn PI, <a href='https://www.cardiff.ac.uk/people/view/155896-corcoran-padraig'>Padraig Cocoran</a> yn CI."
+  summary: "Develop and evaluate a bilingual word embeddings space for the Welsh and English using open text data. Explore the use of word embeddings for text categorisation."
+  crynodeb: "Datblygu a gwerthuso gofod mewnblaniadau geiriau dwyieithod ar gyfer y Gymraeg a'r Saesneg yn defnyddio data testyn agored. Archwilio defnydd mewnblaniadau geiriau ar gyfer categoreiddio testun."
+  current: "yes"
+
 - title: "Dysgu Peirianyddol yn Python ac R"
   teitl: "Dysgu Peirianyddol yn Python ac R"
   year: "2019"
@@ -9,7 +36,7 @@
   gyda: "Alun Owen"
   summary: "Third year half project writing Welsh language tutorials for conducting machine learning in Python and R."
   crynodeb: "Hanner prosiect trydydd blwyddyn yn ysgrifennu tiwtorialau iaith Cymraeg ar gyfer gwneud dysgu peirianyddol yn Python ac R."
-  current: "yes"
+  current: "no"
 
 - title: 'Welsh words by numbers: "Wales" + "capital" = "Cardiff"'
   teitl: 'Geiriau Cymraeg gan rhifau: "Cymru" + "prif ddinas" = "Caerdydd"'
@@ -22,7 +49,7 @@
   with: "<a href='https://www.cardiff.ac.uk/people/view/118164-spasic-irena'>Irena Spasic</a> as PI, <a href='https://www.cardiff.ac.uk/people/view/155896-corcoran-padraig'>Padraig Cocoran</a> as CI, and <a href='https://www.cardiff.ac.uk/people/view/142032-knight-dawn'>Dawn Knight</a> as CI."
   gyda: "<a href='https://www.cardiff.ac.uk/people/view/118164-spasic-irena'>Irena Spasic</a> yn PI, <a href='https://www.cardiff.ac.uk/people/view/155896-corcoran-padraig'>Padraig Cocoran</a> yn CI, and <a href='https://www.cardiff.ac.uk/people/view/142032-knight-dawn'>Dawn Knight</a> yn CI."
   summary: "Develop and evaluate word embeddings for the Welsh language using open text data. Explore the use of word embeddings for language learning tools."
-  crynodeb: "Datblygu a gwerthuso mewnblaniadau geiriau ar gyfer yr iaith Gymraeg yn defnyddio data testyn agored. Archwilio defnydd gwelyadau geiriau fel offerynnau dysgu ieithoedd."
+  crynodeb: "Datblygu a gwerthuso mewnblaniadau geiriau ar gyfer yr iaith Gymraeg yn defnyddio data testyn agored. Archwilio defnydd mewnblaniadau geiriau fel offerynnau dysgu ieithoedd."
   current: "no"
 
 - title: "Modelling intensive care units with Cwm Taf Health Board"
