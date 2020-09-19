@@ -1,6 +1,6 @@
 ---
 layout     : post
-title      : "Sut i Ddod yn Arlywydd Mwyaf Amhoblogaidd"
+title      : "Sut i Ddod yr Arlywydd Mwyaf Amhoblogaidd"
 language   : cymraeg
 comments   : true
 ---
