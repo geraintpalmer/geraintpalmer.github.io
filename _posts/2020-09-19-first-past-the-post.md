@@ -131,7 +131,7 @@ prob.solve()
 
 This gives just 21.68% of the vote!
 
-That means a candidate can lose by winning 78.32% of the voters! To put that into perspective, only one president ever, James Monroe in 1820, has ever _won_ an election a larger percentage of votes!
+That means a candidate can lose by winning 78.32% of the voters! To put that into perspective, only one president ever, James Monroe in 1820, has ever _won_ an election with a larger percentage of votes!
 
 How can this be? With a similar strategy to the UK one above: gain 50% plus one vote in all states except Arizona, California, Florida, Georgia, Massachusetts, New Jersey, New York, North Carolina, Ohio, Pennsylvania, Texas, and Washington, where you win no votes at all, as in the map below (yellow wins and purple loses).
 
@@ -139,7 +139,7 @@ How can this be? With a similar strategy to the UK one above: gain 50% plus one 
 
 However, different to UK general elections, in presidential elections it's all or nothing. The losing 78.32% of voters do not get a voice in the White House! Those votes do not, as in the UK, contribute somewhat towards seats in parliament, there are separate congressional and senate elections for that, with different counting mechanisms.
 
-Now in reality targeting and relying on a specific minimal set of states is impractical because each state is has a diverse population. But if we could map minority and special interest groups to state populations, we could easily find a strategy to win an election which targets the least number of homogeneous groups, or requires the least amount of political compromises. Though I don't think any of what I've written is ethical, it is interesting.
+Now in reality targeting and relying on a specific minimal set of states is impractical because each state has a diverse population. But if we could map minority and special interest groups to state populations, we could easily find a strategy to win an election which targets the least number of homogeneous groups, or requires the least amount of political compromises. Though I don't think any of what I've written is ethical, it is interesting.
 
 ---
 
