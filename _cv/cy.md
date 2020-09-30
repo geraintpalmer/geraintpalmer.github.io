@@ -10,8 +10,7 @@ permalink: cv/cy/
 
 Medi 2019 - : **Darlithydd Cyfrwng Cymraeg** yn Ysgol Mathemateg Prifysgol Caerdydd
 
-+ Arweinydd Modiwl: *Preliminary Mathematics II, Datrys Problemau, Computational Methods*
-+ Tutorials, Example Classes, and Labs: *Preliminary Mathematics I, Cyflwyniad i Theori Tebygolrywdd, Cyfrifiadureg ar gyfer Mathemateg, Geometreg, Hafaliadau Differol Elfennol, Calcwlws Aml-Newidyn a Fector, Dadansoddi Cymhlyg*
+* Arwain modiwlau, dosbarthiadau enghreifftiol, darlithoedd a thiwtorialau (gweler [Dysgu](/teaching/))
 + Aelod y [grŵp Ymchwil Gweithrediadol](https://www.cardiff.ac.uk/research/explore/research-units/operational-research)
 
 2017 - 2019: **Cynorthwy-ydd Addysgu Cyfrwng Cymraeg** yn Ysgol Mathemateg Prifysgol Caerdydd

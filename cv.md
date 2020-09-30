@@ -9,8 +9,7 @@ title: CV
 
 Sept 2019 - : **Welsh Medium Lecturer** at Cardiff University's School of Mathematics
 
-+ Module Leader: *Preliminary Mathematics II, Datrys Problemau, Computational Methods*
-+ Tutorials, Example Classes, and Labs: *Preliminary Mathematics I, Cyflwyniad i Theori Tebygolrywdd, Cyfrifiadureg ar gyfer Mathemateg, Geometreg, Hafaliadau Differol Elfennol, Calcwlws Aml-Newidyn a Fector, Dadansoddi Cymhlyg*
+* Leading modules, example classes, lectures and tutorials (see [Teaching](/teaching/))
 + Member of the [Operational Research group](https://www.cardiff.ac.uk/research/explore/research-units/operational-research)
 
 2017 - 2019 : **Welsh Medium Teaching Associate** at Cardiff University's School of Mathematics
