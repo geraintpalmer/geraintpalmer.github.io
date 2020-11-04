@@ -4,6 +4,7 @@ title: Talks
 permalink: /talks/
 ---
 
++ [Mewnblaniadau Geiriau ar gyfer y Gymraeg]({{ site.url }}/talks/mewnblaniadaugeiriau2020.pdf) - Symposiwm Academaidd Technolegau Iaith Cymru, 2020
 + [Applying Mathematics to Public Services in Wales]({{ site.url }}/talks/DKE_Seminar.pdf) - DKE Seminar, 2019, Cardiff Univeristy
 + [Assessing a Preliminary Year Data Literacy Module]({{ site.url }}/talks/MERG_Seminar.pdf) - MERG Seminar, 2019, Cardiff Univeristy
 + [Using Python for Healthcare Modelling]({{ site.url }}/talks/python-opp.pdf) - ABCi Innovation Day, 2019, Cardiff Bay
