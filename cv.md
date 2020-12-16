@@ -148,6 +148,7 @@ Sept 2010 - May 2013: **BSc Mathematics, Aberystwyth University.** First Class H
 Bilingual speaker. International experience. Technical topics.
 Diverse audiences including general public, academics, healthcare practitioners, and member of the Welsh government.
 
++ Nov 2020 - Wales Academic Symposium of Language Technologies 2020 - *Mewnblaniadau Geiriau ar gyfer y Gymraeg*
 + Aug 2019 - Second ABCi Innovation Day, Cardiff Bay - *Using Python for Healthcare Modelling*
 * Sept 2018 - OR60, Lancaster - Poster: *Ciw: An open source discrete event simulation library*
 * June 2018 - Cynhadledd Wyddonol y CCC, Aberystwyth - *Dulliau ac Offerynnau ar gyfer Ymchwil Ailgynhyrchiadwy*

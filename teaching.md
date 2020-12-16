@@ -6,7 +6,7 @@ title: Teaching
 ### Courses / Cyrsiau:
 
   + *Current*
-    + MA0004 - Preliminary Mathematics II
+    + MA0004 - [Preliminary Mathematics II](/prelim2/)
     + MA2901 - Datrys Problemau
 
   

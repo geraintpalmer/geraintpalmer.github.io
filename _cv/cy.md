@@ -150,6 +150,7 @@ Medi 2010 - Mai 2013: **BSc Mathemateg, Prifysgol Aberystwyth.** Anrhydedd Dosba
 Siaradwr dwyieithog. Profiad rhyngwladol. Pynciau technegol.
 Cynulleidfaoedd amryw gan gynnwys y cyhoedd, academyddion, ymarferwyr gofal iechyd, ac aelod o'r llywodraeth Cymraeg.
 
++ Tach 2020 - Symposiwm Academaidd Technolegau Iaith Cymru 2020 - *Mewnblaniadau Geiriau ar gyfer y Gymraeg*
 + Awst 2019 - Ail Diwrnod Arloesi'r ABCi, Bae Caerdydd - *Using Python for Healthcare Modelling*
 * Medi 2018 - OR60, Lancaster - Poster: *Ciw: An open source discrete event simulation library*
 * Meh 2018 - Cynhadledd Wyddonol y CCC, Aberystwyth - *Dulliau ac Offerynnau ar gyfer Ymchwil Ailgynhyrchiadwy*
