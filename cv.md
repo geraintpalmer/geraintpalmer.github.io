@@ -168,6 +168,10 @@ Diverse audiences including general public, academics, healthcare practitioners,
 * Feb 2015 - Python Namibia 2015, Windhoek - *Playing with Reinforcement Learning in Python*
 
 
+## Media Appearances
+
+* 06/11/2020 - **Yfory Newydd** - *BBC Radio Cymru*
+
 
 ## Contact
 

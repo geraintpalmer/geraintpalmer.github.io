@@ -8,17 +8,18 @@ title: Teaching
   + *Current*
     + MA0004 - [Preliminary Mathematics II](/prelim2/)
     + MA2901 - Datrys Problemau
+    + MA2900 - Problem Solving
 
   
   + *Tutorials*
     + MA1051 - Hafaliadau Differol Eflennol / Elementary Differential Equations
     + MA1054 - Geometreg / Geometry
-    + MA1550 - Introduction to Probability Theory / Cyflwyniad i Theori Tebygolrwydd
-    + MA1751 - Computing for Mathematics / Cyfrifiadureg ar gyfer Mathemateg
-    + MA2053 - Complex Analysis / Dadansoddi Cymhlyg
-    + MA2054 - Series and Transforms / Cyfresi a Thrawsffurfiau
-    + MA2060 - Multivariable and Vector Calculus / Calcwlws Aml-newidyn a Fector
-    + MA3652 - Algorithmns and Heuristics / Algorithmau a Dulliau Hewristig
+    + MA1550 - Cyflwyniad i Theori Tebygolrwydd / Introduction to Probability Theory
+    + MA1751 - Cyfrifiadureg ar gyfer Mathemateg / Computing for Mathematics
+    + MA2053 - Dadansoddi Cymhlyg / Complex Analysis
+    + MA2054 - Cyfresi a Thrawsffurfiau / Series and Transforms
+    + MA2060 - Calcwlws Aml-newidyn a Fector / Multivariable and Vector Calculus
+    + MA3652 - Algorithmau a Dulliau Hewristig / Algorithms and Heuristics
 
   
   + *Past*
@@ -31,6 +32,7 @@ title: Teaching
 ### Resources / Adnoddau
 
   + [Outreach Activities](/outreach/)
+  + [Termiadur Ysgol Mathemateg Prifysgol Caerdydd](https://termiadur.github.io/)
   + [Fideo Tiwtorialau Python](/teaching/tiwtorialau-python/)
   + [Latex Tutorial](/teaching/latex-refresher/) / [Tiwtorial Latex](/teaching/latex-refresher/cy/)
   + [MSc Maths Skills: Algebra, Calculus & Probability Refresher](/MSc_week_0/maths_skills.pdf) ([Video Lecture](https://www.youtube.com/watch?v=u-WcTJmH2i8))

@@ -170,6 +170,10 @@ Cynulleidfaoedd amryw gan gynnwys y cyhoedd, academyddion, ymarferwyr gofal iech
 * Chwef 2015 - Python Namibia 2015, Windhoek - *Playing with Reinforcement Learning in Python*
 
 
+## Ymddangosiadau yn y Cyfryngau
+
+* 06/11/2020 - **Yfory Newydd** - *BBC Radio Cymru*
+
 
 ## Cyswllt
 
