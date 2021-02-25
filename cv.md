@@ -148,6 +148,7 @@ Sept 2010 - May 2013: **BSc Mathematics, Aberystwyth University.** First Class H
 Bilingual speaker. International experience. Technical topics.
 Diverse audiences including general public, academics, healthcare practitioners, and member of the Welsh government.
 
++ Feb 2021 - OR Society Beale Lecture 2021 - *Open-Source Simulation with Ciw*
 + Nov 2020 - Wales Academic Symposium of Language Technologies 2020 - *Mewnblaniadau Geiriau ar gyfer y Gymraeg*
 + Aug 2019 - Second ABCi Innovation Day, Cardiff Bay - *Using Python for Healthcare Modelling*
 * Sept 2018 - OR60, Lancaster - Poster: *Ciw: An open source discrete event simulation library*
