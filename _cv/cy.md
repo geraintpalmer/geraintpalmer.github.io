@@ -46,7 +46,7 @@ Medi 2010 - Mai 2013: **BSc Mathemateg, Prifysgol Aberystwyth.** Anrhydedd Dosba
 ## Cyhoeddiadau
 <ul>
 {% for pub in site.data.publications %}
-  <li>{{ pub.year }}: <b>{{ pub.title }}</b> <i>{{ pub.authors }}</i> 
+  <li>{{ pub.year }}: <b>{{ pub.title }}</b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>{{ pub.authors }}</i> 
   	{% if pub.published == 'yes' %}
   	  <a class="page-link" href="{{ pub.link }}">{{ pub.journal }}</a>
   	{% elsif pub.preprint == 'yes' %}
