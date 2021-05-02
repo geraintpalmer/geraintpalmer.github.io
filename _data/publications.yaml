@@ -3,6 +3,7 @@
   year: "2021"
   published: "yes"
   journal: "Health Systems."
+  link: "https://www.tandfonline.com/doi/full/10.1080/20476965.2021.1906764"
 
 - title: "Ciw: An Open Source Discrete Event Simulation Library"
   authors: "Palmer GI, Knight VA, Harper PR, & Hawa, AL."
