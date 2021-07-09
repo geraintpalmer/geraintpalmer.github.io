@@ -26,4 +26,4 @@ layout: default
 {% endfor %}
 </ul>
 
-[Research Assets](/assets/)
+[Research Assets](/assets/) ⸰ [Google Scholar](https://scholar.google.com/citations?hl=en&user=PYovOSUAAAAJ)

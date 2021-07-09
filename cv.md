@@ -109,11 +109,13 @@ Sept 2010 - May 2013: **BSc Mathematics, Aberystwyth University.** First Class H
 * Experience of organising conference streams and assisting in conference organisation (Young OR 19, SSI Collaborations Workshop 2018).
 * Organiser of a yearly [Research Software Development Workshop](https://vknight.org/rsd/) for PhD students at the School of Mathematics.
 * Have lead many outreach activities for school pupils of all ages (from years 5 to 13) in both English and Welsh.
+* Developed and lead a Summer [coding course](/outreach/) for 11-15 year olds for the [Urdd](https://www.urdd.cymru/en/).
+* Development and leading ["Dadansoddi Data gyda Python ac R"](https://www.porth.ac.uk/cy/collection/dadansoddi-data-gydag-r-a-python) module for the [Coleg Cymraeg Cenedlaethol](https://www.colegcymraeg.ac.uk/en/)'s PhD training programme.
 
 
 ## Skills
 
-**Software:**  Python, LaTeX, Excel, SPSS, Simul8, version control with Git and GitHub.
+**Software:**  Python, LaTeX, Excel, SPSS, R, Simul8, version control with Git and GitHub.
 
 **Languages:**  English (Fluent), Welsh (Fluent).
 

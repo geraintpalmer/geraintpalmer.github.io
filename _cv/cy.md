@@ -101,7 +101,6 @@ Medi 2010 - Mai 2013: **BSc Mathemateg, Prifysgol Aberystwyth.** Anrhydedd Dosba
 + Goruchwylio myfyrwyr prosiect Haf a leoliad Nuffield.
 
 
-
 ## Adeiladu Cymdeithasau & Threfnu
 
 * Aelod o [Gymdeithas Ymchwil Weithrediadol y DU](https://www.theorsociety.com) & chyn-cadair [SWORDS](http://www.theorsociety.com/Pages/Regional/swords.aspx) (Cymdeithas Trafodaeth Ymchwil Gweithrediadol De Cymru.)
@@ -111,11 +110,13 @@ Medi 2010 - Mai 2013: **BSc Mathemateg, Prifysgol Aberystwyth.** Anrhydedd Dosba
 * Profiad trefnu ffrydoedd cynhadledd a helpu trefnu cynhadleddau (Young OR 19, Gweithdy Cydweithio'r SSI 2018).
 * Un o drefnwyr [Gweithdu Datblygu Meddalwedd Ymchwil](https://vknight.org/rsd/) blynyddol ar gyfer myfyrwyr PhD yr Ysgol Mathemateg.
 * Wedi arwain nifer o ddigwyddiadau estyn ar gyfer disgyblion ysgol o bob oedran (o flynyddoedd 5 i 13) yn Saesneg ac yn Gymraeg.
+* Wedi datblygu ac arwain [cwrs codio](/outreach/) Haf ar gyfer plant 11-15 ar gyfer yr [Urdd](https://www.urdd.cymru/cy/).
+* Datblygu ac arwain  y modiwl ["Dadansoddi Data gyda Python ac R"](https://www.porth.ac.uk/cy/collection/dadansoddi-data-gydag-r-a-python) ar gyfer rhaglen hyfforddiant PhD y [Coleg Cymraeg Cenedlaethol](https://www.colegcymraeg.ac.uk/cy/).
 
 
 ## Sgiliau
 
-**Meddalwedd:**  Python, LaTeX, Excel, SPSS, Simul8, rheolaeth fersiwn gyda Git a GitHub.
+**Meddalwedd:**  Python, LaTeX, Excel, SPSS, R, Simul8, rheolaeth fersiwn gyda Git a GitHub.
 
 **Ieithoedd:** Cymraeg (Rhygl), Saesneg (Rhygl).
 
