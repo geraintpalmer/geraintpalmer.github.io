@@ -11,6 +11,7 @@ Over the last two years I have enjoyed being a part of two Welsh Government fund
 2. 2021: **English–Welsh Cross-Lingual Embeddings.**<br>*Espinosa-Anke L, Palmer GI, Corcoran P, Filimonov M, Spasić I, & Knight D.* [Applied Sciences](https://www.mdpi.com/2076-3417/11/14/6541) 11(14), 6541.
 3. 2021: **A Closer Look at Welsh Word Embeddings.** [(cy)](http://techiaith.cymru/wp-content/uploads/2021/10/Iaith-a-Thechnoleg-yng-Nghymru-Cyfrol-I.pdf)<br>*Palmer GI, Corcoran P, Arman L, Knight D, & Spasić I.* [Language and Technology in Wales: Volume I](http://techiaith.cymru/wp-content/uploads/2021/10/Language-and-Technology-in-Wales-Volume-I.pdf).
 
+The last of these was originally written in Welsh, using automatic translation technology in order to collaborate with people who don't speak Welsh, which was quite cool.
 In addition to these, the following resources were produced:
 
 + [Welsh language video tutorials on the work](https://www.youtube.com/playlist?list=PLSkPgScy-DkHuXKwFC0xSVaIxSVALy_HD),
