@@ -14,15 +14,13 @@ layout: default
 
 <ul>
 {% for pub in site.data.publications %}
-  <li>{{ pub.year }}: <b>{{ pub.title }}</b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>{{ pub.authors }}</i> 
-  	{% if pub.published == 'yes' %}
-  	  <a class="page-link" href="{{ pub.link }}">{{ pub.journal }}</a>
-  	{% elsif pub.preprint == 'yes' %}
-  	  Under Review. <a class="page-link" href="{{ pub.link }}">{{ pub.arxiv }}</a>
-  	{% else %}
-  	  Under Review.
-  	{% endif %}
+  {% if pub.multilang == 'no' %}
+  <li>{{ pub.year }}: <b>{{ pub.title }}</b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>{{ pub.authors }}</i> <a class="page-link" href="{{ pub.link }}">{{ pub.journal }}</a>
   </li>
+  {% elsif pub.lang == 'en'%}
+  <li>{{ pub.year }}: <b>{{ pub.title }}</b> <a class="page-link" href="{{ pub.altlink }}">(cy)</a><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>{{ pub.authors }}</i> <a class="page-link" href="{{ pub.link }}">{{ pub.journal }}</a>
+  </li>
+  {% endif %}
 {% endfor %}
 </ul>
 

@@ -14,7 +14,7 @@ Sept 2019 - : **Welsh Medium Lecturer** at Cardiff University's School of Mathem
 
 2017 - 2019 : **Welsh Medium Teaching Associate** at Cardiff University's School of Mathematics
 
-+ Leading modules, taking tutorials, example Classes, and labs
++ Leading modules, taking tutorials, example classes, and labs
 + Translation of educational resources
 + Welsh provision at Maths Support
 + Supporting FMSP outreach events
@@ -45,15 +45,13 @@ Sept 2010 - May 2013: **BSc Mathematics, Aberystwyth University.** First Class H
 ## Publications
 <ul>
 {% for pub in site.data.publications %}
-  <li>{{ pub.year }}: <b>{{ pub.title }}</b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>{{ pub.authors }}</i> 
-  	{% if pub.published == 'yes' %}
-  	  <a class="page-link" href="{{ pub.link }}">{{ pub.journal }}</a>
-  	{% elsif pub.preprint == 'yes' %}
-  	  Under Review. <a class="page-link" href="{{ pub.link }}">{{ pub.arxiv }}</a>
-  	{% else %}
-  	  Under Review.
-  	{% endif %}
+  {% if pub.multilang == 'no' %}
+  <li>{{ pub.year }}: <b>{{ pub.title }}</b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>{{ pub.authors }}</i> <a class="page-link" href="{{ pub.link }}">{{ pub.journal }}</a>
   </li>
+  {% elsif pub.lang == 'en'%}
+  <li>{{ pub.year }}: <b>{{ pub.title }}</b> <a class="page-link" href="{{ pub.altlink }}">(cy)</a><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>{{ pub.authors }}</i> <a class="page-link" href="{{ pub.link }}">{{ pub.journal }}</a>
+  </li>
+  {% endif %}
 {% endfor %}
 </ul>
 

@@ -46,15 +46,13 @@ Medi 2010 - Mai 2013: **BSc Mathemateg, Prifysgol Aberystwyth.** Anrhydedd Dosba
 ## Cyhoeddiadau
 <ul>
 {% for pub in site.data.publications %}
-  <li>{{ pub.year }}: <b>{{ pub.title }}</b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>{{ pub.authors }}</i> 
-  	{% if pub.published == 'yes' %}
-  	  <a class="page-link" href="{{ pub.link }}">{{ pub.journal }}</a>
-  	{% elsif pub.preprint == 'yes' %}
-  	  Dan Adolygiad. <a class="page-link" href="{{ pub.link }}">{{ pub.arxiv }}</a>
-  	{% else %}
-  	  Dan Adolygiad.
-  	{% endif %}
+  {% if pub.multilang == 'no' %}
+  <li>{{ pub.year }}: <b>{{ pub.title }}</b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>{{ pub.authors }}</i> <a class="page-link" href="{{ pub.link }}">{{ pub.journal }}</a>
   </li>
+  {% elsif pub.lang == 'cy'%}
+  <li>{{ pub.year }}: <b>{{ pub.title }}</b> <a class="page-link" href="{{ pub.altlink }}">(en)</a><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>{{ pub.authors }}</i> <a class="page-link" href="{{ pub.link }}">{{ pub.journal }}</a>
+  </li>
+  {% endif %}
 {% endfor %}
 </ul>
 
