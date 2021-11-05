@@ -18,6 +18,7 @@ title: Teaching
     + MA2053 - Dadansoddi Cymhlyg / Complex Analysis
     + MA2054 - Cyfresi a Thrawsffurfiau / Series and Transforms
     + MA2060 - Calcwlws Aml-newidyn a Fector / Multivariable and Vector Calculus
+    + MA2651 - Ymchwil Weithrediadol / Operational Research
     + MA3652 - Algorithmau a Dulliau Hewristig / Algorithms and Heuristics
 
   
