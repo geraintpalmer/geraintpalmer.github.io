@@ -13,3 +13,7 @@ permalink: /outreach/
     + [Gweithdy 1]({{ site.url }}/outreach/gweithdy1.pdf)
     + [Gweithdy 2]({{ site.url }}/outreach/gweithdy2.pdf)
     + [Gweithdy 3]({{ site.url }}/outreach/gweithdy3.pdf)
+
+  + **Gweithdai Mathemateg y Coleg Cymraeg Cenedlaethol**
+    + [Data]({{ site.url }}/outreach/GweithdyData.pdf) ([Fideo](https://www.porth.ac.uk/cy/collection/gweithdai-mathemateg))
+    + [Graffiau a Rhwydweithidau]({{ site.url }}/outreach/GweithdyGraffiau.pdf) ([Fideo](https://www.porth.ac.uk/cy/collection/gweithdai-mathemateg-2021-22))
