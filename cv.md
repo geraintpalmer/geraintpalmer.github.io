@@ -82,6 +82,7 @@ Sept 2010 - May 2013: **BSc Mathematics, Aberystwyth University.** First Class H
 
 ## Awards
 
++ Part of the [2021 team that won](https://www.cardiff.ac.uk/news/view/2585799-impact-award-for-cardiff-mathematical-modelers) the [Lyn Thomas Impact Medal](https://www.theorsociety.com/membership/awards-medals-and-scholarships/lyn-thomas-impact-medal/) for modelling work with the NHS.
 + [2018 Winner](https://www.cardiff.ac.uk/news/view/1764522-best-operational-research-phd-thesis-in-in-the-uk-for-school-of-maths-lecturer) of the [OR Society Doctoral Award](https://www.theorsociety.com/what-we-do/awards-medals-and-scholarships/the-doctoral-award/) for "Most Distinguished Body of Research leading to the Award of a Doctorate in the field of OR" - *Modelling Deadlock in Queueing Systems*
 + 2016 Winner of best poster at the Cynhadledd Wyddonol y CCC, Aberystwyth - *Llwyrglo yn Rhwydweithiau Ciwio*
 

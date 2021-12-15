@@ -84,6 +84,7 @@ Medi 2010 - Mai 2013: **BSc Mathemateg, Prifysgol Aberystwyth.** Anrhydedd Dosba
 
 ## Gobrau
 
++ Rhan o [dîm 2021 a enillodd](https://www.cardiff.ac.uk/cy/news/view/2585799-impact-award-for-cardiff-mathematical-modelers) [Medal Effaith Lyn Thomas](https://www.theorsociety.com/membership/awards-medals-and-scholarships/lyn-thomas-impact-medal/) am waith modelu gyda'r GIG.
 + [Enillydd 2018](https://www.cardiff.ac.uk/cy/news/view/1764522-best-operational-research-phd-thesis-in-in-the-uk-for-school-of-maths-lecturer) o [Wobr Doethurol y Cymdeithas Ymchwil Gweithrediadol](https://www.theorsociety.com/what-we-do/awards-medals-and-scholarships/the-doctoral-award/) ar gyfer "Corff o Ymchwil Mwyaf Nodedig yn arwain at Doethuriath ym maes Ymchwil Gweithrediadol" - *Modelling Deadlock in Queueing Systems*
 + Enillydd 2016 poster gorau yng Nghynhadledd Wyddonol y CCC, Aberystwyth - *Llwyrglo yn Rhwydweithiau Ciwio*
 
