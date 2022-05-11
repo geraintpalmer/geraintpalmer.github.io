@@ -54,6 +54,7 @@ Nid yw plotio hwn yn rhoi llawer o fewnwelediad, gan ei fod rhy stocastig:
 Mae gan y llyfrgell [`traces`](https://github.com/datascopeanalytics/traces) y gallu i gymryd cyfartaleddau newidiol dros y gyfres amser afreolaidd hon, gydag unrhyw faint ffenest sydd angen, e.e. cyfartaledd newidiol 7-diwrnod, cyfartaledd newidiol 30-diwrnod, neu gyfartaledd newidiol chwarterol:
 
 {% highlight python %}
+>>> import traces
 >>> series = traces.TimeSeries()
 >>> for timestamp, state in Q.statetracker.history:
 ...     series[timestamp] = state

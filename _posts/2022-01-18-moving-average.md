@@ -54,6 +54,7 @@ Plotting this doesn't give us much insight, as it's too stochastic:
 The [`traces`](https://github.com/datascopeanalytics/traces) library let's us take moving averages over this irregular time series, with any window size we want, e.g. a 7-day moving average, 30-day moving average, or a quarterly moving average:
 
 {% highlight python %}
+>>> import traces
 >>> series = traces.TimeSeries()
 >>> for timestamp, state in Q.statetracker.history:
 ...     series[timestamp] = state
