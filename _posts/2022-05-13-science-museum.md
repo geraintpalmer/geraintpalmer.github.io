@@ -84,5 +84,4 @@ that they were cheap and accessible to the masses, rather than being only
 accessible by the elite.
 However the museum also explained that Isaac Newton didn't agree with these open
 science principles, and deliberately wrote his Principia Mathematica in complex
-highfalutin language so that it would only be understood by the select elite.
-Something we can all learn from I think.
+pretentious language so that it would only be understood by the select elite.

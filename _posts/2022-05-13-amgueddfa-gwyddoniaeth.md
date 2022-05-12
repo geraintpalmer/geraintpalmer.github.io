@@ -87,4 +87,3 @@ ar gael i'r crachach.
 Serch hynny roedd yr amgueddfa hefyd yn esbonio nad oedd Isaac Newton yn cytuno
 gydag egwyddorion gwyddoniaeth agored, ac ysgrifennodd ei Principia Mathematica
 mewn iaith gymhleth a rhwysgfawr ar bwrpas er mwyn i ond yr elet ei ddeall.
-Rhywbeth gallwn ni gyd dysgu ohono dwi'n credu.
