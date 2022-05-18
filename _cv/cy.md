@@ -56,6 +56,15 @@ Medi 2010 - Mai 2013: **BSc Mathemateg, Prifysgol Aberystwyth.** Anrhydedd Dosba
 {% endfor %}
 </ul>
 
+## Llyfr
+
+<ul>
+{% for book in site.data.books %}
+  <li>{{ book.year }}: <b>{{ book.title }}</b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>{{ book.authors }}</i> <a class="page-link" href="{{ book.link }}">{{ book.publisher}}, ISBN: {{ book.isbn }}</a>
+  </li>
+{% endfor %}
+</ul>
+
 
 ## Cyllido & Phrosiectau
 
