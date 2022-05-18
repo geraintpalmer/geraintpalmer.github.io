@@ -7,7 +7,7 @@ layout: default
  + Lecturer at Cardiff University.
  + Research interests: stochastic modelling, queueing theory, simulation, [Ciw](https://ciw.readthedocs.io/en/latest/).
  + Software development and teaching.
- + Bilingual: English, Cymraeg.
+ + Bilingual: English, Cymraeg ![icon](/images/logo-cymraeg.png){: style="width: 14px"}.
 
 
 ### Publications
