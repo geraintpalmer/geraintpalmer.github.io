@@ -24,4 +24,4 @@ layout: default
 {% endfor %}
 </ul>
 
-[Research Assets](/assets/) ⸰ [Google Scholar](https://scholar.google.com/citations?hl=en&user=PYovOSUAAAAJ) ⸰ [ORCID](https://orcid.org/0000-0001-7865-6964)
+[Research Assets](/assets/) ⸰ [Google Scholar](https://scholar.google.com/citations?hl=en&user=PYovOSUAAAAJ) ⸰ [ORCID](https://orcid.org/0000-0001-7865-6964) ⸰ [ResearchGate](https://www.researchgate.net/profile/Geraint-Palmer)
