@@ -3,7 +3,7 @@ layout: page
 ---
 
 <div style="text-align: right; font-size: large;">
-  <a href="/blog/cy/">Welsh Versions <img class="emoji" draggable="false" src="https://twemoji.maxcdn.com/2/svg/1f3f4-e0067-e0062-e0077-e006c-e0073-e007f.svg"/></a>
+  <a href="/blog/">Fersiynau Saesneg <img class="emoji" draggable="false" src="https://twemoji.maxcdn.com/2/svg/1f1ec-1f1e7.svg"/></a>
 </div>
 
 <div id="archives">
@@ -15,7 +15,7 @@ layout: page
 
 {% assign first = 'True' %}
 {% for post in site.posts %}
-{% if post.language == 'english' %}
+{% if post.language == 'cymraeg' %}
   {% assign this_year = post.date | date: "%Y" %}
   {% if first == 'True' %}
     {% assign last_day = "" %}
@@ -37,7 +37,22 @@ layout: page
         {% capture this_month %}{{ post.date | date: "%b" }}{% endcapture %}
         {% assign this_year = post.date | date: "%Y" %}
         <span class="date day">{{ this_day }}</span>
-        <span class="date month small text-muted">{{ this_month }}</span>
+        <span class="date month small text-muted">
+        {% case this_month %}
+            {% when 'Jan' %}Ion 
+            {% when 'Feb' %}Chw
+            {% when 'Mar' %}Maw 
+            {% when 'Apr' %}Ebr
+            {% when 'May' %}Mai
+            {% when 'Jun' %}Meh
+            {% when 'Jul' %}Grf
+            {% when 'Aug' %}Aws 
+            {% when 'Sep' %}Med 
+            {% when 'Oct' %}Hyd
+            {% when 'Nov' %}Tch
+            {% when 'Dec' %}Rhg
+        {% endcase %}
+        </span>
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       </div>
     </li>
