@@ -5,7 +5,11 @@ title: Projects
 
 # Projects
 
-Current and past projects. ([Yn Gymraeg](/projects/cy/))
+<div style="text-align: right; font-size: large;">
+  <a href="/projects/cy/">Welsh Version <img class="emoji" draggable="false" src="https://twemoji.maxcdn.com/2/svg/1f3f4-e0067-e0062-e0077-e006c-e0073-e007f.svg"/></a>
+</div>
+
+Current and past projects.
 
 {% assign show = false %}
 {% for proj in site.data.proj %}

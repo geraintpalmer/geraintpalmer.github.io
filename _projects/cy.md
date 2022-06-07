@@ -6,7 +6,11 @@ permalink: projects/cy/
 
 # Prosiectau
 
-Prosiectau presennol a gorffenol. ([In English](/projects/))
+<div style="text-align: right; font-size: large;">
+  <a href="/projects/">Fersiwn Saesneg <img class="emoji" draggable="false" src="https://twemoji.maxcdn.com/2/svg/1f1ec-1f1e7.svg"/></a>
+</div>
+
+Prosiectau presennol a gorffenol.
 
 {% assign show = false %}
 {% for proj in site.data.proj %}

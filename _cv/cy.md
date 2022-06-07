@@ -4,7 +4,9 @@ title: CV
 permalink: cv/cy/
 ---
 
-[In English](/cv/)
+<div style="text-align: right; font-size: large;">
+  <a href="/cv/">Fersiwn Saesneg <img class="emoji" draggable="false" src="https://twemoji.maxcdn.com/2/svg/1f1ec-1f1e7.svg"/></a>
+</div>
 
 ## Apwyntiadau
 
