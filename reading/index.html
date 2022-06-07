@@ -1,0 +1,482 @@
+---
+layout: page
+---
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/danfojs@0.1.1/dist/index.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <title>Reading Habit Analysis</title>
+</head>
+<body>
+
+
+<div id='table_of_books' style="width:100%; height:800px"></div>
+
+<div id="plot_books_per_year" style="width:70%; margin: auto;"></div>
+
+<div id='monthly' style="width:100%;"></div>
+
+<div id="top_authors_plot" style="width:70%; margin: auto;"></div>
+
+<div id="language_per_year" style="width:70%; margin: auto;"></div>
+
+<div id="kind_per_year" style="width:70%; margin: auto;"></div>
+  
+<div id="book_age_hist" style="width:85%;"></div>
+
+
+
+<script>
+dfd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vS8ENPko3-Z_B5hFywhzMr4qzJHZjCdzn3bx9Z3BrYHVKniHumuovCTF9iy28kRu7M3huznQt-seQI2/pub?gid=0&single=true&output=csv").then(df => {
+  var month_abbrev = {
+    'January': 'Jan',
+    'February': 'Feb',
+    'March': 'Mar',
+    'April': 'Apr',
+    'May': 'May',
+    'June': 'Jun',
+    'July': 'Jul',
+    'August': 'Aug',
+    'September': 'Sep',
+    'October': 'Oct',
+    'November': 'Nov',
+    'December': 'Dec'
+  }
+  let rev_year = df['Year'].values.reverse()
+  let rev_month = df['Month'].map(month_abbrev).values.reverse()
+  let rev_date = [rev_month, rev_year].reduce((a, b) => a.map((v, i) => v + ' ' + b[i]))
+  let rev_title = df['Title'].values.reverse()
+  let rev_auths = df['Author'].values.reverse()
+
+  var values = [rev_date, rev_title, rev_auths]
+  var data = [{
+    type: 'table',
+    header: {
+      values: [["<b>Date</b>"], ["<b>Title</b>"], ["<b>Author</b>"]],
+      align: "center",
+      line: {width: 1, color: 'black'},
+      fill: {color: "#E68A00"},
+      font: {family: "Andale Mono", size: 18, color: "white"}
+    },
+    cells: {
+      values: values,
+      align: "left",
+      line: {color: "black", width: 1},
+      font: {family: 'sans-serif', size: 12, color: ["black"]}
+    },
+    columnwidth: [0.1, 0.6, 0.3]
+  }]
+  Plotly.newPlot('table_of_books', data);
+
+
+  }).catch(err => {console.log(err);})
+</script>
+
+<script>
+  dfd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vS8ENPko3-Z_B5hFywhzMr4qzJHZjCdzn3bx9Z3BrYHVKniHumuovCTF9iy28kRu7M3huznQt-seQI2/pub?gid=0&single=true&output=csv").then(df => {
+  let year_counts = df.groupby(['Year']).col(["Title"]).count().set_index({key: "Year"})
+  let monthfracs = {
+      'January'  : 0.5/12,
+      'February' : 1.5/12,
+      'March'    : 2.5/12,
+      'April'    : 3.5/12,
+      'May'      : 4.5/12,
+      'June'     : 5.5/12,
+      'July'     : 6.5/12,
+      'August'   : 7.5/12,
+      'September': 8.5/12,
+      'October'  : 9.5/12,
+      'November' : 10.5/12,
+      'December' : 11.5/12};
+
+    let present = df['Year'].add(df['Month'].map(monthfracs));
+    let earliest = present.min();
+    let latest = present.max();
+    let all_months = [];
+    let month_counts = [];
+    let num_books = df.shape[0]
+    var mf;
+    for (mf = earliest; mf < latest; mf = mf + 1/12) {
+      all_months.push(mf);
+      let this_month = 0
+      var i;
+      for (i = 0; i < num_books; i++) {
+        let yr = df.loc({rows:[i]})['Year'].values[0];
+        let mth = monthfracs[df.loc({rows:[i]})['Month'].values[0]];
+        if (Math.abs( yr + mth - mf ) < 0.001) {
+          this_month++;
+        };
+      };
+      month_counts.push(this_month);
+    };
+    
+    let monthly_max = Math.max.apply(Math, month_counts)
+    let counts_hist = [];
+    let counts_hist_y = [];
+    var i;
+    for (i = 0; i < monthly_max + 1; i++) {
+      counts_hist.push(month_counts.filter(x => x==i).length);
+      counts_hist_y.push(i);
+    };
+    
+    function average(nums) {
+      return nums.reduce((a, b) => (a + b)) / nums.length;
+    };
+    
+    let num_mfs = all_months.length;
+    let rolling = [];
+    let rollingx = [];
+    var j;
+    for (j = 0; j < num_mfs - 12; j++) {
+      rolling.push(average(month_counts.slice(j, j+12)));
+      rollingx.push((all_months[j+6] + all_months[j+7]) / 2);
+    };
+    
+    var trace_monthly = {
+      x: all_months,
+      y: month_counts,
+      mode: 'line',
+      name: 'Count',
+      line: {
+        color: 'rgba(230,138,0,0.65)',
+        width: 2,
+      }
+    };
+    
+    var trace_rolling = {
+      x: rollingx,
+      y: rolling,
+      mode: 'line',
+      name: 'Rolling Mean',
+      line: {
+        color: 'rgb(99, 99, 99)',
+        width: 4}
+    };
+    
+    var trace_hist = {
+      type: 'bar',
+      x: counts_hist,
+      y: counts_hist_y,
+      xaxis: 'x2',
+      yaxis: 'y2',
+      orientation: 'h',
+      showlegend: false,
+      marker: {color: "#E68A00", line: {color: "black", width: 0.5}}
+    }
+    
+    var layout = {
+      title: 'Books Read per Month',
+      paper_bgcolor:"#FFF",
+      plot_bgcolor:"#FFF",
+      hovermode: false,
+      xaxis: {
+        title: 'Month',
+        showline: true,
+        tickvals: year_counts.index,
+        domain: [0, 0.65]},
+      xaxis2: {
+        domain: [0.70, 1],
+        tickangle: 0,
+        title: 'Frequency'
+      },
+      yaxis: {
+        title: 'Count',
+        showline: true,
+        range: [0, monthly_max]},
+      yaxis2: {anchor: 'x2'},
+      };
+
+    Plotly.newPlot('monthly', [trace_monthly, trace_rolling, trace_hist], layout);
+    
+  }).catch(err => {console.log(err);})
+</script>
+
+<script>
+  dfd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vS8ENPko3-Z_B5hFywhzMr4qzJHZjCdzn3bx9Z3BrYHVKniHumuovCTF9iy28kRu7M3huznQt-seQI2/pub?gid=0&single=true&output=csv").then(df => {
+    let auths = df.groupby(['Author']).col(['Kind']).count();
+    let n_auths = auths.shape[0]
+    let auth_list = [];
+    var i;
+    for (i = 0; i < n_auths; i++) {
+      let a = {'author': auths.loc({rows:[i]})['Author'].values[0], 'count': auths.loc({rows:[i]})['Kind_count'].values[0]};
+      auth_list.push(a);
+    };
+    auth_list.sort((a, b) => a['author'] < b['author'] ? 1 : -1);
+    auth_list.sort((a, b) => a['count'] < b['count'] ? 1 : -1);
+    let top_authors = [];
+    let top_author_counts = [];
+    for (i = 0; i < 20; i++) {
+      top_authors.push(auth_list[i]['author']);
+      top_author_counts.push(auth_list[i]['count']);
+    };
+    
+    var trace_top = {
+      type: 'bar',
+      x: top_author_counts.reverse(),
+      y: top_authors.reverse(),
+      orientation: 'h',
+      marker: {color: "#E68A00", line: {color: "black", width: 0.5}}
+    };
+    
+    var layout = {
+      title: 'Top 20 Authors',
+      paper_bgcolor:"#FFF",
+      plot_bgcolor:"#FFF",
+      xaxis: {
+        title: 'Total Count',
+        showline: true},
+      yaxis: {
+        type: 'category',
+        showline: true},
+        margin: {l: 160, r: 50, t:50, b:50}
+     };
+
+    Plotly.newPlot('top_authors_plot', [trace_top], layout);
+  }).catch(err => {console.log(err);})
+</script>
+
+
+<script>
+  dfd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vS8ENPko3-Z_B5hFywhzMr4qzJHZjCdzn3bx9Z3BrYHVKniHumuovCTF9iy28kRu7M3huznQt-seQI2/pub?gid=0&single=true&output=csv").then(df => {
+    let grp = df.groupby(["Year"])
+    let year_counts = grp.col(["Title"]).count().set_index({key: "Year"})
+    let max_count = year_counts['Title_count'].max()
+    var layout = {
+      title: 'Books Read per Year',
+      paper_bgcolor:"#FFF",
+      plot_bgcolor:"#FFF",
+      xaxis: {
+        title: 'Year',
+        showline: true,
+        tickvals: year_counts.index},
+      yaxis: {
+        title: 'Count',
+        showline: true,
+        range: [0, max_count + 2]}}
+    var trace1 = {
+      x: year_counts.index,
+      y: year_counts['Title_count'].values,
+      mode: 'line',
+      line: {
+        color: '#E68A00',
+        width: 4}
+      };
+    Plotly.newPlot('plot_books_per_year', [trace1], layout);
+  }).catch(err => {console.log(err);})
+</script>
+
+
+<script>
+  dfd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vS8ENPko3-Z_B5hFywhzMr4qzJHZjCdzn3bx9Z3BrYHVKniHumuovCTF9iy28kRu7M3huznQt-seQI2/pub?gid=0&single=true&output=csv").then(df => {
+    let year_counts = df.groupby(["Year"]).col(["Title"]).count().set_index({key: "Year"})
+    let min_yr = df['Year'].min()
+    let max_yr = df['Year'].max()
+    var en_count = []
+    var cy_count = []
+    var es_count = []
+    var yr;
+    for (yr = min_yr; yr < max_yr + 1; yr++) {
+      let thisyear = df.query({column: "Year", is: "==", to: yr}).groupby(["Language"]).col(["Kind"]).count().set_index({key: "Language"});
+        if (thisyear.index.includes("English")) {
+          n_en = thisyear.loc({ rows: ["English"]})['Kind_count'].values[0];
+        } else { n_en = 0; };
+        if (thisyear.index.includes("Welsh")) {
+          n_cy = thisyear.loc({ rows: ["Welsh"]})['Kind_count'].values[0];
+        } else { n_cy = 0; };
+        if (thisyear.index.includes("Spanish")) {
+          n_es = thisyear.loc({ rows: ["Spanish"]})['Kind_count'].values[0];
+        } else { n_es = 0; };
+        en_count.push(n_en)
+        cy_count.push(n_cy)
+        es_count.push(n_es)
+      };
+      var en_prop = []
+      var cy_prop = []
+      var es_prop = []
+      var yr;
+      for (yr = min_yr - 2014; yr < max_yr + 1 - 2014; yr++) {
+        let tot = en_count[yr] + cy_count[yr] + es_count[yr];
+        en_prop.push((en_count[yr] / tot) * 100)
+        cy_prop.push((cy_count[yr] / tot) * 100)
+        es_prop.push((es_count[yr] / tot) * 100)
+      };
+        
+      var trace_en = {
+        x: year_counts.index,
+        y: en_prop,
+        name: 'English',
+        type: 'bar',
+        hovertemplate: '%{y:.1f}%',
+        marker: {color: 'rgb(207, 128, 33)', line: {color: "black", width: 0.5}},
+      };
+      var trace_cy = {
+        x: year_counts.index,
+        y: cy_prop,
+        name: 'Welsh',
+        type: 'bar',
+        hovertemplate: '%{y:.1f}%',
+        marker: {color: 'rgb(158, 51, 32)', line: {color: "black", width: 0.5}},
+      };
+      var trace_es = {
+        x: year_counts.index,
+        y: es_prop,
+        name: 'Spanish',
+        type: 'bar',
+        hovertemplate: '%{y:.1f}%',
+        marker: {color: 'rgb(219, 175, 0)', line: {color: "black", width: 0.5}},
+      };
+      var layout = {
+        title: 'Languages Read per Year',
+        paper_bgcolor:"#FFF",
+        plot_bgcolor:"#FFF",
+        xaxis: {
+          title: 'Year',
+          showline: true,
+          tickvals: year_counts.index},
+        yaxis: {
+          title: 'Percentage',
+          showline: true,
+          range: [0, 100],
+          tickvals: [0, 25, 50, 75, 100]},
+        barmode: 'stack'
+      };
+      
+      Plotly.newPlot('language_per_year', [trace_en, trace_cy, trace_es], layout);
+  }).catch(err => {console.log(err);})
+</script>
+
+<script>
+  dfd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vS8ENPko3-Z_B5hFywhzMr4qzJHZjCdzn3bx9Z3BrYHVKniHumuovCTF9iy28kRu7M3huznQt-seQI2/pub?gid=0&single=true&output=csv").then(df => {
+    let year_counts = df.groupby(["Year"]).col(["Title"]).count().set_index({key: "Year"})
+    let min_yr = df['Year'].min()
+    let max_yr = df['Year'].max()
+    var nv_count = []
+    var co_count = []
+    var py_count = []
+    var ss_count = []
+    var nf_count = []
+    var yr;
+    for (yr = min_yr; yr < max_yr + 1; yr++) {
+      let thisyear = df.query({column: "Year", is: "==", to: yr}).groupby(["Kind"]).col(["Language"]).count().set_index({key: "Kind"});
+      if (thisyear.index.includes("Novel")) {
+        n_nv = thisyear.loc({ rows: ["Novel"]})['Language_count'].values[0];
+      } else { n_nv = 0; };
+      if (thisyear.index.includes("Collection")) {
+        n_co = thisyear.loc({ rows: ["Collection"]})['Language_count'].values[0];
+      } else { n_co = 0; };
+      if (thisyear.index.includes("Play")) {
+        n_py = thisyear.loc({ rows: ["Play"]})['Language_count'].values[0];
+      } else { n_py = 0; };
+      if (thisyear.index.includes("Short Story")) {
+        n_ss = thisyear.loc({ rows: ["Short Story"]})['Language_count'].values[0];
+      } else { n_ss = 0; };
+      if (thisyear.index.includes("Nonfiction")) {
+        n_nf = thisyear.loc({ rows: ["Nonfiction"]})['Language_count'].values[0];
+      } else { n_nf = 0; };
+
+      nv_count.push(n_nv)
+      co_count.push(n_co)
+      py_count.push(n_py)
+      ss_count.push(n_ss)
+      nf_count.push(n_nf)
+    };
+
+    var nv_prop = []
+    var co_prop = []
+    var py_prop = []
+    var ss_prop = []
+    var nf_prop = []
+    var yr;
+    for (yr = min_yr - 2014; yr < max_yr + 1 - 2014; yr++) {
+      let tot = nv_count[yr] + co_count[yr] + py_count[yr] + ss_count[yr] + nf_count[yr];
+      nv_prop.push((nv_count[yr] / tot) * 100)
+      co_prop.push((co_count[yr] / tot) * 100)
+      py_prop.push((py_count[yr] / tot) * 100)
+      ss_prop.push((ss_count[yr] / tot) * 100)
+      nf_prop.push((nf_count[yr] / tot) * 100)
+    };
+      
+    var trace_nv = {
+      x: year_counts.index,
+      y: nv_prop,
+      name: 'Novel',
+      type: 'bar',
+      hovertemplate: '%{y:.1f}%',
+      marker: {color: 'rgb(207, 128, 33)', line: {color: "black", width: 0.5}},
+    };
+    var trace_co = {
+      x: year_counts.index,
+      y: co_prop,
+      name: 'Collection',
+      type: 'bar',
+      hovertemplate: '%{y:.1f}%',
+      marker: {color: 'rgb(158, 51, 32)', line: {color: "black", width: 0.5}},
+    };
+    var trace_py = {
+      x: year_counts.index,
+      y: py_prop,
+      name: 'Play',
+      type: 'bar',
+      hovertemplate: '%{y:.1f}%',
+      marker: {color: 'rgb(255, 187, 51)', line: {color: "black", width: 0.5}},
+    };
+    var trace_ss = {
+      x: year_counts.index,
+      y: ss_prop,
+      name: 'Short Story',
+      type: 'bar',
+      hovertemplate: '%{y:.1f}%',
+      marker: {color: 'rgb(255, 102, 0)', line: {color: "black", width: 0.5}},
+    };
+    var trace_nf = {
+      x: year_counts.index,
+      y: nf_prop,
+      name: 'Nonfiction',
+      type: 'bar',
+      hovertemplate: '%{y:.1f}%',
+      marker: {color: 'rgb(219, 175, 0)', line: {color: "black", width: 0.5}},
+    };
+    var layout = {
+      title: 'Type Read per Year',
+      paper_bgcolor:"#FFF",
+      plot_bgcolor:"#FFF",
+      xaxis: {
+        title: 'Year',
+        showline: true,
+        tickvals: year_counts.index},
+      yaxis: {
+        title: 'Percentage',
+        showline: true,
+        range: [0, 100],
+        tickvals: [0, 25, 50, 75, 100]},
+      barmode: 'stack'
+    };
+    
+    Plotly.newPlot('kind_per_year', [trace_nv, trace_co, trace_py, trace_ss, trace_nf], layout);
+  }).catch(err => {console.log(err);})
+</script>
+  
+<script>
+  dfd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vS8ENPko3-Z_B5hFywhzMr4qzJHZjCdzn3bx9Z3BrYHVKniHumuovCTF9iy28kRu7M3huznQt-seQI2/pub?gid=0&single=true&output=csv").then(df => {
+    let x = df["First Published"];
+    let minx = df["First Published"].min();
+    let maxx = df["First Published"].max();
+    let nbins = Math.ceil((maxx - minx)/10);
+    var trace = {
+        x: x['data'],
+        type: 'histogram',
+        marker: {color: '#E68A00', line: {color: "black", width: 0.5}},
+        nbinsx: nbins
+    };
+    var layout = {
+      title: 'When Were Books Published?',
+      paper_bgcolor:"#FFF",
+      plot_bgcolor:"#FFF",
+      xaxis: {
+        title: 'Year Published',
+        showline: true},};
+    Plotly.newPlot('book_age_hist', [trace], layout);
+  }).catch(err => {console.log(err);})
+</script>
