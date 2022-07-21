@@ -101,6 +101,7 @@ Sept 2010 - May 2013: **BSc Mathematics, Aberystwyth University.** First Class H
 
 ## Learning & Teaching
 
+* Fellow of the Higher Education Academy (FHEA)
 * Delivery of example classes, lectures and tutorials (see [Teaching](/teaching/)).
 * Leading computer lab sessions (Python, Simul8, LaTeX, Vensim, Excel) for undergraduate & masters students.
 * Mathematics & Statistics support tutor.
@@ -184,6 +185,7 @@ Diverse audiences including general public, academics, healthcare practitioners,
 ## Media Appearances
 
 * 06/11/2020 - **Yfory Newydd** - *BBC Radio Cymru*
+* 08/07/2022 - **Talk Python Podcast** - ([Applied mathematics with Python](https://talkpython.fm/episodes/show/372/applied-mathematics-with-python))
 
 
 ## Contact

@@ -102,6 +102,7 @@ Medi 2010 - Mai 2013: **BSc Mathemateg, Prifysgol Aberystwyth.** Anrhydedd Dosba
 
 ## Dysgu
 
+* Cymrawd AdvanceHE (FHEA)
 * Dosbarthiadau enghreifftiol, darlithoedd a thiwtorialau (gweler [Dysgu](/teaching/)).
 * Arwain sesiynau labiau cyfrifiadur (Python, Simul8, LaTeX, Vensim, Excel) ar gyfer israddedigion & myfyrwyr gradd meistr.
 * Tiwtor cefnogaeth mathemateg ac ystadegaeth.
@@ -185,6 +186,7 @@ Cynulleidfaoedd amryw gan gynnwys y cyhoedd, academyddion, ymarferwyr gofal iech
 ## Ymddangosiadau yn y Cyfryngau
 
 * 06/11/2020 - **Yfory Newydd** - *BBC Radio Cymru*
+* 08/07/2022 - **Talk Python Podcast** - ([Applied mathematics with Python](https://talkpython.fm/episodes/show/372/applied-mathematics-with-python))
 
 
 ## Cyswllt
