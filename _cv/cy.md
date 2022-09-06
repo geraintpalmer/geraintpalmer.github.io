@@ -95,6 +95,7 @@ Medi 2010 - Mai 2013: **BSc Mathemateg, Prifysgol Aberystwyth.** Anrhydedd Dosba
 
 ## Gobrau
 
++ [Gwobr ar gyfer Crynodeb (egwyddorion wedi'i seilio ar gwerth) Gorau](https://vbhc.nhs.wales/events/proms-annual-research-conference-2022/) yng Nghynhadledd Ymchwil Genedlaethol PROMs 2022 - *PROMs-Based Key Performance Indicators (KPIs) to Evaluate Waiting List Prioritisation Schemes Against Prudent Healthcare Principles*, gyda Dr Robert Palmer.
 + Rhan o [dîm 2021 a enillodd](https://www.cardiff.ac.uk/cy/news/view/2585799-impact-award-for-cardiff-mathematical-modelers) [Medal Effaith Lyn Thomas](https://www.theorsociety.com/membership/awards-medals-and-scholarships/lyn-thomas-impact-medal/) am waith modelu gyda'r GIG.
 + [Enillydd 2018](https://www.cardiff.ac.uk/cy/news/view/1764522-best-operational-research-phd-thesis-in-in-the-uk-for-school-of-maths-lecturer) o [Wobr Doethurol y Cymdeithas Ymchwil Gweithrediadol](https://www.theorsociety.com/what-we-do/awards-medals-and-scholarships/the-doctoral-award/) ar gyfer "Corff o Ymchwil Mwyaf Nodedig yn arwain at Doethuriath ym maes Ymchwil Gweithrediadol" - *Modelling Deadlock in Queueing Systems*
 + Enillydd 2016 poster gorau yng Nghynhadledd Wyddonol y CCC, Aberystwyth - *Llwyrglo yn Rhwydweithiau Ciwio*
@@ -162,6 +163,7 @@ Medi 2010 - Mai 2013: **BSc Mathemateg, Prifysgol Aberystwyth.** Anrhydedd Dosba
 Siaradwr dwyieithog. Profiad rhyngwladol. Pynciau technegol.
 Cynulleidfaoedd amryw gan gynnwys y cyhoedd, academyddion, ymarferwyr gofal iechyd, ac aelod o'r llywodraeth Cymraeg.
 
++ Meh 2022 - Cynhadledd Ymchwil Genedlaethol PROMs 2022 - *PROMs-Based Key Performance Indicators (KPIs) to Evaluate Waiting List Prioritisation Schemes Against Prudent Healthcare Principles*
 + Chwef 2021 - Darlith Beale y Gymdeithas YG 2021 - *Open-Source Simulation with Ciw*
 + Tach 2020 - Symposiwm Academaidd Technolegau Iaith Cymru 2020 - *Mewnblaniadau Geiriau ar gyfer y Gymraeg*
 + Awst 2019 - Ail Diwrnod Arloesi'r ABCi, Bae Caerdydd - *Using Python for Healthcare Modelling*

@@ -93,6 +93,7 @@ Sept 2010 - May 2013: **BSc Mathematics, Aberystwyth University.** First Class H
 
 ## Awards
 
++ [Award for Best Value (value-based principles) Abstract](https://vbhc.nhs.wales/events/proms-annual-research-conference-2022/) at The National PROMs Annual Research Conference 2022 - *PROMs-Based Key Performance Indicators (KPIs) to Evaluate Waiting List Prioritisation Schemes Against Prudent Healthcare Principles*, with Dr Robert Palmer.
 + Part of the [2021 team that won](https://www.cardiff.ac.uk/news/view/2585799-impact-award-for-cardiff-mathematical-modelers) the [Lyn Thomas Impact Medal](https://www.theorsociety.com/membership/awards-medals-and-scholarships/lyn-thomas-impact-medal/) for modelling work with the NHS.
 + [2018 Winner](https://www.cardiff.ac.uk/news/view/1764522-best-operational-research-phd-thesis-in-in-the-uk-for-school-of-maths-lecturer) of the [OR Society Doctoral Award](https://www.theorsociety.com/what-we-do/awards-medals-and-scholarships/the-doctoral-award/) for "Most Distinguished Body of Research leading to the Award of a Doctorate in the field of OR" - *Modelling Deadlock in Queueing Systems*
 + 2016 Winner of best poster at the Cynhadledd Wyddonol y CCC, Aberystwyth - *Llwyrglo yn Rhwydweithiau Ciwio*
@@ -161,6 +162,7 @@ Sept 2010 - May 2013: **BSc Mathematics, Aberystwyth University.** First Class H
 Bilingual speaker. International experience. Technical topics.
 Diverse audiences including general public, academics, healthcare practitioners, and member of the Welsh government.
 
++ Jun 2022 - The National PROMs Annual Research Conference 2022 - *PROMs-Based Key Performance Indicators (KPIs) to Evaluate Waiting List Prioritisation Schemes Against Prudent Healthcare Principles*
 + Feb 2021 - OR Society Beale Lecture 2021 - *Open-Source Simulation with Ciw*
 + Nov 2020 - Wales Academic Symposium of Language Technologies 2020 - *Mewnblaniadau Geiriau ar gyfer y Gymraeg*
 + Aug 2019 - Second ABCi Innovation Day, Cardiff Bay - *Using Python for Healthcare Modelling*
