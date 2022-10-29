@@ -357,6 +357,7 @@ dfd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vS8ENPko3-Z_B5hFyw
     var py_count = []
     var ss_count = []
     var nf_count = []
+    var mm_count = []
     var yr;
     for (yr = min_yr; yr < max_yr + 1; yr++) {
       let thisyear = df.query({column: "Year", is: "==", to: yr}).groupby(["Kind"]).col(["Language"]).count().set_index({key: "Kind"});
@@ -375,12 +376,16 @@ dfd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vS8ENPko3-Z_B5hFyw
       if (thisyear.index.includes("Nonfiction")) {
         n_nf = thisyear.loc({ rows: ["Nonfiction"]})['Language_count'].values[0];
       } else { n_nf = 0; };
+      if (thisyear.index.includes("Memoir")) {
+        n_mm = thisyear.loc({ rows: ["Memoir"]})['Language_count'].values[0];
+      } else { n_mm = 0; };
 
       nv_count.push(n_nv)
       co_count.push(n_co)
       py_count.push(n_py)
       ss_count.push(n_ss)
       nf_count.push(n_nf)
+      mm_count.push(n_mm)
     };
 
     var nv_prop = []
@@ -388,14 +393,16 @@ dfd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vS8ENPko3-Z_B5hFyw
     var py_prop = []
     var ss_prop = []
     var nf_prop = []
+    var mm_prop = []
     var yr;
     for (yr = min_yr - 2014; yr < max_yr + 1 - 2014; yr++) {
-      let tot = nv_count[yr] + co_count[yr] + py_count[yr] + ss_count[yr] + nf_count[yr];
+      let tot = nv_count[yr] + co_count[yr] + py_count[yr] + ss_count[yr] + nf_count[yr] + mm_count[yr];
       nv_prop.push((nv_count[yr] / tot) * 100)
       co_prop.push((co_count[yr] / tot) * 100)
       py_prop.push((py_count[yr] / tot) * 100)
       ss_prop.push((ss_count[yr] / tot) * 100)
       nf_prop.push((nf_count[yr] / tot) * 100)
+      mm_prop.push((mm_count[yr] / tot) * 100)
     };
       
     var trace_nv = {
@@ -438,6 +445,14 @@ dfd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vS8ENPko3-Z_B5hFyw
       hovertemplate: '%{y:.1f}%',
       marker: {color: 'rgb(219, 175, 0)', line: {color: "black", width: 0.5}},
     };
+    var trace_mm = {
+      x: year_counts.index,
+      y: mm_prop,
+      name: 'Memoir',
+      type: 'bar',
+      hovertemplate: '%{y:.1f}%',
+      marker: {color: 'rgb(189, 31, 0)', line: {color: "black", width: 0.5}},
+    };
     var layout = {
       title: 'Type Read per Year',
       paper_bgcolor:"#FFF",
@@ -454,7 +469,7 @@ dfd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vS8ENPko3-Z_B5hFyw
       barmode: 'stack'
     };
     
-    Plotly.newPlot('kind_per_year', [trace_nv, trace_co, trace_py, trace_ss, trace_nf], layout);
+    Plotly.newPlot('kind_per_year', [trace_nv, trace_co, trace_py, trace_ss, trace_nf, trace_mm], layout);
   }).catch(err => {console.log(err);})
 </script>
   
