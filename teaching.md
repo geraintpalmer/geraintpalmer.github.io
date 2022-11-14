@@ -10,6 +10,7 @@ title: Teaching
     + MA2901 - Datrys Problemau
     + MA2900 - Problem Solving
     + [MAT004 - Computational Methods](/cm/)
+    + [Writing Workshop](/teaching/workshop.pdf)
 
   
   + *Tutorials*
