@@ -193,6 +193,7 @@ Cynulleidfaoedd amryw gan gynnwys y cyhoedd, academyddion, ymarferwyr gofal iech
 
 * 06/11/2020 - **Yfory Newydd** - *BBC Radio Cymru*
 * 08/07/2022 - **Talk Python Podcast** - ([Applied mathematics with Python](https://talkpython.fm/episodes/show/372/applied-mathematics-with-python))
+* 04/01/2023 - **Rhaglen Aled Hughes** (Pokémon a'r NHS) - *BBC Radio Cymru*
 
 
 ## Cyswllt
