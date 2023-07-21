@@ -167,6 +167,7 @@ Medi 2010 - Mai 2013: **BSc Mathemateg, Prifysgol Aberystwyth.** Anrhydedd Dosba
 Siaradwr dwyieithog. Profiad rhyngwladol. Pynciau technegol.
 Cynulleidfaoedd amryw gan gynnwys y cyhoedd, academyddion, ymarferwyr gofal iechyd, ac aelod o'r llywodraeth Cymraeg.
 
++ Gorff 2023 - ORAHS 2023, Graz - *Evaluating Heterogeneous Ambulance Fleet Allocations in Jakarta*
 + Meh 2022 - Cynhadledd Ymchwil Genedlaethol PROMs 2022 - *PROMs-Based Key Performance Indicators (KPIs) to Evaluate Waiting List Prioritisation Schemes Against Prudent Healthcare Principles*
 + Chwef 2021 - Darlith Beale y Gymdeithas YG 2021 - *Open-Source Simulation with Ciw*
 + Tach 2020 - Symposiwm Academaidd Technolegau Iaith Cymru 2020 - *Mewnblaniadau Geiriau ar gyfer y Gymraeg*

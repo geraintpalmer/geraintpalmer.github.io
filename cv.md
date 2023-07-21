@@ -166,7 +166,8 @@ Sept 2010 - May 2013: **BSc Mathematics, Aberystwyth University.** First Class H
 Bilingual speaker. International experience. Technical topics.
 Diverse audiences including general public, academics, healthcare practitioners, and member of the Welsh government.
 
-+ Jun 2022 - The National PROMs Annual Research Conference 2022 - *PROMs-Based Key Performance Indicators (KPIs) to Evaluate Waiting List Prioritisation Schemes Against Prudent Healthcare Principles*
++ July 2023 - ORAHS 2023, Graz - *Evaluating Heterogeneous Ambulance Fleet Allocations in Jakarta*
++ June 2022 - The National PROMs Annual Research Conference 2022 - *PROMs-Based Key Performance Indicators (KPIs) to Evaluate Waiting List Prioritisation Schemes Against Prudent Healthcare Principles*
 + Feb 2021 - OR Society Beale Lecture 2021 - *Open-Source Simulation with Ciw*
 + Nov 2020 - Wales Academic Symposium of Language Technologies 2020 - *Mewnblaniadau Geiriau ar gyfer y Gymraeg*
 + Aug 2019 - Second ABCi Innovation Day, Cardiff Bay - *Using Python for Healthcare Modelling*

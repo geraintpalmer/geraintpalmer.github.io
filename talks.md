@@ -4,6 +4,7 @@ title: Talks
 permalink: /talks/
 ---
 
++ [Evaluating Heterogeneous Ambulance Fleet Allocations in Jakarta]({{ site.url }}/talks/orahs_jakarta.pdf) - ORAHS, 2023, Graz
 + [Open-Source Simulation with Ciw]({{ site.url }}/talks/bealelecture.pdf) - OR Society Beale Lecture, 2021 ([Video](https://www.youtube.com/watch?v=jBQCOSKL1ho&feature=youtu.be), [Code](https://github.com/geraintpalmer/Presentations/blob/master/BealeLecture/Beale.ipynb))
 + [Mewnblaniadau Geiriau ar gyfer y Gymraeg]({{ site.url }}/talks/mewnblaniadaugeiriau2020.pdf) - Symposiwm Academaidd Technolegau Iaith Cymru, 2020
 + [Applying Mathematics to Public Services in Wales]({{ site.url }}/talks/DKE_Seminar.pdf) - DKE Seminar, 2019, Cardiff Univeristy
