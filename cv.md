@@ -97,6 +97,7 @@ Sept 2010 - May 2013: **BSc Mathematics, Aberystwyth University.** First Class H
 
 ## Awards
 
++ [Gwerddon Award](https://gwerddon.cymru/gwobr-gwerddon/gwobr-2023/) for the best article in Gwerddon 2021-2023 - *Rhaglennu llinol amlamcan i ganfod y tîm Pokémon gorau*
 + [Award for Best Value (value-based principles) Abstract](https://vbhc.nhs.wales/events/proms-annual-research-conference-2022/) at The National PROMs Annual Research Conference 2022 - *PROMs-Based Key Performance Indicators (KPIs) to Evaluate Waiting List Prioritisation Schemes Against Prudent Healthcare Principles*, with Dr Robert Palmer.
 + Part of the [2021 team that won](https://www.cardiff.ac.uk/news/view/2585799-impact-award-for-cardiff-mathematical-modelers) the [Lyn Thomas Impact Medal](https://www.theorsociety.com/membership/awards-medals-and-scholarships/lyn-thomas-impact-medal/) for modelling work with the NHS.
 + [2018 Winner](https://www.cardiff.ac.uk/news/view/1764522-best-operational-research-phd-thesis-in-in-the-uk-for-school-of-maths-lecturer) of the [OR Society Doctoral Award](https://www.theorsociety.com/what-we-do/awards-medals-and-scholarships/the-doctoral-award/) for "Most Distinguished Body of Research leading to the Award of a Doctorate in the field of OR" - *Modelling Deadlock in Queueing Systems*

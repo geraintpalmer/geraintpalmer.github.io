@@ -99,6 +99,7 @@ Medi 2010 - Mai 2013: **BSc Mathemateg, Prifysgol Aberystwyth.** Anrhydedd Dosba
 
 ## Gobrau
 
++ [Gwobr Gwerddon](https://gwerddon.cymru/gwobr-gwerddon/gwobr-2023/) ar gyfer yr erthygl gorau yn Gwerddon 2021-2023 - *Rhaglennu llinol amlamcan i ganfod y tîm Pokémon gorau*
 + [Gwobr ar gyfer Crynodeb (egwyddorion wedi'i seilio ar gwerth) Gorau](https://vbhc.nhs.wales/events/proms-annual-research-conference-2022/) yng Nghynhadledd Ymchwil Genedlaethol PROMs 2022 - *PROMs-Based Key Performance Indicators (KPIs) to Evaluate Waiting List Prioritisation Schemes Against Prudent Healthcare Principles*, gyda Dr Robert Palmer.
 + Rhan o [dîm 2021 a enillodd](https://www.cardiff.ac.uk/cy/news/view/2585799-impact-award-for-cardiff-mathematical-modelers) [Medal Effaith Lyn Thomas](https://www.theorsociety.com/membership/awards-medals-and-scholarships/lyn-thomas-impact-medal/) am waith modelu gyda'r GIG.
 + [Enillydd 2018](https://www.cardiff.ac.uk/cy/news/view/1764522-best-operational-research-phd-thesis-in-in-the-uk-for-school-of-maths-lecturer) o [Wobr Doethurol y Cymdeithas Ymchwil Gweithrediadol](https://www.theorsociety.com/what-we-do/awards-medals-and-scholarships/the-doctoral-award/) ar gyfer "Corff o Ymchwil Mwyaf Nodedig yn arwain at Doethuriath ym maes Ymchwil Gweithrediadol" - *Modelling Deadlock in Queueing Systems*
