@@ -4,6 +4,7 @@ title: Talks
 permalink: /talks/
 ---
 
++ [Multi-Objective Linear Programming to find the Best Pokémon Team]({{ site.url }}/talks/PyConUK_2023.pdf) - PyCon UK, 2023, Cardiff ([Video](https://www.youtube.com/watch?v=HVcS_X5p1h8))
 + [Evaluating Heterogeneous Ambulance Fleet Allocations in Jakarta]({{ site.url }}/talks/orahs_jakarta.pdf) - ORAHS, 2023, Graz
 + [Open-Source Simulation with Ciw]({{ site.url }}/talks/bealelecture.pdf) - OR Society Beale Lecture, 2021 ([Video](https://www.youtube.com/watch?v=jBQCOSKL1ho&feature=youtu.be), [Code](https://github.com/geraintpalmer/Presentations/blob/master/BealeLecture/Beale.ipynb))
 + [Mewnblaniadau Geiriau ar gyfer y Gymraeg]({{ site.url }}/talks/mewnblaniadaugeiriau2020.pdf) - Symposiwm Academaidd Technolegau Iaith Cymru, 2020

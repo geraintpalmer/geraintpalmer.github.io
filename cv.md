@@ -107,6 +107,7 @@ Sept 2010 - May 2013: **BSc Mathematics, Aberystwyth University.** First Class H
 
 ## Learning & Teaching
 
+* Deputy Director of Learning and Teaching for the Cardiff School of Mathematics (2022-)
 * Fellow of the Higher Education Academy (FHEA)
 * Delivery of example classes, lectures and tutorials (see [Teaching](/teaching/)).
 * Leading computer lab sessions (Python, Simul8, LaTeX, Vensim, Excel) for undergraduate & masters students.
@@ -167,6 +168,7 @@ Sept 2010 - May 2013: **BSc Mathematics, Aberystwyth University.** First Class H
 Bilingual speaker. International experience. Technical topics.
 Diverse audiences including general public, academics, healthcare practitioners, and member of the Welsh government.
 
++ Sept 2023 - PyCon UK 2023, Cardiff - *Multi-Objective Linear Programming to find the Best Pokémon Team*
 + July 2023 - ORAHS 2023, Graz - *Evaluating Heterogeneous Ambulance Fleet Allocations in Jakarta*
 + June 2022 - The National PROMs Annual Research Conference 2022 - *PROMs-Based Key Performance Indicators (KPIs) to Evaluate Waiting List Prioritisation Schemes Against Prudent Healthcare Principles*
 + Feb 2021 - OR Society Beale Lecture 2021 - *Open-Source Simulation with Ciw*

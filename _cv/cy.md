@@ -108,6 +108,7 @@ Medi 2010 - Mai 2013: **BSc Mathemateg, Prifysgol Aberystwyth.** Anrhydedd Dosba
 
 ## Dysgu
 
+* Dirprwy Cyfarwyddwr Dysgu ac Addysgu ar gyfer yr Ysgol Mathemateg yng Nghaerdydd (2022-)
 * Cymrawd AdvanceHE (FHEA)
 * Dosbarthiadau enghreifftiol, darlithoedd a thiwtorialau (gweler [Dysgu](/teaching/)).
 * Arwain sesiynau labiau cyfrifiadur (Python, Simul8, LaTeX, Vensim, Excel) ar gyfer israddedigion & myfyrwyr gradd meistr.
@@ -168,6 +169,7 @@ Medi 2010 - Mai 2013: **BSc Mathemateg, Prifysgol Aberystwyth.** Anrhydedd Dosba
 Siaradwr dwyieithog. Profiad rhyngwladol. Pynciau technegol.
 Cynulleidfaoedd amryw gan gynnwys y cyhoedd, academyddion, ymarferwyr gofal iechyd, ac aelod o'r llywodraeth Cymraeg.
 
++ Medi 2023 - PyCon UK 2023, Caerdydd - *Multi-Objective Linear Programming to find the Best Pokémon Team*
 + Gorff 2023 - ORAHS 2023, Graz - *Evaluating Heterogeneous Ambulance Fleet Allocations in Jakarta*
 + Meh 2022 - Cynhadledd Ymchwil Genedlaethol PROMs 2022 - *PROMs-Based Key Performance Indicators (KPIs) to Evaluate Waiting List Prioritisation Schemes Against Prudent Healthcare Principles*
 + Chwef 2021 - Darlith Beale y Gymdeithas YG 2021 - *Open-Source Simulation with Ciw*
