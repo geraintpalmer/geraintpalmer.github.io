@@ -128,10 +128,11 @@ dfd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vS8ENPko3-Z_B5hFyw
     let num_mfs = all_months.length;
     let rolling = [];
     let rollingx = [];
+    let rolling_period = 18;
     var j;
-    for (j = 0; j < num_mfs - 12; j++) {
-      rolling.push(average(month_counts.slice(j, j+12)));
-      rollingx.push((all_months[j+6] + all_months[j+7]) / 2);
+    for (j = 0; j < num_mfs - rolling_period; j++) {
+      rolling.push(average(month_counts.slice(j, j+rolling_period)));
+      rollingx.push((all_months[j+Math.floor(rolling_period/2)] + all_months[j+Math.ceil(rolling_period/2)]) / 2);
     };
     
     var trace_monthly = {
@@ -478,7 +479,7 @@ dfd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vS8ENPko3-Z_B5hFyw
     let x = df["First Published"];
     let minx = df["First Published"].min();
     let maxx = df["First Published"].max();
-    let nbins = Math.ceil((maxx - minx)/10);
+    let nbins = Math.ceil((maxx - minx) / 5);
     var trace = {
         x: x['data'],
         type: 'histogram',
