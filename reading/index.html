@@ -5,8 +5,8 @@ layout: page
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.jsdelivr.net/npm/danfojs@0.1.1/dist/index.min.js"></script>
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/danfojs@1.1.2/lib/bundle.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-2.27.0.min.js" charset="utf-8"></script>
   <title>Reading Habit Analysis</title>
 </head>
 <body>
@@ -29,7 +29,7 @@ layout: page
 
 
 <script>
-dfd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vS8ENPko3-Z_B5hFywhzMr4qzJHZjCdzn3bx9Z3BrYHVKniHumuovCTF9iy28kRu7M3huznQt-seQI2/pub?gid=0&single=true&output=csv").then(df => {
+dfd.readCSV("https://docs.google.com/spreadsheets/d/e/2PACX-1vS8ENPko3-Z_B5hFywhzMr4qzJHZjCdzn3bx9Z3BrYHVKniHumuovCTF9iy28kRu7M3huznQt-seQI2/pub?gid=0&single=true&output=csv").then(df => {
   var month_abbrev = {
     'January': 'Jan',
     'February': 'Feb',
@@ -75,8 +75,8 @@ dfd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vS8ENPko3-Z_B5hFyw
 </script>
 
 <script>
-  dfd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vS8ENPko3-Z_B5hFywhzMr4qzJHZjCdzn3bx9Z3BrYHVKniHumuovCTF9iy28kRu7M3huznQt-seQI2/pub?gid=0&single=true&output=csv").then(df => {
-  let year_counts = df.groupby(['Year']).col(["Title"]).count().set_index({key: "Year"})
+  dfd.readCSV("https://docs.google.com/spreadsheets/d/e/2PACX-1vS8ENPko3-Z_B5hFywhzMr4qzJHZjCdzn3bx9Z3BrYHVKniHumuovCTF9iy28kRu7M3huznQt-seQI2/pub?gid=0&single=true&output=csv").then(df => {
+  let year_counts = df.groupby(['Year']).col(["Title"]).count().setIndex({column: "Year"})
   let monthfracs = {
       'January'  : 0.5/12,
       'February' : 1.5/12,
@@ -195,7 +195,7 @@ dfd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vS8ENPko3-Z_B5hFyw
 </script>
 
 <script>
-  dfd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vS8ENPko3-Z_B5hFywhzMr4qzJHZjCdzn3bx9Z3BrYHVKniHumuovCTF9iy28kRu7M3huznQt-seQI2/pub?gid=0&single=true&output=csv").then(df => {
+  dfd.readCSV("https://docs.google.com/spreadsheets/d/e/2PACX-1vS8ENPko3-Z_B5hFywhzMr4qzJHZjCdzn3bx9Z3BrYHVKniHumuovCTF9iy28kRu7M3huznQt-seQI2/pub?gid=0&single=true&output=csv").then(df => {
     let auths = df.groupby(['Author']).col(['Kind']).count();
     let n_auths = auths.shape[0]
     let auth_list = [];
@@ -240,9 +240,9 @@ dfd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vS8ENPko3-Z_B5hFyw
 
 
 <script>
-  dfd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vS8ENPko3-Z_B5hFywhzMr4qzJHZjCdzn3bx9Z3BrYHVKniHumuovCTF9iy28kRu7M3huznQt-seQI2/pub?gid=0&single=true&output=csv").then(df => {
+  dfd.readCSV("https://docs.google.com/spreadsheets/d/e/2PACX-1vS8ENPko3-Z_B5hFywhzMr4qzJHZjCdzn3bx9Z3BrYHVKniHumuovCTF9iy28kRu7M3huznQt-seQI2/pub?gid=0&single=true&output=csv").then(df => {
     let grp = df.groupby(["Year"])
-    let year_counts = grp.col(["Title"]).count().set_index({key: "Year"})
+    let year_counts = grp.col(["Title"]).count().setIndex({column: "Year"})
     let max_count = year_counts['Title_count'].max()
     var layout = {
       title: 'Books Read per Year',
@@ -270,8 +270,8 @@ dfd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vS8ENPko3-Z_B5hFyw
 
 
 <script>
-  dfd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vS8ENPko3-Z_B5hFywhzMr4qzJHZjCdzn3bx9Z3BrYHVKniHumuovCTF9iy28kRu7M3huznQt-seQI2/pub?gid=0&single=true&output=csv").then(df => {
-    let year_counts = df.groupby(["Year"]).col(["Title"]).count().set_index({key: "Year"})
+  dfd.readCSV("https://docs.google.com/spreadsheets/d/e/2PACX-1vS8ENPko3-Z_B5hFywhzMr4qzJHZjCdzn3bx9Z3BrYHVKniHumuovCTF9iy28kRu7M3huznQt-seQI2/pub?gid=0&single=true&output=csv").then(df => {
+    let year_counts = df.groupby(["Year"]).col(["Title"]).count().setIndex({column: "Year"})
     let min_yr = df['Year'].min()
     let max_yr = df['Year'].max()
     var en_count = []
@@ -279,15 +279,15 @@ dfd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vS8ENPko3-Z_B5hFyw
     var es_count = []
     var yr;
     for (yr = min_yr; yr < max_yr + 1; yr++) {
-      let thisyear = df.query({column: "Year", is: "==", to: yr}).groupby(["Language"]).col(["Kind"]).count().set_index({key: "Language"});
+      let thisyear = df.query(df["Year"].eq(yr)).groupby(["Language"]).col(["Kind"]).count().setIndex({column: "Language"});
         if (thisyear.index.includes("English")) {
-          n_en = thisyear.loc({ rows: ["English"]})['Kind_count'].values[0];
+          n_en = thisyear.at('English', 'Kind_count');
         } else { n_en = 0; };
         if (thisyear.index.includes("Welsh")) {
-          n_cy = thisyear.loc({ rows: ["Welsh"]})['Kind_count'].values[0];
+          n_cy = thisyear.at('Welsh', 'Kind_count');
         } else { n_cy = 0; };
         if (thisyear.index.includes("Spanish")) {
-          n_es = thisyear.loc({ rows: ["Spanish"]})['Kind_count'].values[0];
+          n_es = thisyear.at('Spanish', 'Kind_count');
         } else { n_es = 0; };
         en_count.push(n_en)
         cy_count.push(n_cy)
@@ -343,14 +343,14 @@ dfd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vS8ENPko3-Z_B5hFyw
           tickvals: [0, 25, 50, 75, 100]},
         barmode: 'stack'
       };
-      
+
       Plotly.newPlot('language_per_year', [trace_en, trace_cy, trace_es], layout);
   }).catch(err => {console.log(err);})
 </script>
 
 <script>
-  dfd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vS8ENPko3-Z_B5hFywhzMr4qzJHZjCdzn3bx9Z3BrYHVKniHumuovCTF9iy28kRu7M3huznQt-seQI2/pub?gid=0&single=true&output=csv").then(df => {
-    let year_counts = df.groupby(["Year"]).col(["Title"]).count().set_index({key: "Year"})
+  dfd.readCSV("https://docs.google.com/spreadsheets/d/e/2PACX-1vS8ENPko3-Z_B5hFywhzMr4qzJHZjCdzn3bx9Z3BrYHVKniHumuovCTF9iy28kRu7M3huznQt-seQI2/pub?gid=0&single=true&output=csv").then(df => {
+    let year_counts = df.groupby(["Year"]).col(["Title"]).count().setIndex({column: "Year"})
     let min_yr = df['Year'].min()
     let max_yr = df['Year'].max()
     var nv_count = []
@@ -361,24 +361,24 @@ dfd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vS8ENPko3-Z_B5hFyw
     var mm_count = []
     var yr;
     for (yr = min_yr; yr < max_yr + 1; yr++) {
-      let thisyear = df.query({column: "Year", is: "==", to: yr}).groupby(["Kind"]).col(["Language"]).count().set_index({key: "Kind"});
+      let thisyear = df.query(df["Year"].eq(yr)).groupby(["Kind"]).col(["Title"]).count().setIndex({column: "Kind"});
       if (thisyear.index.includes("Novel")) {
-        n_nv = thisyear.loc({ rows: ["Novel"]})['Language_count'].values[0];
+        n_nv = thisyear.at('Novel', 'Title_count');
       } else { n_nv = 0; };
       if (thisyear.index.includes("Collection")) {
-        n_co = thisyear.loc({ rows: ["Collection"]})['Language_count'].values[0];
+        n_co = thisyear.at('Collection', 'Title_count');
       } else { n_co = 0; };
       if (thisyear.index.includes("Play")) {
-        n_py = thisyear.loc({ rows: ["Play"]})['Language_count'].values[0];
+        n_py = thisyear.at('Play', 'Title_count');
       } else { n_py = 0; };
       if (thisyear.index.includes("Short Story")) {
-        n_ss = thisyear.loc({ rows: ["Short Story"]})['Language_count'].values[0];
+        n_ss = thisyear.at('Short Story', 'Title_count');
       } else { n_ss = 0; };
       if (thisyear.index.includes("Nonfiction")) {
-        n_nf = thisyear.loc({ rows: ["Nonfiction"]})['Language_count'].values[0];
+        n_nf = thisyear.at('Nonfiction', 'Title_count');
       } else { n_nf = 0; };
       if (thisyear.index.includes("Memoir")) {
-        n_mm = thisyear.loc({ rows: ["Memoir"]})['Language_count'].values[0];
+        n_mm = thisyear.at('Memoir', 'Title_count');
       } else { n_mm = 0; };
 
       nv_count.push(n_nv)
@@ -475,13 +475,13 @@ dfd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vS8ENPko3-Z_B5hFyw
 </script>
   
 <script>
-  dfd.read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vS8ENPko3-Z_B5hFywhzMr4qzJHZjCdzn3bx9Z3BrYHVKniHumuovCTF9iy28kRu7M3huznQt-seQI2/pub?gid=0&single=true&output=csv").then(df => {
+  dfd.readCSV("https://docs.google.com/spreadsheets/d/e/2PACX-1vS8ENPko3-Z_B5hFywhzMr4qzJHZjCdzn3bx9Z3BrYHVKniHumuovCTF9iy28kRu7M3huznQt-seQI2/pub?gid=0&single=true&output=csv").then(df => {
     let x = df["First Published"];
     let minx = df["First Published"].min();
     let maxx = df["First Published"].max();
     let nbins = Math.ceil((maxx - minx) / 5);
     var trace = {
-        x: x['data'],
+        x: x.values,
         type: 'histogram',
         marker: {color: '#E68A00', line: {color: "black", width: 0.5}},
         nbinsx: nbins
