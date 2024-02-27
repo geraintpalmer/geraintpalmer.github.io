@@ -15,6 +15,7 @@ title: Teaching
     + MA1055 - Seiliau Mathemateg I / Foundations of Mathematics I
     + MA1058 - Algebra Llinol I / Linear Algebra I
     + MA1751 - Cyfrifiadureg ar gyfer Mathemateg / Computing for Mathematics
+    + MA1051 - Hafaliadau Differol Eflennol / Elementary Differential Equations
     + MA2053 - Dadansoddi Cymhlyg / Complex Analysis
     + MA2054 - Cyfresi a Thrawsffurfiau / Series and Transforms
     + MA2060 - Calcwlws Aml-newidyn a Fector / Multivariable and Vector Calculus
@@ -27,7 +28,6 @@ title: Teaching
     + MA0003 - Preliminary Mathematics I
     + MA2901 - Datrys Problemau
     + MA2900 - Problem Solving
-    + MA1051 - Hafaliadau Differol Eflennol / Elementary Differential Equations
     + MA1054 - Geometreg / Geometry
     + MA1550 - Cyflwyniad i Theori Tebygolrwydd / Introduction to Probability Theory
     + MA2058 - Linear Algebra II / Algebra Llinol II

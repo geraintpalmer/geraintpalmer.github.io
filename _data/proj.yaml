@@ -1,3 +1,15 @@
+- title: "Cardiff Spelling Test"
+  teitl: "Prawf Sillafu Caerdydd"
+  year: 2023-2024
+  amount: "na"
+  role: "Co-Investigator"
+  rol: "Cyd-Ymchwilydd"
+  with: "<a href='https://www.cardiff.ac.uk/people/view/78474-morris-jonathan'>Jonathan Morris</a> as PI, <a href='https://www.cardiff.ac.uk/people/view/2480953-'>Rosanna Stenner</a> as CI, and <a href='https://www.cardiff.ac.uk/people/view/91427-evans-dylan'>Dylan Foster Evans</a> as CI."
+  gyda: "<a href='https://www.cardiff.ac.uk/people/view/78474-morris-jonathan'>Jonathan Morris</a> yn PI, <a href='https://www.cardiff.ac.uk/people/view/2480953-'>Rosanna Stenner</a> yn CI, a <a href='https://www.cardiff.ac.uk/people/view/91427-evans-dylan'>Dylan Foster Evans</a> yn CI."
+  summary: "Creation of a new Welsh language spelling test resource, and standardised score tables for the <a href='https://www.cscjes.org.uk/'>Central South Consortium</a>."
+  crynodeb: "Creu adnodd prawf sillafu iaith Cymraeg newydd, a thablau o sgorau safonol ar gyfer <a href='https://www.cscjes.org.uk/'>Consortiwm Canolbarth y De</a>."
+  current: 'yes'
+
 - title: "Mathematical modelling of post-pandemic alcohol drinking behaviour"
   teitl: "Modelu mathemategol o ymddygiad yfed alcohol ôl-bandemig"
   year: "2023-"
@@ -24,6 +36,20 @@
   summary: "Creates a modelling unit within the health board, with the aim to develop new and novel operational research models and techniques motivated by real healthcare problems arising in the health board, delivering impactful solutions."
   crynodeb: "Creu uned modelu o fewn y bwrdd iechyd, gyda'r nod i ddatblygu modelau a thechnegau ymchwil gweithrediadol newydd ac arloesol wedi'i ysgogi gan broblemau gofal iechyd go iawn o fewn y bwrdd iechyd, yn gyflawni datrysiadau effeithiol."
   current: "yes"
+
+- title: "Mathematical Modelling Workshops in Indonesia"
+  teitl: "Gweithdai Modelu Mathemategol yn Indonesia"
+  year: "2024"
+  amount: "na"
+  fundingbody: "<a href='https://www.hefcw.ac.uk/en/'>EPSRC Global Challenges Research Fund</a>"
+  corffcyllido: "<a href='https://www.ukri.org/what-we-offer/international-funding/global-challenges-research-fund/'>EPSRC Global Challenges Research Fund</a>"
+  role: "na"
+  rol: "na"
+  with: "<a href='https://sites.google.com/site/profpaulharper/home'>Prof. Paul Harper</a> as PI, <a href='https://www.cardiff.ac.uk/people/view/192714-gartner-daniel'>Prof. Daniel Gartner</a>, <a href='https://www.cardiff.ac.uk/people/view/1759018-tuson-mark'>Dr Mark Tuson</a>, and <a href='https://www.cardiff.ac.uk/people/view/1759144-brice-sarie'>Dr Syaribah Brice</a>."
+  gyda: "<a href='https://sites.google.com/site/profpaulharper/home'>Prof. Paul Harper</a> yn PI, <a href='https://www.cardiff.ac.uk/people/view/192714-gartner-daniel'>Prof. Daniel Gartner</a>, <a href='https://www.cardiff.ac.uk/people/view/1759018-tuson-mark'>Dr Mark Tuson</a>, a <a href='https://www.cardiff.ac.uk/people/view/1759144-brice-sarie'>Dr Syaribah Brice</a>."
+  summary: "Running workshops on optimisation, simulation, and forecasting Jakarta, Bandung, and Malang."
+  crynodeb: "Cynnal gweithdai ar optimeiddio, efelychiad cyfrifiadurol, a rhagweld yn Jakarta, Bandung, a Malang."
+  current: "no"
 
 - title: "Modelling Emergency Medical Services in Indonesia"
   teitl: "Modelu Gwasanaethau Meddygol Brys yn Indonesia"

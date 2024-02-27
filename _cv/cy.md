@@ -116,6 +116,7 @@ Medi 2010 - Mai 2013: **BSc Mathemateg, Prifysgol Aberystwyth.** Anrhydedd Dosba
 * Cyfieithu adnoddau pedagogaidd o Saesneg i Gymraeg.
 * Cynhyrchu adnoddau dysgu newydd yn Gymraeg ac yn Saesneg.
 * Cyfrannwr allweddol yn fenter datblygiad rhyngwladol arloesol, trwy arwain sesiynau dysgu actif ym Mhrifysgol Namibia (o dan nawdd [Prosiect Phoenix Prifysgol Caerdydd](http://www.cardiff.ac.uk/about/our-profile/our-values/engagement/transforming-communities/the-phoenix-project)).
+* Dylunio a chynnal nifer o weithday yn Indonesia gan gynnwys efelychiad cyfrifiadurol, theori ciwio, ac optimeiddio.
 + Goruchwylio myfyrwyr prosiect Haf a leoliad Nuffield.
 
 
@@ -130,6 +131,7 @@ Medi 2010 - Mai 2013: **BSc Mathemateg, Prifysgol Aberystwyth.** Anrhydedd Dosba
 * Wedi arwain nifer o ddigwyddiadau estyn ar gyfer disgyblion ysgol o bob oedran (o flynyddoedd 5 i 13) yn Saesneg ac yn Gymraeg.
 * Wedi datblygu ac arwain [cwrs codio](/outreach/) Haf ar gyfer plant 11-15 ar gyfer yr [Urdd](https://www.urdd.cymru/cy/).
 * Datblygu ac arwain  y modiwl ["Dadansoddi Data gyda Python ac R"](https://www.porth.ac.uk/cy/collection/dadansoddi-data-gydag-r-a-python) ar gyfer rhaglen hyfforddiant PhD y [Coleg Cymraeg Cenedlaethol](https://www.colegcymraeg.ac.uk/cy/).
+* Aelod o fwrdd y cyfnodolyn academaidd cyfrwng Cymraeg [Gwerddon](https://gwerddon.cymru/).
 
 
 ## Sgiliau

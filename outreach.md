@@ -2,6 +2,10 @@
 layout: page
 permalink: /outreach/
 ---
+  + **Simulation Workshop at [Malang University](https://um.ac.id/en/profile/)**
+    + [Slides]({{ site.url }}/outreach/simulationworkshop.pptx)
+    + [Worksheets]({{ site.url }}/outreach/handout.pdf)
+    + [Solutions](https://github.com/geraintpalmer/SimulationWorkshop/blob/main/Solutions.ipynb)
 
   + **Sports Scheduling with Graph Theory**
     + [Slides]({{ site.url }}/outreach/scheduling.pdf)

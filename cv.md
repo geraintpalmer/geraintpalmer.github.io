@@ -115,6 +115,7 @@ Sept 2010 - May 2013: **BSc Mathematics, Aberystwyth University.** First Class H
 * Translation of pedagogic material from English to Welsh.
 * Production of new learning materials in both English and Welsh.
 * Key participant in innovative international development initiative leading active learning sessions at the University of Namibia (under the [Cardiff University Phoenix Project](http://www.cardiff.ac.uk/about/our-profile/our-values/engagement/transforming-communities/the-phoenix-project)).
+* Design and delivery of a number of workshops in Indonesia including simulation modelling, queueing theory, and optimisation.
 * Supervision of Summer project and Nuffield placement students.
 
 
@@ -129,6 +130,7 @@ Sept 2010 - May 2013: **BSc Mathematics, Aberystwyth University.** First Class H
 * Have lead many outreach activities for school pupils of all ages (from years 5 to 13) in both English and Welsh.
 * Developed and lead a Summer [coding course](/outreach/) for 11-15 year olds for the [Urdd](https://www.urdd.cymru/en/).
 * Development and leading ["Dadansoddi Data gyda Python ac R"](https://www.porth.ac.uk/cy/collection/dadansoddi-data-gydag-r-a-python) module for the [Coleg Cymraeg Cenedlaethol](https://www.colegcymraeg.ac.uk/en/)'s PhD training programme.
+* Board member of the Welsh language academic journal [Gwerddon](https://gwerddon.cymru/en/).
 
 
 ## Skills
