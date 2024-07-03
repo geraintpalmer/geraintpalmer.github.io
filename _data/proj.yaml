@@ -8,7 +8,7 @@
   gyda: "<a href='https://www.cardiff.ac.uk/people/view/78474-morris-jonathan'>Jonathan Morris</a> yn PI, <a href='https://www.cardiff.ac.uk/people/view/2480953-'>Rosanna Stenner</a> yn CI, a <a href='https://www.cardiff.ac.uk/people/view/91427-evans-dylan'>Dylan Foster Evans</a> yn CI."
   summary: "Creation of a new Welsh language spelling test resource, and standardised score tables for the <a href='https://www.cscjes.org.uk/'>Central South Consortium</a>."
   crynodeb: "Creu adnodd prawf sillafu iaith Cymraeg newydd, a thablau o sgorau safonol ar gyfer <a href='https://www.cscjes.org.uk/'>Consortiwm Canolbarth y De</a>."
-  current: 'yes'
+  current: 'no'
 
 - title: "Mathematical modelling of post-pandemic alcohol drinking behaviour"
   teitl: "Modelu mathemategol o ymddygiad yfed alcohol ôl-bandemig"
