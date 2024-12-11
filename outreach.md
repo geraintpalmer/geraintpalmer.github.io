@@ -2,6 +2,13 @@
 layout: page
 permalink: /outreach/
 ---
+  + **Gweithdy Python - Rhaglen Sgiliau Ymchwil y Coleg Cymraeg Cenedlaethol**
+    + [Gweithlyfr]({{ site.url }}/outreach/gweithdy_python.pdf)
+    + [data.csv]({{ site.url }}/outreach/data_ccc/data.csv)
+    + [colofn_ychwanegol.csv]({{ site.url }}/outreach/data_ccc/colofn_ychwanegol.csv)
+    + [rhesi_ychwanegol.csv]({{ site.url }}/outreach/data_ccc/rhesi_ychwanegol.csv)
+    + [data_tai.csv]({{ site.url }}/outreach/data_ccc/data_tai.csv)
+
   + **Simulation Workshop at [Malang University](https://um.ac.id/en/profile/)**
     + [Slides]({{ site.url }}/outreach/simulationworkshop.pptx)
     + [Worksheets]({{ site.url }}/outreach/handout.pdf)
