@@ -3,7 +3,7 @@
   year: "2025"
   journal: "More UK Success Stories in Industrial Mathematics."
   link: "https://link.springer.com/chapter/10.1007/978-3-031-48683-8_17"
-  mutlilang: "no"
+  multilang: "no"
 
 - title: "GCol: A High-Performance Python Library for Graph Colouring"
   authors: "Lewis R & Palmer G."
@@ -82,7 +82,7 @@
   link: "http://techiaith.cymru/wp-content/uploads/2021/10/Language-and-Technology-in-Wales-Volume-I.pdf"
   altlink: "http://techiaith.cymru/wp-content/uploads/2021/10/Iaith-a-Thechnoleg-yng-Nghymru-Cyfrol-I.pdf"
   lang: "en"
-  mutlilang: "yes"
+  multilang: "yes"
 
 - title: "Golwg Agosach ar Fewnblaniadau Geiriau Cymraeg"
   authors: "Palmer GI, Corcoran P, Arman L, Knight D, & Spasić I."
@@ -91,7 +91,7 @@
   link: "http://techiaith.cymru/wp-content/uploads/2021/10/Iaith-a-Thechnoleg-yng-Nghymru-Cyfrol-I.pdf"
   altlink: "http://techiaith.cymru/wp-content/uploads/2021/10/Language-and-Technology-in-Wales-Volume-I.pdf"
   lang: "cy"
-  mutlilang: "yes"
+  multilang: "yes"
 
 - title: "A Practical Implementation of a Porter Stemmer for Welsh"
   authors: "Muralidaran V, Palmer GI, Arman L, O'Hare K, Knight D, & Spasić I."
@@ -100,7 +100,7 @@
   link: "http://techiaith.cymru/wp-content/uploads/2021/10/Language-and-Technology-in-Wales-Volume-I.pdf"
   altlink: "http://techiaith.cymru/wp-content/uploads/2021/10/Iaith-a-Thechnoleg-yng-Nghymru-Cyfrol-I.pdf"
   lang: "en"
-  mutlilang: "yes"
+  multilang: "yes"
 
 - title: "Gweithredu Boniwr Porter ar gyfer y Gymraeg"
   authors: "Muralidaran V, Palmer GI, Arman L, O'Hare K, Knight D, & Spasić I."
@@ -109,7 +109,7 @@
   link: "http://techiaith.cymru/wp-content/uploads/2021/10/Iaith-a-Thechnoleg-yng-Nghymru-Cyfrol-I.pdf"
   altlink: "http://techiaith.cymru/wp-content/uploads/2021/10/Language-and-Technology-in-Wales-Volume-I.pdf"
   lang: "cy"
-  mutlilang: "yes"
+  multilang: "yes"
 
 - title: "Creating Welsh Language Word Embeddings"
   authors: "Corcoran P, Palmer GI, Arman L, Knight D, & Spasić I."
