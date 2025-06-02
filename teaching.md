@@ -37,6 +37,7 @@ title: Teaching
 ### Resources / Adnoddau
   
   + [Revision Quizzes](/revision-quiz/)
+  + [Module Selector](https://cardiff-maths-modules.github.io/)
   + [Termiadur Ysgol Mathemateg Prifysgol Caerdydd](https://termiadur.github.io/)
   + [Outreach Activities](/outreach/)
   + [Fideo Tiwtorialau Python](/teaching/tiwtorialau-python/)
