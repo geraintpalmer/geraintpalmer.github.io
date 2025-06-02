@@ -4375,8 +4375,8 @@
 	},
 	{
 		"title": "Joy To The World",
-		"series": 14,
-		"episode_number": 10,
+		"series": 15,
+		"episode_number": 1,
 		"special": "Christmas",
 		"airdate": "2024-12-25",
 		"writers": ["Steven Moffat"],
@@ -4400,7 +4400,7 @@
 	{
 		"title": "The Robot Revolution",
 		"series": 15,
-		"episode_number": 1,
+		"episode_number": 2,
 		"special": "no",
 		"airdate": "2025-04-12",
 		"writers": ["Russell T Davies"],
@@ -4422,7 +4422,7 @@
 	{
 		"title": "Lux",
 		"series": 15,
-		"episode_number": 2,
+		"episode_number": 3,
 		"special": "no",
 		"airdate": "2025-04-19",
 		"writers": ["Russell T Davies"],
@@ -4435,7 +4435,7 @@
 		"foes": ["Mr Ring-a-Ding"],
 		"organisations": [],
 		"time": [1952],
-		"relative_time": ["Past", "Present", "Future"],
+		"relative_time": ["Past"],
 		"locations": {
 			"planets": ["Earth"],
 			"countries": ["USA"],
@@ -4446,7 +4446,7 @@
 	{
 		"title": "The Well",
 		"series": 15,
-		"episode_number": 3,
+		"episode_number": 4,
 		"special": "no",
 		"airdate": "2025-04-26",
 		"writers": ["Russell T Davies", "Sharma Angel-Walfall"],
@@ -4461,14 +4461,14 @@
 		"time": ["5020th Century"],
 		"relative_time": ["Future"],
 		"locations": {
-			"planets": ["Midnight"],
+			"planets": ["Midnight"]
 		},
 		"paired-with": []
 	},
 	{
 		"title": "Lucky Day",
 		"series": 15,
-		"episode_number": 4,
+		"episode_number": 5,
 		"special": "no",
 		"airdate": "2025-05-03",
 		"writers": ["Pete McTighe"],
@@ -4492,13 +4492,13 @@
 	{
 		"title": "The Story and the Engine",
 		"series": 15,
-		"episode_number": 5,
+		"episode_number": 6,
 		"special": "no",
 		"airdate": "2025-05-10",
 		"writers": ["Inua Ellams"],
 		"director": "Makalla McPherson",
 		"runtime_mins": 45,
-		"doctors": ["15th"],
+		"doctors": ["15th", "Fugitive"],
 		"companions": ["Belinda Chandra"],
 		"characters": [],
 		"historical_figures": [],
@@ -4516,7 +4516,7 @@
 	{
 		"title": "The Intersteller Song Contest",
 		"series": 15,
-		"episode_number": 6,
+		"episode_number": 7,
 		"special": "no",
 		"airdate": "2025-05-17",
 		"writers": ["Juno Dawson"],
@@ -4538,7 +4538,7 @@
 	{
 		"title": "Wish World",
 		"series": 15,
-		"episode_number": 7,
+		"episode_number": 8,
 		"special": "no",
 		"airdate": "2025-05-14",
 		"writers": ["Russell T Davies"],
@@ -4562,7 +4562,7 @@
 	{
 		"title": "The Reality War",
 		"series": 15,
-		"episode_number": 8,
+		"episode_number": 9,
 		"special": "no",
 		"airdate": "2025-05-31",
 		"writers": ["Russell T Davies"],
