@@ -58,6 +58,7 @@ layout: page
   <button class="tablinks" onclick="openTab(event, 'Characters')">Characters</button>
   <button class="tablinks" onclick="openTab(event, 'Organisations')">Organisations</button>
   <button class="tablinks" onclick="openTab(event, 'Time')">Time</button>
+  <button class="tablinks" onclick="openTab(event, 'Network')">Network</button>
 </div>
 
 <div id="Doctors" class="tabcontent">
@@ -100,6 +101,10 @@ layout: page
   <div id="times_table"></div>
 </div>
 
+<div id="Network" class="tabcontent">
+  <div id="network_plot"></div>
+</div>
+
 
 <script>
 function openTab(evt, tabName) {
@@ -135,8 +140,213 @@ var svg_doctors = d3.select("#doctors_table")
   .attr("transform",
         "translate(" + margin.left + "," + margin.top + ")");
 
+var simulation = d3.forceSimulation()
+  .force("link", d3.forceLink().id(function(d) { return d.id; }))
+  .force("charge", d3.forceManyBody())
+  .force("center", d3.forceCenter(width / 2, height / 3.5))
+  .stop();
+
+var color = d3.scaleOrdinal(d3.schemeCategory20);
+
+function dragstarted(d) {
+  if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+  d.fx = d.x;
+  d.fy = d.y;
+}
+
+function dragged(d) {
+  d.fx = d3.event.x;
+  d.fy = d3.event.y;
+}
+
+function dragended(d) {
+  if (!d3.event.active) simulation.alphaTarget(0);
+  d.fx = null;
+  d.fy = null;
+}
+
+function draw_network_plot(svg, graph, list_all_characters, list_all_characters){
+
+  var link = svg.append("g")
+    .attr("class", "links")
+    .selectAll("line")
+    .data(graph.links)
+    .enter().append("line")
+    .attr("stroke", 'grey')
+    .attr("stroke-width", function(d) { return Math.sqrt(d.value); });
+
+  var node = svg.append("g")
+    .attr("class", "nodes")
+    .selectAll("circle")
+    .data(graph.nodes)
+    .enter().append("circle")
+    .attr("id", function(d) { return "node_" + d.id.replace(/\s/g, "").replace(/'/g, ""); })
+    .attr("r", function(d) { return 4.2 + (d.size ** 0.75); })
+    .attr("fill", function(d) { return color(d.group); })
+    .attr("stroke", "black")
+    .attr("stroke-width", 1)
+    .call(d3.drag()
+      .on("start", dragstarted)
+      .on("drag", dragged)
+      .on("end", dragended))
+    .on("click", clicknode);
+
+  var rectangle = svg.append("rect")
+    .attr("x", width * 0.05)
+    .attr("y", (height / 2) + 85)
+    .attr("width", width * 0.95)
+    .attr("height", 125)
+    .attr("rx", 4)
+    .attr("ry", 4)
+    .style("fill", "white")
+    .style("stroke", "#003b6e")
+
+
+  function unclick(){
+    for (n in graph.nodes){
+      graph.nodes[n].clicked = false;
+      svg.selectAll("circle")
+        .attr("stroke", "black")
+        .attr("stroke-width", 1)
+        .attr("fill", function(d) { return color(d.group); })
+    };
+    svg.selectAll(".info_network_node").remove();
+  }
+
+  function find_top_links(d, list_all_links){
+    var my_links = [];
+    for (char1 in list_all_links){
+      if (char1 == d.id){
+        for (char2 in list_all_links[char1]){
+          my_links.push([char2, list_all_links[char1][char2]]);
+        }
+      } else {
+        for (char2 in list_all_links[char1]){
+          if (char2 == d.id){
+            my_links.push([char1, list_all_links[char1][char2]]);
+          }
+        }
+      }
+    }
+    my_links.sort(function(a, b) {return b[1] - a[1];});
+    
+    return my_links
+  }
+
+  function clicknode(d){
+    if (!d.clicked) {
+      unclick()
+      d.clicked = true
+
+      svg.append("text")
+        .attr("class", "info_network_node")
+        .attr("x", function(d,i){ return width * 0.1})
+        .attr("y", function(d,i){ return (height / 2) + 120})
+        .style("fill", "#003b6e")
+        .style("font-weight", "600")
+        .style("font-size", "26px")
+        .text(d.id)
+        .attr("text-anchor", "left")
+        .style("alignment-baseline", "middle")
+
+      svg.append("text")
+        .attr("class", "info_network_node")
+        .attr("x", function(d,i){ return width * 0.1})
+        .attr("y", function(d,i){ return (height / 2) + 150})
+        .style("fill", "#003b6e")
+        .style("font-weight", "400")
+        .style("font-size", "20px")
+        .text("Appearences: " + d.size)
+        .attr("text-anchor", "left")
+        .style("alignment-baseline", "middle")
+  
+      svg.append("text")
+        .attr("class", "info_network_node")
+        .attr("x", function(d,i){ return width * 0.5})
+        .attr("y", function(d,i){ return (height / 2) + 110})
+        .style("fill", "#003b6e")
+        .style("font-weight", "600")
+        .style("font-size", "23px")
+        .text("Top Links:")
+        .attr("text-anchor", "left")
+        .style("alignment-baseline", "middle")
+  
+      var thisnode = d3.select("#node_" + d.id.replace(/\s/g, "").replace(/'/g, ""))
+  
+      thisnode.attr("stroke", '#B22222')
+      thisnode.attr("fill", '#FF5E00')
+      thisnode.attr("stroke-width", 3)
+  
+      my_links = find_top_links(d, list_all_links)
+  
+      for (let j = 1; j < 6; j++) {
+        if (my_links.length >= j) {
+            svg.append("text")
+              .attr("class", "info_network_node")
+              .attr("x", function(d,i){ return width * 0.5})
+              .attr("y", function(d,i){ return height/2 + 120 + (15*j)}) // 100 is   where the first dot     appears. 25 is   the distance between dots
+              .style("fill", "#003b6e")
+              .style("font-weight", "100")
+              .style("font-size", "14px")
+              .text(j + ". " + my_links[j-1][0] + " (" + my_links[j-1][1] + ")")
+              .attr("text-anchor", "left")
+              .style("alignment-baseline", "middle")
+        }
+        if (my_links.length >= j + 5) {
+            svg.append("text")
+              .attr("class", "info_network_node")
+              .attr("x", function(d,i){ return width * 0.75})
+              .attr("y", function(d,i){ return height/2 + 120 + (15*j)})
+              .style("fill", "#003b6e")
+              .style("font-weight", "100")
+              .style("font-size", "14px")
+              .text((j+5) + ". " + my_links[j+4][0] + " (" + my_links[j+4][1] + ")")
+              .attr("text-anchor", "left")
+              .style("alignment-baseline", "middle")
+          }
+      }
+    } else {
+      unclick()
+    }
+  }
+
+
+  node.append("title")
+    .text(function(d) { return d.id; });
+
+  simulation
+    .nodes(graph.nodes)
+    .on("tick", ticked);
+  
+  simulation.restart();
+
+  simulation.force("link")
+    .links(graph.links);
+
+  function ticked() {
+    link
+        .attr("x1", function(d) { return d.source.x; })
+        .attr("y1", function(d) { return d.source.y; })
+        .attr("x2", function(d) { return d.target.x; })
+        .attr("y2", function(d) { return d.target.y; });
+
+    node
+        .attr("cx", function(d) { return d.x; })
+        .attr("cy", function(d) { return d.y; });
+  }
+  return svg
+};
+
+
+
+
+
+
+
 //Read the data
 d3.json("data.json", function(data) {
+
+var doctors_full_list = ["8th Doctor", "War Doctor", "9th Doctor", "10th Doctor", "11th Doctor", "12th Doctor", "13th Doctor", "Fugitive Doctor", "14th Doctor", "15th Doctor"]
 
   function build_axes(svg, Series, Episodes) {
     // Build X scales and axis:
@@ -215,6 +425,7 @@ d3.json("data.json", function(data) {
     }
     return [mouseover, mousemove, mouseleave]
   }
+
 
 
   function special_indicator(special) {
@@ -562,7 +773,7 @@ d3.json("data.json", function(data) {
   // DOCTORS
   d3.select("#doctors_select")
     .selectAll('myOptions')
-    .data(["8th", "War", "9th", "10th", "11th", "12th", "13th", "Fugitive", "14th", "15th"])
+    .data(doctors_full_list)
     .enter()
     .append('option')
     .text(function (d) { return d; }) // text showed in the menu
@@ -1002,6 +1213,66 @@ var svg_times = d3.select("#times_table")
     update_table(svg_times, selected_time, timeList, timeSet, data, time_fill_function, mouseover_times, mousemove_times, mouseleave_organisations, "Relative Time Periods")
   })
 
+
+
+// Network
+list_all_characters = {}
+list_all_links = {}
+for (episode in data){
+  all_chars = []
+  all_chars.push(...data[episode].doctors)
+  all_chars.push(...data[episode].companions)
+  all_chars.push(...data[episode].characters)
+  all_chars.push(...data[episode].historical_figures)
+  all_chars.sort()
+  for (char in all_chars){
+    if (all_chars[char] in list_all_characters){
+      list_all_characters[all_chars[char]]++;
+    } else {
+      list_all_characters[all_chars[char]] = 1;
+    }
+  }
+  for (l1 in all_chars){
+    for (l2 in all_chars){
+      if (l1 < l2){
+        if (all_chars[l1] in list_all_links){
+          if (all_chars[l2] in list_all_links[all_chars[l1]]){
+            list_all_links[all_chars[l1]][all_chars[l2]]++;
+          } else {
+            list_all_links[all_chars[l1]][all_chars[l2]] = 1;
+          }
+        } else {
+          list_all_links[all_chars[l1]] = {};
+          list_all_links[all_chars[l1]][all_chars[l2]] = 1;
+        }
+      }
+    }
+  }
+}
+
+nodes = []
+for (char in list_all_characters){
+  if (doctors_full_list.includes(char)){
+    nodes.push({id: char, group: 1, size: list_all_characters[char], clicked: false, opacity: 1.0})
+  } else {
+    nodes.push({id: char, group: 2, size: list_all_characters[char], clicked: false, opacity: 1.0})
+  }
+}
+
+links = []
+for (l1 in list_all_links){
+  for (l2 in list_all_links[l1]){
+    links.push({source: l1, target: l2, value: list_all_links[l1][l2]})
+  }
+}
+
+var div = d3.select("#network_plot")
+var svg_network = div.append("svg")
+  .attr("width", width + margin.left + margin.right)
+  .attr("height", 2 * height / 3 + margin.top + margin.bottom)
+
+
+draw_network_plot(svg_network, {nodes: nodes, links: links}, list_all_links, list_all_characters)
 
 })
 
