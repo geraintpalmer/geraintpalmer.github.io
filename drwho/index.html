@@ -810,7 +810,7 @@ var doctors_full_list = ["8th Doctor", "War Doctor", "9th Doctor", "10th Doctor"
 
   function colour_doctor(d) {
   	if (d.doctors.length == 1) {
-  		return d.doctors[0]
+  		return d.doctors[0].slice(0, -7)
   	} else {
   		return "Multi"
   	}
