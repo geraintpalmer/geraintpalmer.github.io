@@ -819,8 +819,8 @@ var doctors_full_list = ["8th Doctor", "War Doctor", "9th Doctor", "10th Doctor"
   var doctor_percentages = {}
   var doctor_episodes = {}
   for (doctor of doctors_domain.slice(0, -1)) {
-    doctor_percentages[doctor] = (data.filter(function(d){return d.doctors.includes(doctor)}).length / data.length) * 100
-  	doctor_episodes[doctor] = data.filter(function(d){return d.doctors.includes(doctor)}).length
+    doctor_percentages[doctor] = (data.filter(function(d){return d.doctors.includes(doctor + " Doctor")}).length / data.length) * 100
+  	doctor_episodes[doctor] = data.filter(function(d){return d.doctors.includes(doctor + " Doctor")}).length
   }
   
   // Add a legend
