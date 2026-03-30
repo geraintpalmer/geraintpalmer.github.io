@@ -2,6 +2,13 @@
 layout: page
 permalink: /outreach/
 ---
+  + **Markov Modelling at [Universitas Bangka Belitung](https://www.ubb.ac.id/)**
+    + [Workshop Notes]({{ site.url }}/outreach/markov/workshop.pdf)
+    + [Tutorial 1]({{ site.url }}/outreach/markov/tutorial_1.pdf)
+    + [Tutorial 2]({{ site.url }}/outreach/markov/tutorial_2.pdf)
+    + [Solutions 1]({{ site.url }}/outreach/markov/solutions_1.pdf)
+    + [Solutions 2]({{ site.url }}/outreach/markov/solutions_2.pdf)
+
   + **Gweithdy Python - Rhaglen Sgiliau Ymchwil y Coleg Cymraeg Cenedlaethol**
     + [Gweithlyfr]({{ site.url }}/outreach/gweithdy_python.pdf)
     + [data.csv]({{ site.url }}/outreach/data_ccc/data.csv)
