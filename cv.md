@@ -9,13 +9,12 @@ title: CV
 
 ## Appointments
 
-Sept 2019 - : **Welsh Medium Lecturer** at Cardiff University's School of Mathematics
+Aug 2026 - : **Senior Lecturer** at Cardiff University's School of Computational and Mathematical Sciences
+Sept 2019 - Aug 2026 : **Welsh Medium Lecturer** at Cardiff University's School of Mathematics
+Sept 2017 - Sept 2019 : **Welsh Medium Teaching Associate** at Cardiff University's School of Mathematics
 
 * Leading modules, example classes, lectures and tutorials (see [Teaching](/teaching/))
 + Member of the [Operational Research group](https://www.cardiff.ac.uk/research/explore/research-units/operational-research)
-
-2017 - 2019 : **Welsh Medium Teaching Associate** at Cardiff University's School of Mathematics
-
 + Leading modules, taking tutorials, example classes, and labs
 + Translation of educational resources
 + Welsh provision at Maths Support
@@ -107,7 +106,7 @@ Sept 2010 - May 2013: **BSc Mathematics, Aberystwyth University.** First Class H
 
 ## Learning & Teaching
 
-* Deputy Director of Learning and Teaching for the Cardiff School of Mathematics (2022-)
+* Deputy Director of Learning and Teaching for the Cardiff School of Mathematics (2022-2026)
 * Fellow of the Higher Education Academy (FHEA)
 * Delivery of example classes, lectures and tutorials (see [Teaching](/teaching/)).
 * Leading computer lab sessions (Python, Simul8, LaTeX, Vensim, Excel) for undergraduate & masters students.
@@ -163,35 +162,6 @@ Sept 2010 - May 2013: **BSc Mathematics, Aberystwyth University.** First Class H
 * Data Mining - Cardiff University 2015
 * [NATCOR](http://www.natcor.ac.uk) Stochastic Modelling - Lancaster University 2015
 
-
-
-## Presentations
-
-Bilingual speaker. International experience. Technical topics.
-Diverse audiences including general public, academics, healthcare practitioners, and member of the Welsh government.
-
-+ Sept 2023 - PyCon UK 2023, Cardiff - *Multi-Objective Linear Programming to find the Best Pokémon Team*
-+ July 2023 - ORAHS 2023, Graz - *Evaluating Heterogeneous Ambulance Fleet Allocations in Jakarta*
-+ June 2022 - The National PROMs Annual Research Conference 2022 - *PROMs-Based Key Performance Indicators (KPIs) to Evaluate Waiting List Prioritisation Schemes Against Prudent Healthcare Principles*
-+ Feb 2021 - OR Society Beale Lecture 2021 - *Open-Source Simulation with Ciw*
-+ Nov 2020 - Wales Academic Symposium of Language Technologies 2020 - *Mewnblaniadau Geiriau ar gyfer y Gymraeg*
-+ Aug 2019 - Second ABCi Innovation Day, Cardiff Bay - *Using Python for Healthcare Modelling*
-* Sept 2018 - OR60, Lancaster - Poster: *Ciw: An open source discrete event simulation library*
-* June 2018 - Cynhadledd Wyddonol y CCC, Aberystwyth - *Dulliau ac Offerynnau ar gyfer Ymchwil Ailgynhyrchiadwy*
-* April 2018 - School of Mathematics 3MT, Cardiff ([2nd place](https://siamukie.wordpress.com/2018/05/01/cardiff-siam-ima-three-minute-thesis-competition/))
-* Mar 2018 - STEM for Britain, London - Poster: *Modelling Deadlock in Open Restricted Queueing Networks*
-* Feb 2018 - PyCon Namibia, Windhoek - *Agent Based Modelling with Python*
-* Oct 2017 - PyCon UK, Cardiff - *Python for Operational Research in Healthcare*
-* April 2017 - IMA and OR Society Conference on Mathematics of Operational Research, Aston - *Queueing networks, Deadlock and Healthcare*
-* Feb 2017 - PyCon Namibia, Windhoek - *Producing Pretty Plots in Python*
-* Sept 2016 - PyCon UK, Cardiff - *Queueing and Python: pip install ciw*
-* May 2016 - CORS 2016, Banff - *Deadlock in Queueing Networks*
-* May 2016 - Cynhadledd Wyddonol y CCC, Aberystwyth - Poster: *Llwyrglo yn Rhwydweithiau Ciwio* (Winner best poster)
-* Mar 2016 - 8th IMA International Conference on Quantitative Modelling in the Management of Health and Social Care, London - *Using Queueing Networks Modelling to Assess the Impact of the OPICP*
-* Jan 2016 - PyCon Namibia, Windhoek - *Simulating Queues with Ciw*
-* Sept 2015 - Young OR 19, Aston - *Queueing Networks for a Healthcare System, Deadlocking & Reinforcement Learning*
-* July 2015 - EURO 2015, Glasgow - *Queueing Networks for a Healthcare System Deadlocking, Reinforcement Learning & Workforce Planning*
-* Feb 2015 - Python Namibia 2015, Windhoek - *Playing with Reinforcement Learning in Python*
 
 
 ## Media Appearances

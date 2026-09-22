@@ -10,13 +10,12 @@ permalink: cv/cy/
 
 ## Apwyntiadau
 
-Medi 2019 - : **Darlithydd Cyfrwng Cymraeg** yn Ysgol Mathemateg Prifysgol Caerdydd
+Awst 2026 - : **Uwch-Ddarlithydd** yn Ysgol y Gwyddoral Cyfrifiadurol a Mathemategol Prifysgol Caerdydd
+Medi 2019 - Awst 2026 : **Darlithydd Cyfrwng Cymraeg** yn Ysgol Mathemateg Prifysgol Caerdydd
+Medi 2017 - Medi 2019: **Cynorthwy-ydd Addysgu Cyfrwng Cymraeg** yn Ysgol Mathemateg Prifysgol Caerdydd
 
 * Arwain modiwlau, dosbarthiadau enghreifftiol, darlithoedd a thiwtorialau (gweler [Dysgu](/teaching/))
 + Aelod y [grŵp Ymchwil Gweithrediadol](https://www.cardiff.ac.uk/research/explore/research-units/operational-research)
-
-2017 - 2019: **Cynorthwy-ydd Addysgu Cyfrwng Cymraeg** yn Ysgol Mathemateg Prifysgol Caerdydd
-
 + Arwain modiwlau, cymryd tiwtorialau, dosbarthiadau enghreifftiol, a labiau
 + Cyfieithu adnoddau addysgu
 + Darpariaeth cyfrwng Cymraeg yn y gwasanaeth Cefnogaeth Mathemateg
@@ -108,7 +107,7 @@ Medi 2010 - Mai 2013: **BSc Mathemateg, Prifysgol Aberystwyth.** Anrhydedd Dosba
 
 ## Dysgu
 
-* Dirprwy Cyfarwyddwr Dysgu ac Addysgu ar gyfer yr Ysgol Mathemateg yng Nghaerdydd (2022-)
+* Dirprwy Cyfarwyddwr Dysgu ac Addysgu ar gyfer yr Ysgol Mathemateg yng Nghaerdydd (2022-2026)
 * Cymrawd AdvanceHE (FHEA)
 * Dosbarthiadau enghreifftiol, darlithoedd a thiwtorialau (gweler [Dysgu](/teaching/)).
 * Arwain sesiynau labiau cyfrifiadur (Python, Simul8, LaTeX, Vensim, Excel) ar gyfer israddedigion & myfyrwyr gradd meistr.
@@ -163,36 +162,6 @@ Medi 2010 - Mai 2013: **BSc Mathemateg, Prifysgol Aberystwyth.** Anrhydedd Dosba
 * [NATCOR](http://www.natcor.ac.uk) Efelychiad Cyfrifiadurol - Prifysgol Loughborough 2015
 * Cwrs Cloddio Data - Prifysgol Caerdydd 2015
 * [NATCOR](http://www.natcor.ac.uk) Modelu Stocastig - Prifysgol Lancaster 2015
-
-
-
-## Cyflwyniadau
-
-Siaradwr dwyieithog. Profiad rhyngwladol. Pynciau technegol.
-Cynulleidfaoedd amryw gan gynnwys y cyhoedd, academyddion, ymarferwyr gofal iechyd, ac aelod o'r llywodraeth Cymraeg.
-
-+ Medi 2023 - PyCon UK 2023, Caerdydd - *Multi-Objective Linear Programming to find the Best Pokémon Team*
-+ Gorff 2023 - ORAHS 2023, Graz - *Evaluating Heterogeneous Ambulance Fleet Allocations in Jakarta*
-+ Meh 2022 - Cynhadledd Ymchwil Genedlaethol PROMs 2022 - *PROMs-Based Key Performance Indicators (KPIs) to Evaluate Waiting List Prioritisation Schemes Against Prudent Healthcare Principles*
-+ Chwef 2021 - Darlith Beale y Gymdeithas YG 2021 - *Open-Source Simulation with Ciw*
-+ Tach 2020 - Symposiwm Academaidd Technolegau Iaith Cymru 2020 - *Mewnblaniadau Geiriau ar gyfer y Gymraeg*
-+ Awst 2019 - Ail Diwrnod Arloesi'r ABCi, Bae Caerdydd - *Using Python for Healthcare Modelling*
-* Medi 2018 - OR60, Lancaster - Poster: *Ciw: An open source discrete event simulation library*
-* Meh 2018 - Cynhadledd Wyddonol y CCC, Aberystwyth - *Dulliau ac Offerynnau ar gyfer Ymchwil Ailgynhyrchiadwy*
-* Ebrill 2018 - 3MT yr Ysgol Mathemateg, Caerdydd ([2ail](https://siamukie.wordpress.com/2018/05/01/cardiff-siam-ima-three-minute-thesis-competition/))
-* Marw 2018 - STEM for Britain, Llundain - Poster: *Modelling Deadlock in Open Resticted Queueing Networks*
-* Chwef 2018 - PyCon Namibia, Windhoek - *Agent Based Modelling with Python*
-* Hyd 2017 - PyCon UK, Caerdydd - *Python for Operational Research in Healthcare*
-* Ebrill 2017 - IMA and OR Society Conference on Mathematics of Operational Research, Aston - *Queueing networks, Deadlock and Healthcare*
-* Chwef 2017 - PyCon Namibia, Windhoek - *Producing Pretty Plots in Python*
-* Medi 2016 - PyCon UK, Caerdydd - *Queueing and Python: pip install ciw*
-* Mai 2016 - CORS 2016, Banff - *Deadlock in Queueing Networks*
-* Mai 2016 - Cynhadledd Wyddonol y CCC, Aberystwyth - Poster: *Llwyrglo yn Rhwydweithiau Ciwio* (Ennillydd poster gorau)
-* Maw 2016 - 8th IMA International Conference on Quantitative Modelling in the Management of Health and Social Care, Llundain - *Using Queueing Networks Modelling to Assess the Impact of the OPICP*
-* Ion 2016 - PyCon Namibia, Windhoek - *Simulating Queues with Ciw*
-* Medi 2015 - Young OR 19, Aston - *Queueing Networks for a Healthcare System, Deadlocking & Reinforcement Learning*
-* Gorff 2015 - EURO 2015, Glasgow - *Queueing Networks for a Healthcare System Deadlocking, Reinforcement Learning & Workforce Planning*
-* Chwef 2015 - Python Namibia 2015, Windhoek - *Playing with Reinforcement Learning in Python*
 
 
 ## Ymddangosiadau yn y Cyfryngau
