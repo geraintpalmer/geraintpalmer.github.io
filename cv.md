@@ -9,9 +9,11 @@ title: CV
 
 ## Appointments
 
-Aug 2026 - : **Senior Lecturer** at Cardiff University's School of Computational and Mathematical Sciences
-Sept 2019 - Aug 2026 : **Welsh Medium Lecturer** at Cardiff University's School of Mathematics
-Sept 2017 - Sept 2019 : **Welsh Medium Teaching Associate** at Cardiff University's School of Mathematics
+* Aug 2026 - : **Senior Lecturer** at Cardiff University's School of Computational and Mathematical Sciences
+* Sept 2019 - Aug 2026 : **Welsh Medium Lecturer** at Cardiff University's School of Mathematics
+* Sept 2017 - Sept 2019 : **Welsh Medium Teaching Associate** at Cardiff University's School of Mathematics
+
+Responsibilities:
 
 * Leading modules, example classes, lectures and tutorials (see [Teaching](/teaching/))
 + Member of the [Operational Research group](https://www.cardiff.ac.uk/research/explore/research-units/operational-research)

@@ -10,9 +10,11 @@ permalink: cv/cy/
 
 ## Apwyntiadau
 
-Awst 2026 - : **Uwch-Ddarlithydd** yn Ysgol y Gwyddoral Cyfrifiadurol a Mathemategol Prifysgol Caerdydd
-Medi 2019 - Awst 2026 : **Darlithydd Cyfrwng Cymraeg** yn Ysgol Mathemateg Prifysgol Caerdydd
-Medi 2017 - Medi 2019: **Cynorthwy-ydd Addysgu Cyfrwng Cymraeg** yn Ysgol Mathemateg Prifysgol Caerdydd
+* Awst 2026 - : **Uwch-Ddarlithydd** yn Ysgol y Gwyddoral Cyfrifiadurol a Mathemategol Prifysgol Caerdydd
+* Medi 2019 - Awst 2026 : **Darlithydd Cyfrwng Cymraeg** yn Ysgol Mathemateg Prifysgol Caerdydd
+* Medi 2017 - Medi 2019: **Cynorthwy-ydd Addysgu Cyfrwng Cymraeg** yn Ysgol Mathemateg Prifysgol Caerdydd
+
+Cyfrifoldebau:
 
 * Arwain modiwlau, dosbarthiadau enghreifftiol, darlithoedd a thiwtorialau (gweler [Dysgu](/teaching/))
 + Aelod y [grŵp Ymchwil Gweithrediadol](https://www.cardiff.ac.uk/research/explore/research-units/operational-research)
